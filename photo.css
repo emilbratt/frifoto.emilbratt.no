@@ -1,0 +1,243 @@
+#photo-navigate { display: none; }
+#photo-stream { display: none; }
+#photo-fullscreen { display: none; }
+#photo-about { display: none; }
+#photo-slideshow { display: none; }
+
+body {
+    margin: 0rem;
+    background-color: rgb(47, 47, 47);
+    color: rgb(201, 209, 236);
+    font-size: 1rem;
+    font-family: tahoma, arial, helvetica, sans-serif;
+}
+input {
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 0.9rem 0rem 0.9rem 0rem;
+    height: 3rem;
+    color: inherit;
+    font-size: inherit;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(80, 81, 86);
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
+}
+a  {
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 1.5rem;
+}
+a:hover, a:active {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#photo-about-container {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    background-color: rgb(69, 69, 69);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+#photo-about-header > h2 {
+    padding: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+#photo-about-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#photo-about-paragraph {
+    padding: 1rem;
+    font-size: 1.2rem;
+    max-width: 20rem;
+}
+#photo-about-image {
+    padding: 1rem;
+    max-width: 20rem;
+    box-sizing: border-box;
+    object-fit: scale-down;
+}
+#photo-about-footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.9rem 0rem 0.9rem 0rem;
+}
+#photo-about-footer > a {
+    padding: 0.9rem 0rem 0.9rem 0rem;
+    height: 3rem;
+    min-width: 6.5rem;
+    color: inherit;
+    font-size: inherit;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(90, 101, 155);
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
+}
+
+#photo-navigate-container {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(69, 69, 69);
+}
+#photo-navigate-boxes {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    /* gap: 1rem; */
+}
+#photo-navigate-boxes > div {
+    margin: 1rem;
+}
+#photo-navigate-boxes > div > a > img {
+    border-radius: 1.5rem;
+    object-fit: scale-down;
+    width: 15rem;
+    background-color: rgb(173, 173, 173);
+    padding: 0.3rem;
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (max-width: 45rem) { #photo-navigate-boxes > div > a > img { width: 10rem; } }
+#photo-navigate-boxes > div > h2 {
+    font-size: inherit;
+    text-align: center;
+    margin: 0rem;
+}
+#photo-navigate-header {
+    display: flex;
+    margin-top: 1rem;
+    justify-content:center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0.9rem 0rem 0.9rem 0rem;
+}
+#photo-navigate-header > a {
+    padding: 0.9rem 0rem 0.9rem 0rem;
+    height: 3rem;
+    min-width: 6.5rem;
+    color: inherit;
+    font-size: inherit;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(90, 101, 155);
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
+}
+
+#photo-stream-container {
+    background-color: rgb(69, 69, 69);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-content: center;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#photo-stream-boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+#photo-stream-boxes > div {
+    background-color: rgb(173, 173, 173);
+    height: 10rem;
+    padding: 0.3rem;
+}
+@media only screen and (max-width: 45rem) { #photo-stream-boxes > div { height: 5rem; } }
+#photo-stream-boxes > div > a > img {
+    height: 100%;
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
+}
+#photo-stream-header > h2 {
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+#photo-stream-footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.9rem 0rem 0.9rem 0rem;
+}
+#photo-stream-footer > a {
+    padding: 0.9rem 0rem 0.9rem 0rem;
+    height: 3rem;
+    min-width: 6.5rem;
+    color: inherit;
+    font-size: inherit;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(90, 101, 155);
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
+}
+
+#photo-fullscreen-container {
+    height: 100dvh;
+    position: relative;
+}
+#photo-fullscreen-img {
+    margin-top: auto;
+    margin-bottom: auto;
+    position: sticky;
+    object-fit: contain;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    box-sizing: border-box;
+    max-height: 90%;
+}
+@media only screen and (max-height: 55rem) { #photo-fullscreen-img { max-height: 87%; } }
+@media only screen and (max-height: 43rem) { #photo-fullscreen-img { max-height: 85%; } }
+@media only screen and (max-height: 36rem) { #photo-fullscreen-img { max-height: 82%; } }
+@media only screen and (max-height: 31rem) { #photo-fullscreen-img { max-height: 78%; } }
+@media only screen and (max-height: 28rem) { #photo-fullscreen-img { max-height: 75%; } }
+@media only screen and (max-height: 25rem) { #photo-fullscreen-img { max-height: 70%; } }
+@media only screen and (max-height: 20rem) { #photo-fullscreen-img { max-height: 65%; } }
+@media only screen and (max-height: 15rem) { #photo-fullscreen-img { max-height: 55%; } }
+@media only screen and (max-height: 10rem) { #photo-fullscreen-img { max-height: 50%; } }
+#photo-fullscreen-container-nav-box {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.7rem 0.0rem;
+}
+#photo-fullscreen-container-nav-box-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+#photo-fullscreen-img-caption {
+    position: sticky;
+    color: inherit;
+    font-size: inherit;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+#photo-fullscreen-container-nav-box-buttons > a {
+    padding: 0.9rem 0rem 0.9rem 0rem;
+    height: 3rem;
+    min-width: 6rem;
+    color: inherit;
+    font-size: inherit;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(90, 101, 155);
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
+}

@@ -1,11 +1,53 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>frifoto.emilbratt.no</title>
+    <link rel="stylesheet" href="photo.css" />
+    <script src="image_data.js"></script>
+    <script src="photo.js"></script>
+    <title>photo</title>
 </head>
 <body>
-    <p>frifoto.emilbratt.no</p>
+    <noscript>Denne siden bruker JavaScript for å fungere.</noscript>
+    <div id="photo-about">
+        <div id="photo-about-container">
+            <div id="photo-about-header"><!-- JS --></div>
+            <div id="photo-about-main">
+                <p id="photo-about-paragraph"><!-- JS --></p>
+                <img id="photo-about-image" src="" /><!-- JS (edits the src attribute..)-->
+            </div>
+            <div id="photo-about-footer"><!-- JS --></div>
+        </div>
+    </div>
+
+    <div id="photo-navigate">
+        <div id="photo-navigate-container">
+
+            <div id="photo-navigate-header"><!-- JS --></div>
+            <div id="photo-navigate-boxes"><!-- JS --></div>
+        </div>
+    </div>
+
+    <div id="photo-stream">
+        <div id="photo-stream-container">
+            <div id="photo-stream-header"><!-- JS --></div>
+            <div id="photo-stream-boxes"><!-- JS --></div>
+            <div id="photo-stream-footer"><!-- JS --></div>
+        </div>
+    </div>
+
+    <div id="photo-fullscreen">
+        <div id="photo-fullscreen-container">
+            <img id="photo-fullscreen-img" src="" /><!-- JS (edits the src attribute..)-->
+            <figcaption id="photo-fullscreen-img-caption"><!-- JS --></figcaption>
+
+            <div id="photo-fullscreen-container-nav-box">
+                <div id="photo-fullscreen-container-nav-box-buttons"><!-- JS --></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="photo-slideshow"><!-- JS --></div>
 </body>
 </html>

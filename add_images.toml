@@ -1,0 +1,7 @@
+[config]
+image_directory = 'img'
+javascript_name = 'image_data.js'
+
+# Expand this list to add new images (first line is an example..)
+[images]
+'2025_10_28__13_57_15__56.jpg' = { rating = 3, tags = [ 'Allvi', ] }
