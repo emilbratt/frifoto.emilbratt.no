@@ -113,7 +113,7 @@ for f in images:
     for k,metadata in exif.items():
         IMAGE_STRUCTURED['by_filename'][f.name][k] = metadata
 
-    rating = DATA['images'][f.name].get('rating', '-') # '-' just means that rating is not specified..
+    rating = DATA['images'][f.name].get('rating', -1) # '-1' just means that rating is not specified..
     if rating not in IMAGE_STRUCTURED['by_rating']:
         IMAGE_STRUCTURED['by_rating'][rating] = []
     IMAGE_STRUCTURED['by_rating'][rating].append(f.name)
