@@ -133,12 +133,18 @@ function init_photo_stream(tag) {
     document.getElementById('photo-stream-boxes').innerHTML = html;
 
     document.getElementById('photo-stream-footer').innerHTML = `
-        <a href="${window.location.pathname}?view_mode=photo-navigate" method="get">Hovedside</a>
+        <a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Hovedside</a>
     `;
     // document.getElementById('photo-stream-footer').innerHTML += `
     //     <a href="${window.location.pathname}?view_mode=photo-slideshow" method="get">Lysbildefremviser</a>
     // `;
     view_mode('photo-stream');
+
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            document.querySelector('.photo-navigate-btn').click();
+        }
+    });
 }
 
 function init_photo_fullscreen(tag, image) {
@@ -170,12 +176,24 @@ function init_photo_fullscreen(tag, image) {
     `;
 
     document.getElementById('photo-fullscreen-container-nav-box-buttons').innerHTML = `
-        <a href="${window.location.pathname}?view_mode=photo-stream&tag=${tag}" method="get">Tilbake</a>
+        <a class="back-btn" href="${window.location.pathname}?view_mode=photo-stream&tag=${tag}" method="get">Tilbake</a>
         <a target="_blank" href="${window.location.pathname}?download=true" method="get"">Last Ned</a>
-        <a href="${window.location.pathname}?view_mode=photo-fullscreen&tag=${tag}&image=${previous_image}" method="get">Forrige</a>
-        <a href="${window.location.pathname}?view_mode=photo-fullscreen&tag=${tag}&image=${next_image}" method="get">Neste</a>
+        <a class="prev-btn" href="${window.location.pathname}?view_mode=photo-fullscreen&tag=${tag}&image=${previous_image}" method="get">Forrige</a>
+        <a class="next-btn" href="${window.location.pathname}?view_mode=photo-fullscreen&tag=${tag}&image=${next_image}" method="get">Neste</a>
     `;
     view_mode('photo-fullscreen');
+
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'ArrowRight') {
+            document.querySelector('.next-btn').click();
+        }
+        else if (event.key === 'ArrowLeft') {
+            document.querySelector('.prev-btn').click();
+        }
+        else if (event.key === 'Escape') {
+            document.querySelector('.back-btn').click();
+        }
+    });
 }
 
 function init_photo_slideshow() {
