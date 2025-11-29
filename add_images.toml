@@ -5,4 +5,19 @@ thumbnail_size = 500
 
 # Expand this list to add new images (first line is an example..)
 [images]
-'2025_10_28__13_57_15__56.jpg' = { rating = 3, tags = [ 'Allvi', ] }
+'2025_10_28__13_57_15__56.jpg' = { rating = 3, tags = [ 'Allvi', 'Lade Hundepark', ] }
+'2025_10_23__14_39_57__13.jpg' = { tags = [ 'Lade Hundepark', ]}
+'2025_10_23__14_46_23__77.jpg' = { tags = [ 'Lade Hundepark', ]}
+'2025_10_23__14_55_24__12.jpg' = { tags = [ 'Lade Hundepark', ]}
+'2025_10_23__14_58_44__79.jpg' = { tags = [ 'Lade Hundepark', ]}
+'2025_10_23__15_07_05__43.jpg' = { tags = [ 'Lade Hundepark', ]}
+'2025_10_23__15_17_47__46.jpg' = { tags = [ 'Lade Hundepark', ]}
+'2025_10_23__15_26_43__11.jpg' = { tags = [ 'Lade Hundepark', ]}
+'2025_10_28__14_07_09__1.jpg' = { tags = [ 'Allvi', 'Lade Hundepark', ]}
+'2025_10_28__14_19_24__99.jpg' = { tags = [ 'Fugler', 'Lade Hundepark', ]}
+'2025_10_28__14_22_47__12.jpg' = { tags = [ 'Allvi', 'Lade Hundepark', ]}
+'2025_10_28__14_23_30__11.jpg' = { tags = [ 'Allvi', 'Lade Hundepark', ]}
+'2025_10_28__14_33_04__63.jpg' = { tags = [ 'Lade Hundepark', ]}
+'2025_10_28__14_33_45__91.jpg' = { tags = [ 'Lade Hundepark', ]}
+'2025_10_28__14_34_12__56.jpg' = { tags = [ 'Lade Hundepark', ]}
+'2025_10_28__14_34_30__8.jpg' = { tags = [ 'Lade Hundepark', ]}

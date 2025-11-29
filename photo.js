@@ -26,7 +26,7 @@ function main() {
         let view_mode = url.searchParams.get('view_mode');
         switch(view_mode) {
         case 'photo-about':
-            init_photo_frontpage();
+            init_photo_about();
             break;
         case 'photo-navigate':
             init_photo_directory_navigate();
@@ -65,20 +65,15 @@ function view_mode(id) {
     }
 }
 
-function init_photo_frontpage() {
+function init_photo_about() {
     document.getElementById('photo-about-header').innerHTML = '<h2>Emil Bratt</h2>';
     document.getElementById('photo-about-footer').innerHTML = `
-        <a href="${window.location.pathname}?view_mode=photo-navigate" method="get">Bilder</a>
+        <a href="${window.location.pathname}?view_mode=photo-navigate" method="get">Hovedside</a>
     `;
 
     document.getElementById('photo-about-paragraph').innerHTML = `
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-        It has survived not only five centuries, but also the leap into electronic typesetting,
-        remaining essentially unchanged.
-        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        Her vil det komme text om meg.
+        Bildet av vårt kjæledyr vil byttes ut med et bilde av meg også. :)
     `;
     document.getElementById('photo-about-image').src = PROFILE_PICTURE;
     view_mode('photo-about');
@@ -138,9 +133,11 @@ function init_photo_stream(tag) {
     document.getElementById('photo-stream-boxes').innerHTML = html;
 
     document.getElementById('photo-stream-footer').innerHTML = `
-        <a href="${window.location.pathname}?view_mode=photo-navigate" method="get">Tilbake</a>
-        <a href="${window.location.pathname}?view_mode=photo-slideshow" method="get">Lysbildefremviser</a>
+        <a href="${window.location.pathname}?view_mode=photo-navigate" method="get">Hovedside</a>
     `;
+    // document.getElementById('photo-stream-footer').innerHTML += `
+    //     <a href="${window.location.pathname}?view_mode=photo-slideshow" method="get">Lysbildefremviser</a>
+    // `;
     view_mode('photo-stream');
 }
 
