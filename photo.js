@@ -3,15 +3,13 @@
 document.addEventListener("DOMContentLoaded", main);
 document.title = 'Frifoto - EmilBratt';
 
-const MAIN_CONTAINERS = [ 'photo-about', 'photo-navigate', 'photo-fullscreen', 'photo-stream', 'photo-slideshow' ];
+const VIEW_MODES = [ 'photo-about', 'photo-navigate', 'photo-fullscreen', 'photo-stream', 'photo-slideshow' ];
 const PROFILE_PICTURE = 'img/2025_10_28__13_57_15__56.jpg';
 
 // Globals for image data
 var IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES
 
 function main() {
-    if (false) { throw new Error('main() -> if block is false..'); }
-
     IMG_DIR = IMAGE_DATA['directory'];
     BY_TAG = IMAGE_DATA['by_tag'];
     BY_RATING = IMAGE_DATA['by_rating'];
@@ -35,14 +33,14 @@ function main() {
             break;
         case 'photo-fullscreen':
             if (url.searchParams.has('tag')) {
-                init_photo_fullscreen(url.searchParams.get("tag"), url.searchParams.get("image"));
+                init_photo_fullscreen(url.searchParams.get('tag'), url.searchParams.get('image'));
             } else {
-                init_photo_fullscreen('', url.searchParams.get("image"));
+                init_photo_fullscreen('', url.searchParams.get('image'));
             }
             break;
         case 'photo-stream':
             if (url.searchParams.has('tag')) {
-                init_photo_stream(url.searchParams.get("tag"));
+                init_photo_stream(url.searchParams.get('tag'));
             } else {
                 init_photo_stream('');
             }
@@ -52,13 +50,19 @@ function main() {
             break;
         default:
             init_photo_directory_navigate();
-        } 
+        }
     }
 }
 
 function view_mode(id) {
-    for (const d of MAIN_CONTAINERS) { document.getElementById(d).style.display = 'none'; }
-    document.getElementById(id).style.display = 'block';
+    for (const d of VIEW_MODES) {
+        if (d == id) {
+            document.getElementById(id).style.display = 'block';
+        }
+        else {
+            document.getElementById(d).style.display = 'none';
+        }
+    }
 }
 
 function init_photo_frontpage() {
@@ -68,7 +72,13 @@ function init_photo_frontpage() {
     `;
 
     document.getElementById('photo-about-paragraph').innerHTML = `
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged.
+        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     `;
     document.getElementById('photo-about-image').src = PROFILE_PICTURE;
     view_mode('photo-about');
@@ -102,7 +112,7 @@ function init_photo_directory_navigate() {
 
 function init_photo_stream(tag) {
     document.getElementById('photo-stream-header').innerHTML = `<h2>${tag}</h2>`;
-    console.log('tag', tag);
+
     let html = '';
     if (tag === '') {
         for (const image of ALL_IMAGES) {
@@ -113,7 +123,6 @@ function init_photo_stream(tag) {
                     </a>
                 </div>
             `;
-
         }
     } else {
         for (const image of BY_TAG[tag]) {
@@ -129,8 +138,8 @@ function init_photo_stream(tag) {
     document.getElementById('photo-stream-boxes').innerHTML = html;
 
     document.getElementById('photo-stream-footer').innerHTML = `
-    <a href="${window.location.pathname}?view_mode=photo-navigate" method="get">Tilbake</a>
-    <a href="${window.location.pathname}?view_mode=photo-slideshow" method="get">Lysbildefremviser</a>
+        <a href="${window.location.pathname}?view_mode=photo-navigate" method="get">Tilbake</a>
+        <a href="${window.location.pathname}?view_mode=photo-slideshow" method="get">Lysbildefremviser</a>
     `;
     view_mode('photo-stream');
 }

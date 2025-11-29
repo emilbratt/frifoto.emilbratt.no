@@ -1,6 +1,7 @@
 [config]
 image_directory = 'img'
 javascript_name = 'image_data.js'
+thumbnail_size = 500
 
 # Expand this list to add new images (first line is an example..)
 [images]
