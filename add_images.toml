@@ -3,7 +3,6 @@ image_directory = 'img'
 javascript_name = 'image_data.js'
 thumbnail_size = 500
 
-# Expand this list to add new images (first line is an example..)
 [images]
 '2025_10_28__13_57_15__56.jpg' = { rating = 3, tags = [ 'Allvi', 'Lade Hundepark', ] }
 '2025_10_23__14_39_57__13.jpg' = { tags = [ 'Lade Hundepark', ]}
@@ -21,3 +20,9 @@ thumbnail_size = 500
 '2025_10_28__14_33_45__91.jpg' = { tags = [ 'Lade Hundepark', ]}
 '2025_10_28__14_34_12__56.jpg' = { tags = [ 'Lade Hundepark', ]}
 '2025_10_28__14_34_30__8.jpg' = { tags = [ 'Lade Hundepark', ]}
+'2025_10_28__14_37_30__55.jpg' = { tags = [ 'Lade Hundepark', ] }
+'2025_10_28__14_39_04__72.jpg' = { tags = [ 'Lade Hundepark', ] }
+'2025_10_28__14_41_14__09.jpg' = { tags = [ 'Lade Hundepark', ] }
+'2025_10_28__14_42_18__53.jpg' = { tags = [ 'Lade Hundepark', ] }
+'2025_10_28__14_45_04__66.jpg' = { tags = [ 'Lade Hundepark', ] }
+'2025_10_28__14_48_47__99.jpg' = { tags = [ 'Lade Hundepark', ] }
