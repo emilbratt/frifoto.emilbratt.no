@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", main);
 document.title = 'Frifoto - EmilBratt';
 
-const VIEW_MODES = [ 'photo-about', 'photo-navigate', 'photo-fullscreen', 'photo-stream', 'photo-slideshow' ];
+const VIEW_MODES = [ 'photo-about', 'photo-navigate', 'photo-lightbox', 'photo-stream', 'photo-slideshow' ];
 const PROFILE_PICTURE = 'img/2025_10_28__13_57_15__56.jpg';
 
 // Globals for image data
@@ -16,14 +16,15 @@ function main() {
     BY_FILENAME = IMAGE_DATA['by_filename'];
     ALL_IMAGES = IMAGE_DATA['all_images'];
 
-    const url = new URL(window.location.href);
+    const params = new URLSearchParams(document.location.search);
+    if (params.has('download')) {
+        alert('DOWNLOAD NOT IMPLEMENTED YET');
+    }
 
-    if (url.searchParams.has('download')) { alert('DOWNLOAD NOT IMPLEMENTED YET'); }
-
-    if (!url.searchParams.has('view_mode')) {
+    if (!params.has('view_mode')) {
         init_photo_directory_navigate();
     } else {
-        let view_mode = url.searchParams.get('view_mode');
+        let view_mode = params.get('view_mode');
         switch(view_mode) {
         case 'photo-about':
             init_photo_about();
@@ -31,16 +32,16 @@ function main() {
         case 'photo-navigate':
             init_photo_directory_navigate();
             break;
-        case 'photo-fullscreen':
-            if (url.searchParams.has('tag')) {
-                init_photo_fullscreen(url.searchParams.get('tag'), url.searchParams.get('image'));
+        case 'photo-lightbox':
+            if (params.has('tag')) {
+                init_photo_lightbox(params.get('tag'), params.get('image'));
             } else {
-                init_photo_fullscreen('', url.searchParams.get('image'));
+                init_photo_lightbox('', params.get('image'));
             }
             break;
         case 'photo-stream':
-            if (url.searchParams.has('tag')) {
-                init_photo_stream(url.searchParams.get('tag'));
+            if (params.has('tag')) {
+                init_photo_stream(params.get('tag'));
             } else {
                 init_photo_stream('');
             }
@@ -56,7 +57,7 @@ function main() {
 
 function view_mode(id) {
     for (const d of VIEW_MODES) {
-        if (d == id) {
+        if (d === id) {
             document.getElementById(id).style.display = 'block';
         }
         else {
@@ -68,7 +69,7 @@ function view_mode(id) {
 function init_photo_about() {
     document.getElementById('photo-about-header').innerHTML = '<h2>Emil Bratt</h2>';
     document.getElementById('photo-about-footer').innerHTML = `
-        <a href="${window.location.pathname}?view_mode=photo-navigate" method="get">Hovedside</a>
+        <a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Hovedside</a>
     `;
 
     document.getElementById('photo-about-paragraph').innerHTML = `
@@ -77,6 +78,12 @@ function init_photo_about() {
     `;
     document.getElementById('photo-about-image').src = PROFILE_PICTURE;
     view_mode('photo-about');
+
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            document.querySelector('.photo-navigate-btn').click();
+        }
+    });
 }
 
 function init_photo_directory_navigate() {
@@ -113,7 +120,7 @@ function init_photo_stream(tag) {
         for (const image of ALL_IMAGES) {
             html += `
                 <div>
-                    <a href="${window.location.pathname}?view_mode=photo-fullscreen&image=${image}" method="get">
+                    <a href="${window.location.pathname}?view_mode=photo-lightbox&image=${image}" method="get">
                         <img src="${IMG_DIR}/thumbnails/${image}" loading="lazy" />
                     </a>
                 </div>
@@ -123,7 +130,7 @@ function init_photo_stream(tag) {
         for (const image of BY_TAG[tag]) {
             html += `
                 <div>
-                    <a href="${window.location.pathname}?view_mode=photo-fullscreen&tag=${tag}&image=${image}" method="get">
+                    <a href="${window.location.pathname}?view_mode=photo-lightbox&tag=${tag}&image=${image}" method="get">
                         <img src="${IMG_DIR}/thumbnails/${image}" loading="lazy" />
                     </a>
                 </div>
@@ -147,7 +154,7 @@ function init_photo_stream(tag) {
     });
 }
 
-function init_photo_fullscreen(tag, image) {
+function init_photo_lightbox(tag, image) {
     var index, next_index, previous_index, metadata, next_image, previous_image, img_number;
 
     if (tag === '') {
@@ -167,21 +174,21 @@ function init_photo_fullscreen(tag, image) {
         previous_image = BY_TAG[tag][previous_index];
         img_number = `${index+1}/${BY_TAG[tag].length}`;
     }
-    document.getElementById('photo-fullscreen-img').src = IMG_DIR + '/' + image;
-    document.getElementById('photo-fullscreen-img-caption').innerHTML = `
+    document.getElementById('photo-lightbox-img').src = IMG_DIR + '/' + image;
+    document.getElementById('photo-lightbox-img-caption').innerHTML = `
         ${img_number}
         - ${metadata['camera']}
         - ${metadata['focal']}
         - ISO ${metadata['ISO']} f${metadata['aperture']} ${metadata['shutter_speed']}
     `;
 
-    document.getElementById('photo-fullscreen-container-nav-box-buttons').innerHTML = `
+    document.getElementById('photo-lightbox-container-nav-box-buttons').innerHTML = `
         <a class="back-btn" href="${window.location.pathname}?view_mode=photo-stream&tag=${tag}" method="get">Tilbake</a>
         <a target="_blank" href="${window.location.pathname}?download=true" method="get"">Last Ned</a>
-        <a class="prev-btn" href="${window.location.pathname}?view_mode=photo-fullscreen&tag=${tag}&image=${previous_image}" method="get">Forrige</a>
-        <a class="next-btn" href="${window.location.pathname}?view_mode=photo-fullscreen&tag=${tag}&image=${next_image}" method="get">Neste</a>
+        <a class="prev-btn" href="${window.location.pathname}?view_mode=photo-lightbox&tag=${tag}&image=${previous_image}" method="get">Forrige</a>
+        <a class="next-btn" href="${window.location.pathname}?view_mode=photo-lightbox&tag=${tag}&image=${next_image}" method="get">Neste</a>
     `;
-    view_mode('photo-fullscreen');
+    view_mode('photo-lightbox');
 
     document.addEventListener('keydown', function (event) {
         if (event.key === 'ArrowRight') {
