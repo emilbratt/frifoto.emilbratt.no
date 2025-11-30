@@ -174,7 +174,21 @@ function init_photo_lightbox(tag, image) {
         previous_image = BY_TAG[tag][previous_index];
         img_number = `${index+1}/${BY_TAG[tag].length}`;
     }
-    document.getElementById('photo-lightbox-img').src = IMG_DIR + '/' + image;
+
+    const img = document.getElementById('photo-lightbox-img');
+    img.src = IMG_DIR + '/' + image;
+    img.addEventListener('click', () => {
+        if (document.fullscreenElement) {
+            document.exitFullscreen();
+        } else {
+            if (img.requestFullscreen) {
+                img.requestFullscreen();
+            } else if (img.webkitRequestFullscreen) { // Safari
+                img.webkitRequestFullscreen();
+            }
+        }
+    });
+
     document.getElementById('photo-lightbox-img-caption').innerHTML = `
         ${img_number}
         - ${metadata['camera']}
