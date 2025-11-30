@@ -239,7 +239,7 @@ a:hover, a:active {
     width: 100%;
     object-fit: scale-down;
     position: absolute;
-    transition: opacity 1s ease-in;
+    transition: opacity 4s ease;
 }
 .photo-slide-hide {
     opacity: 0;

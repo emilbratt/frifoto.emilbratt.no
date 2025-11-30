@@ -224,7 +224,7 @@ function init_photo_slideshow(tag) {
     }
 
     const is_random = true; // Hardcode slide-show shuffling of images for now..
-    const transition_time = 5000;
+    const image_time = 10000;
     const slide_show_container = document.getElementById('photo-slideshow-container');
 
     document.addEventListener('keydown', function (event) {
@@ -274,7 +274,7 @@ function init_photo_slideshow(tag) {
 
     _apply_next_image();
     view_mode('photo-slideshow');
-    setInterval(_apply_next_image, transition_time);
+    setInterval(_apply_next_image, image_time);
 }
 
 function nav_filter_boxes() {
