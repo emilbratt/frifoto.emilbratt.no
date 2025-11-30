@@ -181,10 +181,10 @@ function init_photo_lightbox(tag, image) {
     `;
 
     document.getElementById('photo-lightbox-container-nav-box-buttons').innerHTML = `
-        <a class="back-btn" href="${window.location.pathname}?view_mode=photo-stream&tag=${tag}" method="get">Tilbake</a>
-        <a target="_blank" href="${window.location.pathname}?download=true" method="get"">Last Ned</a>
-        <a class="prev-btn" href="${window.location.pathname}?view_mode=photo-lightbox&tag=${tag}&image=${previous_image}" method="get">Forrige</a>
-        <a class="next-btn" href="${window.location.pathname}?view_mode=photo-lightbox&tag=${tag}&image=${next_image}" method="get">Neste</a>
+        <a href="${window.location.pathname}?view_mode=photo-stream&tag=${tag}" method="get">Tilbake</a>
+        <a href="${img.src}" download="${image}" type="image/jpg" method="get">Last Ned</a>
+        <a href="${window.location.pathname}?view_mode=photo-lightbox&tag=${tag}&image=${previous_image}" method="get">Forrige</a>
+        <a href="${window.location.pathname}?view_mode=photo-lightbox&tag=${tag}&image=${next_image}" method="get">Neste</a>
     `;
     view_mode('photo-lightbox');
 
