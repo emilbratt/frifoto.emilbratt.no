@@ -8,7 +8,10 @@ Object.freeze(VIEW_MODES);
 const PROFILE_PICTURE = 'img/2025_10_28__13_57_15__56.jpg';
 
 // Globals for image data
-var IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES
+let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES
+
+// Helper -> write qid(id).innerHTML instead of document.getElementById(id).innerHTML
+const qid = id => document.getElementById(id);
 
 function main() {
     IMG_DIR = IMAGE_DATA['directory'];
@@ -18,9 +21,9 @@ function main() {
     ALL_IMAGES = IMAGE_DATA['all_images'];
 
     const params = new URLSearchParams(document.location.search);
-    const tag = params.has('tag') ? params.get('tag') : '';
-    const image = params.has('image') ? params.get('image') : '';
-    const view_mode = params.has('view_mode') ? params.get('view_mode') : '';
+    const view_mode = params.get('view_mode') || 'photo-navigate';
+    const tag = params.get('tag') || '';
+    const image = params.get('image') || '';
     if (params.has('download')) {
         alert('DOWNLOAD NOT IMPLEMENTED YET');
     }
@@ -48,24 +51,24 @@ function main() {
 function view_mode(id) {
     for (const d of VIEW_MODES) {
         if (d === id) {
-            document.getElementById(id).style.display = 'block';
+            qid(id).style.display = 'block';
         } else {
-            document.getElementById(d).style.display = 'none';
+            qid(d).style.display = 'none';
         }
     }
 }
 
 function init_photo_about() {
-    document.getElementById('photo-about-header').innerHTML = '<h2>Emil Bratt</h2>';
-    document.getElementById('photo-about-footer').innerHTML = `
+    qid('photo-about-header').innerHTML = '<h2>Emil Bratt</h2>';
+    qid('photo-about-footer').innerHTML = `
         <a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Hovedside</a>
     `;
 
-    document.getElementById('photo-about-paragraph').innerHTML = `
+    qid('photo-about-paragraph').innerHTML = `
         Her vil det komme text om meg.
         Bildet av vårt kjæledyr vil byttes ut med et bilde av meg også. :)
     `;
-    document.getElementById('photo-about-image').src = PROFILE_PICTURE;
+    qid('photo-about-image').src = PROFILE_PICTURE;
     view_mode('photo-about');
 
     document.addEventListener('keydown', function (event) {
@@ -82,7 +85,7 @@ function init_photo_directory_navigate() {
         const img = `${IMG_DIR}/thumbnails/${images[random]}`;
         html += `
         <div class="filterDiv ${tag}">
-            <a href="${window.location.pathname}?view_mode=photo-stream&tag=${tag}" method="get">
+            <a href="${window.location.pathname}?view_mode=photo-stream&tag=${encodeURIComponent(tag)}" method="get">
                 <img src="${img}" loading="lazy" />
             </a>
             <h2>${tag}</h2>
@@ -90,24 +93,24 @@ function init_photo_directory_navigate() {
         `;
     }
 
-    document.getElementById('photo-navigate-header').innerHTML = `
+    qid('photo-navigate-header').innerHTML = `
         <a href="${window.location.pathname}?view_mode=photo-about" method="get">Om Meg</a>
         <a href="${window.location.pathname}?view_mode=photo-stream" method="get">Alle Bilder</a>
         <input type="text" id="input_nav_filter" onkeyup="nav_filter_boxes()" autofocus placeholder="Filtrer" title="Type in a name">
     `;
-    document.getElementById('photo-navigate-boxes').innerHTML = html;
+    qid('photo-navigate-boxes').innerHTML = html;
     view_mode('photo-navigate');
 }
 
 function init_photo_stream(tag) {
-    document.getElementById('photo-stream-header').innerHTML = `<h2>${tag}</h2>`;
+    qid('photo-stream-header').innerHTML = `<h2>${tag}</h2>`;
 
     let html = '';
     if (tag === '') {
         for (const image of ALL_IMAGES) {
             html += `
                 <div>
-                    <a href="${window.location.pathname}?view_mode=photo-lightbox&image=${image}" method="get">
+                    <a href="${window.location.pathname}?view_mode=photo-lightbox&image=${encodeURIComponent(image)}" method="get">
                         <img src="${IMG_DIR}/thumbnails/${image}" loading="lazy" />
                     </a>
                 </div>
@@ -117,17 +120,17 @@ function init_photo_stream(tag) {
         for (const image of BY_TAG[tag]) {
             html += `
                 <div>
-                    <a href="${window.location.pathname}?view_mode=photo-lightbox&tag=${tag}&image=${image}" method="get">
+                    <a href="${window.location.pathname}?view_mode=photo-lightbox&tag=${encodeURIComponent(tag)}&image=${encodeURIComponent(image)}" method="get">
                         <img src="${IMG_DIR}/thumbnails/${image}" loading="lazy" />
                     </a>
                 </div>
             `;
         }
     }
-    document.getElementById('photo-stream-boxes').innerHTML = html;
-    document.getElementById('photo-stream-footer').innerHTML = `
+    qid('photo-stream-boxes').innerHTML = html;
+    qid('photo-stream-footer').innerHTML = `
         <a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Hovedside</a>
-        <a href="${window.location.pathname}?view_mode=photo-slideshow&tag=${tag}" method="get">Lysbilde</a>
+        <a href="${window.location.pathname}?view_mode=photo-slideshow&tag=${encodeURIComponent(tag)}" method="get">Lysbilde</a>
     `;
     view_mode('photo-stream');
 
@@ -139,7 +142,7 @@ function init_photo_stream(tag) {
 }
 
 function init_photo_lightbox(tag, image) {
-    var index, next_index, previous_index, metadata, next_image, previous_image, img_number;
+    let index, next_index, previous_index, metadata, next_image, previous_image, img_number;
 
     if (tag === '') {
         index = ALL_IMAGES.indexOf(image);
@@ -159,7 +162,7 @@ function init_photo_lightbox(tag, image) {
         img_number = `${index+1}/${BY_TAG[tag].length}`;
     }
 
-    const img = document.getElementById('photo-lightbox-img');
+    const img = qid('photo-lightbox-img');
     img.src = IMG_DIR + '/' + image;
     img.addEventListener('click', () => {
         if (document.fullscreenElement) {
@@ -173,18 +176,18 @@ function init_photo_lightbox(tag, image) {
         }
     });
 
-    document.getElementById('photo-lightbox-img-caption').innerHTML = `
+    qid('photo-lightbox-img-caption').innerHTML = `
         ${img_number}
         - ${metadata['camera']}
         - ${metadata['focal']}
         - ISO ${metadata['ISO']} f${metadata['aperture']} ${metadata['shutter_speed']}
     `;
 
-    document.getElementById('photo-lightbox-container-nav-box-buttons').innerHTML = `
-        <a href="${window.location.pathname}?view_mode=photo-stream&tag=${tag}" method="get">Tilbake</a>
+    qid('photo-lightbox-container-nav-box-buttons').innerHTML = `
+        <a class="back-btn" href="${window.location.pathname}?view_mode=photo-stream&tag=${encodeURIComponent(tag)}" method="get">Tilbake</a>
         <a href="${img.src}" download="${image}" type="image/jpg" method="get">Last Ned</a>
-        <a href="${window.location.pathname}?view_mode=photo-lightbox&tag=${tag}&image=${previous_image}" method="get">Forrige</a>
-        <a href="${window.location.pathname}?view_mode=photo-lightbox&tag=${tag}&image=${next_image}" method="get">Neste</a>
+        <a class="prev-btn" href="${window.location.pathname}?view_mode=photo-lightbox&tag=${encodeURIComponent(tag)}&image=${encodeURIComponent(previous_image)}" method="get">Forrige</a>
+        <a class="next-btn" href="${window.location.pathname}?view_mode=photo-lightbox&tag=${encodeURIComponent(tag)}&image=${encodeURIComponent(next_image)}" method="get">Neste</a>
     `;
     view_mode('photo-lightbox');
 
@@ -205,8 +208,8 @@ function init_photo_slideshow(tag) {
     let index = -1;
     const images = [];
     function _apply_next_image() {
-        const img_a = document.getElementById('photo-slideshow-image-a');
-        const img_b = document.getElementById('photo-slideshow-image-b');
+        const img_a = qid('photo-slideshow-image-a');
+        const img_b = qid('photo-slideshow-image-b');
 
         const is_visible = img_a.classList.contains('photo-slide-show');
         const img_fade_in = is_visible ? img_a : img_b;
@@ -225,14 +228,14 @@ function init_photo_slideshow(tag) {
 
     const is_random = true; // Hardcode slide-show shuffling of images for now..
     const image_time = 10000;
-    const slide_show_container = document.getElementById('photo-slideshow-container');
+    const slide_show_container = qid('photo-slideshow-container');
 
     document.addEventListener('keydown', function (event) {
         if (event.key === 'Escape') {
             if (document.fullscreenElement) {
                 document.exitFullscreen();
             }
-            window.history.pushState(null, null, `${window.location.pathname}?view_mode=photo-navigate`);
+            window.history.pushState(null, '', `${window.location.pathname}?view_mode=photo-navigate`);
             init_photo_stream(tag)
         }
         else if (event.key === 'f') {
@@ -278,9 +281,9 @@ function init_photo_slideshow(tag) {
 }
 
 function nav_filter_boxes() {
-    let input = document.getElementById('input_nav_filter');
+    let input = qid('input_nav_filter');
     let filter = input.value.toUpperCase();
-    let box = document.getElementById('photo-navigate-boxes');
+    let box = qid('photo-navigate-boxes');
     let div = box.getElementsByTagName('div');
     for (let i = 0; i < div.length; i++) {
         if (input.value === '') {
