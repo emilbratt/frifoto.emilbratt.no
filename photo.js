@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", main);
 document.title = 'Frifoto - EmilBratt';
 
 const VIEW_MODES = [ 'photo-about', 'photo-navigate', 'photo-lightbox', 'photo-stream', 'photo-slideshow' ];
+Object.freeze(VIEW_MODES);
 const PROFILE_PICTURE = 'img/2025_10_28__13_57_15__56.jpg';
 
 // Globals for image data
@@ -17,15 +18,13 @@ function main() {
     ALL_IMAGES = IMAGE_DATA['all_images'];
 
     const params = new URLSearchParams(document.location.search);
+    const tag = params.has('tag') ? params.get('tag') : '';
+    const image = params.has('image') ? params.get('image') : '';
+    const view_mode = params.has('view_mode') ? params.get('view_mode') : '';
     if (params.has('download')) {
         alert('DOWNLOAD NOT IMPLEMENTED YET');
     }
-
-    if (!params.has('view_mode')) {
-        init_photo_directory_navigate();
-    } else {
-        let view_mode = params.get('view_mode');
-        switch(view_mode) {
+    switch(view_mode) {
         case 'photo-about':
             init_photo_about();
             break;
@@ -33,25 +32,16 @@ function main() {
             init_photo_directory_navigate();
             break;
         case 'photo-lightbox':
-            if (params.has('tag')) {
-                init_photo_lightbox(params.get('tag'), params.get('image'));
-            } else {
-                init_photo_lightbox('', params.get('image'));
-            }
+            init_photo_lightbox(tag, image);
             break;
         case 'photo-stream':
-            if (params.has('tag')) {
-                init_photo_stream(params.get('tag'));
-            } else {
-                init_photo_stream('');
-            }
+            init_photo_stream(tag);
             break;
         case 'photo-slideshow':
-            init_photo_slideshow();
+            init_photo_slideshow(tag);
             break;
         default:
             init_photo_directory_navigate();
-        }
     }
 }
 
@@ -59,8 +49,7 @@ function view_mode(id) {
     for (const d of VIEW_MODES) {
         if (d === id) {
             document.getElementById(id).style.display = 'block';
-        }
-        else {
+        } else {
             document.getElementById(d).style.display = 'none';
         }
     }
@@ -89,9 +78,7 @@ function init_photo_about() {
 function init_photo_directory_navigate() {
     let html = '';
     for (const [tag, images] of Object.entries(BY_TAG)) {
-        const min = 0;
-        const max = images.length-1;
-        const random = Math.floor(Math.random() * (max - min + 1)) + min;
+        const random = Math.floor(Math.random() * images.length);
         const img = `${IMG_DIR}/thumbnails/${images[random]}`;
         html += `
         <div class="filterDiv ${tag}">
@@ -138,13 +125,10 @@ function init_photo_stream(tag) {
         }
     }
     document.getElementById('photo-stream-boxes').innerHTML = html;
-
     document.getElementById('photo-stream-footer').innerHTML = `
         <a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Hovedside</a>
+        <a href="${window.location.pathname}?view_mode=photo-slideshow&tag=${tag}" method="get">Lysbilde</a>
     `;
-    // document.getElementById('photo-stream-footer').innerHTML += `
-    //     <a href="${window.location.pathname}?view_mode=photo-slideshow" method="get">Lysbildefremviser</a>
-    // `;
     view_mode('photo-stream');
 
     document.addEventListener('keydown', function (event) {
@@ -217,9 +201,80 @@ function init_photo_lightbox(tag, image) {
     });
 }
 
-function init_photo_slideshow() {
-    alert('PHOTO SLIDESHOW NOT IMPLEMENTED YET');
-    init_photo_directory_navigate();
+function init_photo_slideshow(tag) {
+    let index = -1;
+    const images = [];
+    function _apply_next_image() {
+        const img_a = document.getElementById('photo-slideshow-image-a');
+        const img_b = document.getElementById('photo-slideshow-image-b');
+
+        const is_visible = img_a.classList.contains('photo-slide-show');
+        const img_fade_in = is_visible ? img_a : img_b;
+        const img_fade_out  = is_visible ? img_b : img_a;
+
+        index = (index + 1) % images.length;
+        img_fade_out.src = images[index];
+
+        // Start the crossfade
+        img_fade_in.classList.remove('photo-slide-show');
+        img_fade_in.classList.add('photo-slide-hide');
+
+        img_fade_out.classList.add('photo-slide-show');
+        img_fade_out.classList.remove('photo-slide-hide');
+    }
+
+    const is_random = true; // Hardcode slide-show shuffling of images for now..
+    const transition_time = 5000;
+    const slide_show_container = document.getElementById('photo-slideshow-container');
+
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            if (document.fullscreenElement) {
+                document.exitFullscreen();
+            }
+            window.history.pushState(null, null, `${window.location.pathname}?view_mode=photo-navigate`);
+            init_photo_stream(tag)
+        }
+        else if (event.key === 'f') {
+            if (document.fullscreenElement) {
+                document.exitFullscreen();
+            } else {
+                if (slide_show_container.requestFullscreen) {
+                    slide_show_container.requestFullscreen();
+                } else if (slide_show_container.webkitRequestFullscreen) { // Safari
+                    slide_show_container.webkitRequestFullscreen();
+                }
+            }
+        }
+    });
+    slide_show_container.addEventListener('click', () => {
+        if (document.fullscreenElement) {
+            document.exitFullscreen();
+        } else {
+            if (slide_show_container.requestFullscreen) {
+                slide_show_container.requestFullscreen();
+            } else if (slide_show_container.webkitRequestFullscreen) { // Safari
+                slide_show_container.webkitRequestFullscreen();
+            }
+        }
+    });
+
+    if (tag === '') {
+        for (const image of ALL_IMAGES) { images.push(IMG_DIR + '/' + image); }
+    } else {
+        for (const image of BY_TAG[tag]) { images.push(IMG_DIR + '/' + image); }
+    }
+
+    if (is_random) {
+        for (let i = images.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [images[i], images[j]] = [images[j], images[i]];
+        }
+    }
+
+    _apply_next_image();
+    view_mode('photo-slideshow');
+    setInterval(_apply_next_image, transition_time);
 }
 
 function nav_filter_boxes() {
@@ -230,8 +285,7 @@ function nav_filter_boxes() {
     for (let i = 0; i < div.length; i++) {
         if (input.value === '') {
             div[i].style.display = '';
-        }
-        else if (div[i].getElementsByTagName('h2')[0].textContent.toUpperCase().replace('%20', ' ').indexOf(filter) > -1) {
+        } else if (div[i].getElementsByTagName('h2')[0].textContent.toUpperCase().replace('%20', ' ').indexOf(filter) > -1) {
             div[i].style.display = '';
         } else {
             div[i].style.display = 'none';
