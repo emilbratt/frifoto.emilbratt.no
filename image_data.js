@@ -75,7 +75,11 @@ const IMAGE_DATA = {
         "2025_10_31__14_35_53__13.jpg",
         "2025_10_31__14_36_32__17.jpg",
         "2025_10_31__14_36_58__47.jpg",
-        "2025_10_31__14_39_23__94.jpg"
+        "2025_10_31__14_39_23__94.jpg",
+        "2025_11_01__12_45_35__09.jpg",
+        "2025_11_01__12_46_37__84.jpg",
+        "2025_11_01__13_01_12__45.jpg",
+        "2025_11_01__13_09_36__52.jpg"
     ],
     "by_filename": {
         "2025_10_23__14_39_57__13.jpg": {
@@ -1255,6 +1259,71 @@ const IMAGE_DATA = {
             "tags": [
                 "Lade Hundepark"
             ]
+        },
+        "2025_11_01__12_45_35__09.jpg": {
+            "ISO": 3200,
+            "aperture": 4.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:11:01 12:45:35",
+            "file_size": "3.1 MB",
+            "focal": "135.0 mm",
+            "image_height": 3674,
+            "image_width": 5504,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Allvi"
+            ]
+        },
+        "2025_11_01__12_46_37__84.jpg": {
+            "ISO": 3200,
+            "aperture": 2.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:11:01 12:46:37",
+            "file_size": "2.5 MB",
+            "focal": "135.0 mm",
+            "image_height": 3867,
+            "image_width": 5793,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Allvi"
+            ]
+        },
+        "2025_11_01__13_01_12__45.jpg": {
+            "ISO": 3200,
+            "aperture": 5.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:11:01 13:01:12",
+            "file_size": "2.7 MB",
+            "focal": "135.0 mm",
+            "image_height": 3627,
+            "image_width": 5433,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/3200",
+            "tags": [
+                "Allvi"
+            ]
+        },
+        "2025_11_01__13_09_36__52.jpg": {
+            "ISO": 800,
+            "aperture": 5.6,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:11:01 13:09:36",
+            "file_size": "2.6 MB",
+            "focal": "135.0 mm",
+            "image_height": 3687,
+            "image_width": 5523,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/1250",
+            "tags": [
+                "Høst",
+                "Natur"
+            ]
         }
     },
     "by_rating": {
@@ -1330,7 +1399,11 @@ const IMAGE_DATA = {
             "2025_10_31__14_35_53__13.jpg",
             "2025_10_31__14_36_32__17.jpg",
             "2025_10_31__14_36_58__47.jpg",
-            "2025_10_31__14_39_23__94.jpg"
+            "2025_10_31__14_39_23__94.jpg",
+            "2025_11_01__12_45_35__09.jpg",
+            "2025_11_01__12_46_37__84.jpg",
+            "2025_11_01__13_01_12__45.jpg",
+            "2025_11_01__13_09_36__52.jpg"
         ],
         "3": [
             "2025_10_28__13_57_15__56.jpg"
@@ -1343,7 +1416,10 @@ const IMAGE_DATA = {
             "2025_10_28__14_22_47__12.jpg",
             "2025_10_28__14_23_30__11.jpg",
             "2025_10_29__13_42_48__77.jpg",
-            "2025_10_29__13_47_55__89.jpg"
+            "2025_10_29__13_47_55__89.jpg",
+            "2025_11_01__12_45_35__09.jpg",
+            "2025_11_01__12_46_37__84.jpg",
+            "2025_11_01__13_01_12__45.jpg"
         ],
         "Fugler": [
             "2025_10_28__14_19_24__99.jpg"
@@ -1351,7 +1427,8 @@ const IMAGE_DATA = {
         "Høst": [
             "2025_10_29__14_34_56__33.jpg",
             "2025_10_31__12_13_20__11.jpg",
-            "2025_10_31__12_14_12__27.jpg"
+            "2025_10_31__12_14_12__27.jpg",
+            "2025_11_01__13_09_36__52.jpg"
         ],
         "Lade Hundepark": [
             "2025_10_23__14_39_57__13.jpg",
@@ -1428,7 +1505,8 @@ const IMAGE_DATA = {
         "Natur": [
             "2025_10_29__14_34_56__33.jpg",
             "2025_10_31__12_13_20__11.jpg",
-            "2025_10_31__12_14_12__27.jpg"
+            "2025_10_31__12_14_12__27.jpg",
+            "2025_11_01__13_09_36__52.jpg"
         ]
     },
     "directory": "img"
