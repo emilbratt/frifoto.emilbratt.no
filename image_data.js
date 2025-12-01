@@ -33,7 +33,33 @@ const IMAGE_DATA = {
         "2025_10_29__13_14_55__9.jpg",
         "2025_10_29__13_17_23__98.jpg",
         "2025_10_29__13_17_26__32.jpg",
-        "2025_10_29__13_20_28__34.jpg"
+        "2025_10_29__13_20_28__34.jpg",
+        "2025_10_29__13_20_35__57.jpg",
+        "2025_10_29__13_21_03__82.jpg",
+        "2025_10_29__13_27_48__74.jpg",
+        "2025_10_29__13_27_54__27.jpg",
+        "2025_10_29__13_31_48__07.jpg",
+        "2025_10_29__13_34_02__16.jpg",
+        "2025_10_29__13_35_18__2.jpg",
+        "2025_10_29__13_37_02__56.jpg",
+        "2025_10_29__13_42_48__77.jpg",
+        "2025_10_29__13_45_27__39.jpg",
+        "2025_10_29__13_45_27__75.jpg",
+        "2025_10_29__13_45_28__56.jpg",
+        "2025_10_29__13_47_10__72.jpg",
+        "2025_10_29__13_47_55__89.jpg",
+        "2025_10_29__13_49_28__92.jpg",
+        "2025_10_29__13_56_37__2.jpg",
+        "2025_10_29__14_03_42__67.jpg",
+        "2025_10_29__14_07_58__19.jpg",
+        "2025_10_29__14_08_51__62.jpg",
+        "2025_10_29__14_17_35__29.jpg",
+        "2025_10_29__14_25_18__43.jpg",
+        "2025_10_29__14_26_33__01.jpg",
+        "2025_10_29__14_26_35__85.jpg",
+        "2025_10_29__14_34_56__33.jpg",
+        "2025_10_31__12_13_20__11.jpg",
+        "2025_10_31__12_14_12__27.jpg"
     ],
     "by_filename": {
         "2025_10_23__14_39_57__13.jpg": {
@@ -536,6 +562,427 @@ const IMAGE_DATA = {
             "tags": [
                 "Lade Hundepark"
             ]
+        },
+        "2025_10_29__13_20_35__57.jpg": {
+            "ISO": 1600,
+            "aperture": 6.3,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 13:20:35",
+            "file_size": "2.1 MB",
+            "focal": "135.0 mm",
+            "image_height": 2943,
+            "image_width": 5232,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__13_21_03__82.jpg": {
+            "ISO": 1600,
+            "aperture": 7.1,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 13:21:03",
+            "file_size": "2.3 MB",
+            "focal": "135.0 mm",
+            "image_height": 3359,
+            "image_width": 5033,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__13_27_48__74.jpg": {
+            "ISO": 1600,
+            "aperture": 5.6,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 13:27:48",
+            "file_size": "1736 kB",
+            "focal": "135.0 mm",
+            "image_height": 3096,
+            "image_width": 5504,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/5000",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__13_27_54__27.jpg": {
+            "ISO": 1600,
+            "aperture": 8.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 13:27:54",
+            "file_size": "1735 kB",
+            "focal": "135.0 mm",
+            "image_height": 3171,
+            "image_width": 4751,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/5000",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__13_31_48__07.jpg": {
+            "ISO": 1600,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 13:31:48",
+            "file_size": "1874 kB",
+            "focal": "135.0 mm",
+            "image_height": 3868,
+            "image_width": 5794,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__13_34_02__16.jpg": {
+            "ISO": 1600,
+            "aperture": 5.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 13:34:02",
+            "file_size": "1657 kB",
+            "focal": "135.0 mm",
+            "image_height": 2520,
+            "image_width": 4032,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__13_35_18__2.jpg": {
+            "ISO": 1600,
+            "aperture": 2.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 13:35:18",
+            "file_size": "2.6 MB",
+            "focal": "135.0 mm",
+            "image_height": 3515,
+            "image_width": 5624,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__13_37_02__56.jpg": {
+            "ISO": 1600,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 13:37:02",
+            "file_size": "1688 kB",
+            "focal": "135.0 mm",
+            "image_height": 3135,
+            "image_width": 5016,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__13_42_48__77.jpg": {
+            "ISO": 1600,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 13:42:48",
+            "file_size": "1881 kB",
+            "focal": "135.0 mm",
+            "image_height": 3840,
+            "image_width": 4805,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Allvi",
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__13_45_27__39.jpg": {
+            "ISO": 1600,
+            "aperture": 4.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 13:45:27",
+            "file_size": "2.0 MB",
+            "focal": "135.0 mm",
+            "image_height": 2982,
+            "image_width": 4467,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__13_45_27__75.jpg": {
+            "ISO": 1600,
+            "aperture": 4.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 13:45:27",
+            "file_size": "2.0 MB",
+            "focal": "135.0 mm",
+            "image_height": 3142,
+            "image_width": 4707,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__13_45_28__56.jpg": {
+            "ISO": 1600,
+            "aperture": 4.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 13:45:28",
+            "file_size": "1478 kB",
+            "focal": "135.0 mm",
+            "image_height": 2641,
+            "image_width": 3957,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__13_47_10__72.jpg": {
+            "ISO": 1600,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 13:47:10",
+            "file_size": "1887 kB",
+            "focal": "135.0 mm",
+            "image_height": 3175,
+            "image_width": 5080,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__13_47_55__89.jpg": {
+            "ISO": 200,
+            "aperture": 4.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 13:47:55",
+            "file_size": "1266 kB",
+            "focal": "135.0 mm",
+            "image_height": 4830,
+            "image_width": 3864,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/1600",
+            "tags": [
+                "Allvi",
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__13_49_28__92.jpg": {
+            "ISO": 400,
+            "aperture": 6.3,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 13:49:28",
+            "file_size": "1657 kB",
+            "focal": "135.0 mm",
+            "image_height": 3864,
+            "image_width": 4968,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/800",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__13_56_37__2.jpg": {
+            "ISO": 1600,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 13:56:37",
+            "file_size": "2.2 MB",
+            "focal": "135.0 mm",
+            "image_height": 3435,
+            "image_width": 5496,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__14_03_42__67.jpg": {
+            "ISO": 1600,
+            "aperture": 5.6,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 14:03:42",
+            "file_size": "1778 kB",
+            "focal": "135.0 mm",
+            "image_height": 2895,
+            "image_width": 4632,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__14_07_58__19.jpg": {
+            "ISO": 1600,
+            "aperture": 2.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 14:07:58",
+            "file_size": "2.1 MB",
+            "focal": "135.0 mm",
+            "image_height": 3511,
+            "image_width": 5260,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__14_08_51__62.jpg": {
+            "ISO": 1600,
+            "aperture": 7.1,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 14:08:51",
+            "file_size": "2.5 MB",
+            "focal": "135.0 mm",
+            "image_height": 3274,
+            "image_width": 4905,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/1600",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__14_17_35__29.jpg": {
+            "ISO": 1600,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 14:17:35",
+            "file_size": "2.2 MB",
+            "focal": "135.0 mm",
+            "image_height": 3474,
+            "image_width": 5204,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__14_25_18__43.jpg": {
+            "ISO": 3200,
+            "aperture": 4.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 14:25:18",
+            "file_size": "2.4 MB",
+            "focal": "135.0 mm",
+            "image_height": 3325,
+            "image_width": 4981,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__14_26_33__01.jpg": {
+            "ISO": 3200,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 14:26:33",
+            "file_size": "2.7 MB",
+            "focal": "135.0 mm",
+            "image_height": 3631,
+            "image_width": 5439,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__14_26_35__85.jpg": {
+            "ISO": 3200,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 14:26:35",
+            "file_size": "2.6 MB",
+            "focal": "135.0 mm",
+            "image_height": 3528,
+            "image_width": 5286,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_29__14_34_56__33.jpg": {
+            "ISO": 1600,
+            "aperture": 7.1,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:29 14:34:56",
+            "file_size": "5.4 MB",
+            "focal": "135.0 mm",
+            "image_height": 3718,
+            "image_width": 5570,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/500",
+            "tags": [
+                "Høst",
+                "Natur"
+            ]
+        },
+        "2025_10_31__12_13_20__11.jpg": {
+            "ISO": 800,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 12:13:20",
+            "file_size": "1660 kB",
+            "focal": "135.0 mm",
+            "image_height": 3538,
+            "image_width": 5301,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Manual",
+            "shutter_speed": "1/1000",
+            "tags": [
+                "Høst",
+                "Natur"
+            ]
+        },
+        "2025_10_31__12_14_12__27.jpg": {
+            "ISO": 400,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 12:14:12",
+            "file_size": "2.2 MB",
+            "focal": "135.0 mm",
+            "image_height": 3602,
+            "image_width": 5396,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Manual",
+            "shutter_speed": "1/1000",
+            "tags": [
+                "Høst",
+                "Natur"
+            ]
         }
     },
     "by_rating": {
@@ -569,7 +1016,33 @@ const IMAGE_DATA = {
             "2025_10_29__13_14_55__9.jpg",
             "2025_10_29__13_17_23__98.jpg",
             "2025_10_29__13_17_26__32.jpg",
-            "2025_10_29__13_20_28__34.jpg"
+            "2025_10_29__13_20_28__34.jpg",
+            "2025_10_29__13_20_35__57.jpg",
+            "2025_10_29__13_21_03__82.jpg",
+            "2025_10_29__13_27_48__74.jpg",
+            "2025_10_29__13_27_54__27.jpg",
+            "2025_10_29__13_31_48__07.jpg",
+            "2025_10_29__13_34_02__16.jpg",
+            "2025_10_29__13_35_18__2.jpg",
+            "2025_10_29__13_37_02__56.jpg",
+            "2025_10_29__13_42_48__77.jpg",
+            "2025_10_29__13_45_27__39.jpg",
+            "2025_10_29__13_45_27__75.jpg",
+            "2025_10_29__13_45_28__56.jpg",
+            "2025_10_29__13_47_10__72.jpg",
+            "2025_10_29__13_47_55__89.jpg",
+            "2025_10_29__13_49_28__92.jpg",
+            "2025_10_29__13_56_37__2.jpg",
+            "2025_10_29__14_03_42__67.jpg",
+            "2025_10_29__14_07_58__19.jpg",
+            "2025_10_29__14_08_51__62.jpg",
+            "2025_10_29__14_17_35__29.jpg",
+            "2025_10_29__14_25_18__43.jpg",
+            "2025_10_29__14_26_33__01.jpg",
+            "2025_10_29__14_26_35__85.jpg",
+            "2025_10_29__14_34_56__33.jpg",
+            "2025_10_31__12_13_20__11.jpg",
+            "2025_10_31__12_14_12__27.jpg"
         ],
         "3": [
             "2025_10_28__13_57_15__56.jpg"
@@ -580,10 +1053,17 @@ const IMAGE_DATA = {
             "2025_10_28__13_57_15__56.jpg",
             "2025_10_28__14_07_09__1.jpg",
             "2025_10_28__14_22_47__12.jpg",
-            "2025_10_28__14_23_30__11.jpg"
+            "2025_10_28__14_23_30__11.jpg",
+            "2025_10_29__13_42_48__77.jpg",
+            "2025_10_29__13_47_55__89.jpg"
         ],
         "Fugler": [
             "2025_10_28__14_19_24__99.jpg"
+        ],
+        "Høst": [
+            "2025_10_29__14_34_56__33.jpg",
+            "2025_10_31__12_13_20__11.jpg",
+            "2025_10_31__12_14_12__27.jpg"
         ],
         "Lade Hundepark": [
             "2025_10_23__14_39_57__13.jpg",
@@ -616,7 +1096,35 @@ const IMAGE_DATA = {
             "2025_10_29__13_14_55__9.jpg",
             "2025_10_29__13_17_23__98.jpg",
             "2025_10_29__13_17_26__32.jpg",
-            "2025_10_29__13_20_28__34.jpg"
+            "2025_10_29__13_20_28__34.jpg",
+            "2025_10_29__13_20_35__57.jpg",
+            "2025_10_29__13_21_03__82.jpg",
+            "2025_10_29__13_27_48__74.jpg",
+            "2025_10_29__13_27_54__27.jpg",
+            "2025_10_29__13_31_48__07.jpg",
+            "2025_10_29__13_34_02__16.jpg",
+            "2025_10_29__13_35_18__2.jpg",
+            "2025_10_29__13_37_02__56.jpg",
+            "2025_10_29__13_42_48__77.jpg",
+            "2025_10_29__13_45_27__39.jpg",
+            "2025_10_29__13_45_27__75.jpg",
+            "2025_10_29__13_45_28__56.jpg",
+            "2025_10_29__13_47_10__72.jpg",
+            "2025_10_29__13_47_55__89.jpg",
+            "2025_10_29__13_49_28__92.jpg",
+            "2025_10_29__13_56_37__2.jpg",
+            "2025_10_29__14_03_42__67.jpg",
+            "2025_10_29__14_07_58__19.jpg",
+            "2025_10_29__14_08_51__62.jpg",
+            "2025_10_29__14_17_35__29.jpg",
+            "2025_10_29__14_25_18__43.jpg",
+            "2025_10_29__14_26_33__01.jpg",
+            "2025_10_29__14_26_35__85.jpg"
+        ],
+        "Natur": [
+            "2025_10_29__14_34_56__33.jpg",
+            "2025_10_31__12_13_20__11.jpg",
+            "2025_10_31__12_14_12__27.jpg"
         ]
     },
     "directory": "img"
