@@ -59,7 +59,23 @@ const IMAGE_DATA = {
         "2025_10_29__14_26_35__85.jpg",
         "2025_10_29__14_34_56__33.jpg",
         "2025_10_31__12_13_20__11.jpg",
-        "2025_10_31__12_14_12__27.jpg"
+        "2025_10_31__12_14_12__27.jpg",
+        "2025_10_31__13_08_15__36.jpg",
+        "2025_10_31__13_46_22__03.jpg",
+        "2025_10_31__13_48_40__27.jpg",
+        "2025_10_31__13_52_38__16.jpg",
+        "2025_10_31__13_52_43__51.jpg",
+        "2025_10_31__13_53_40__57.jpg",
+        "2025_10_31__13_56_00__42.jpg",
+        "2025_10_31__13_56_48__6.jpg",
+        "2025_10_31__14_07_50__85.jpg",
+        "2025_10_31__14_10_47__9.jpg",
+        "2025_10_31__14_23_13__54.jpg",
+        "2025_10_31__14_27_25__35.jpg",
+        "2025_10_31__14_35_53__13.jpg",
+        "2025_10_31__14_36_32__17.jpg",
+        "2025_10_31__14_36_58__47.jpg",
+        "2025_10_31__14_39_23__94.jpg"
     ],
     "by_filename": {
         "2025_10_23__14_39_57__13.jpg": {
@@ -983,6 +999,262 @@ const IMAGE_DATA = {
                 "Høst",
                 "Natur"
             ]
+        },
+        "2025_10_31__13_08_15__36.jpg": {
+            "ISO": 1600,
+            "aperture": 2.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 13:08:15",
+            "file_size": "3.1 MB",
+            "focal": "50.0 mm",
+            "image_height": 3868,
+            "image_width": 5794,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/1250",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_31__13_46_22__03.jpg": {
+            "ISO": 3200,
+            "aperture": 1.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 13:46:22",
+            "file_size": "2.2 MB",
+            "focal": "50.0 mm",
+            "image_height": 3372,
+            "image_width": 5052,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/3200",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_31__13_48_40__27.jpg": {
+            "ISO": 3200,
+            "aperture": 2.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 13:48:40",
+            "file_size": "2.1 MB",
+            "focal": "50.0 mm",
+            "image_height": 3169,
+            "image_width": 4747,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/3200",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_31__13_52_38__16.jpg": {
+            "ISO": 1600,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 13:52:38",
+            "file_size": "1833 kB",
+            "focal": "50.0 mm",
+            "image_height": 2938,
+            "image_width": 4402,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_31__13_52_43__51.jpg": {
+            "ISO": 1600,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 13:52:43",
+            "file_size": "2.7 MB",
+            "focal": "50.0 mm",
+            "image_height": 3573,
+            "image_width": 5353,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_31__13_53_40__57.jpg": {
+            "ISO": 1600,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 13:53:40",
+            "file_size": "1970 kB",
+            "focal": "50.0 mm",
+            "image_height": 3020,
+            "image_width": 4524,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_31__13_56_00__42.jpg": {
+            "ISO": 1600,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 13:56:00",
+            "file_size": "2.3 MB",
+            "focal": "50.0 mm",
+            "image_height": 3620,
+            "image_width": 4525,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_31__13_56_48__6.jpg": {
+            "ISO": 1600,
+            "aperture": 2.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 13:56:48",
+            "file_size": "2.7 MB",
+            "focal": "50.0 mm",
+            "image_height": 3525,
+            "image_width": 5640,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_31__14_07_50__85.jpg": {
+            "ISO": 3200,
+            "aperture": 3.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 14:07:50",
+            "file_size": "3.2 MB",
+            "focal": "50.0 mm",
+            "image_height": 3024,
+            "image_width": 5376,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/1250",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_31__14_10_47__9.jpg": {
+            "ISO": 3200,
+            "aperture": 2.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 14:10:47",
+            "file_size": "2.5 MB",
+            "focal": "50.0 mm",
+            "image_height": 3030,
+            "image_width": 4848,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/1250",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_31__14_23_13__54.jpg": {
+            "ISO": 1600,
+            "aperture": 1.4,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 14:23:13",
+            "file_size": "2.7 MB",
+            "focal": "50.0 mm",
+            "image_height": 3620,
+            "image_width": 5792,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/1600",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_31__14_27_25__35.jpg": {
+            "ISO": 1600,
+            "aperture": 1.4,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 14:27:25",
+            "file_size": "2.1 MB",
+            "focal": "50.0 mm",
+            "image_height": 3101,
+            "image_width": 4646,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_31__14_35_53__13.jpg": {
+            "ISO": 3200,
+            "aperture": 2.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 14:35:53",
+            "file_size": "2.3 MB",
+            "focal": "50.0 mm",
+            "image_height": 3301,
+            "image_width": 4945,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2000",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_31__14_36_32__17.jpg": {
+            "ISO": 3200,
+            "aperture": 1.4,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 14:36:32",
+            "file_size": "2.7 MB",
+            "focal": "50.0 mm",
+            "image_height": 3285,
+            "image_width": 5256,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2000",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_31__14_36_58__47.jpg": {
+            "ISO": 3200,
+            "aperture": 1.4,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 14:36:58",
+            "file_size": "2.7 MB",
+            "focal": "50.0 mm",
+            "image_height": 3325,
+            "image_width": 5320,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/1600",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2025_10_31__14_39_23__94.jpg": {
+            "ISO": 3200,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:10:31 14:39:23",
+            "file_size": "3.2 MB",
+            "focal": "50.0 mm",
+            "image_height": 3864,
+            "image_width": 4830,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/1600",
+            "tags": [
+                "Lade Hundepark"
+            ]
         }
     },
     "by_rating": {
@@ -1042,7 +1314,23 @@ const IMAGE_DATA = {
             "2025_10_29__14_26_35__85.jpg",
             "2025_10_29__14_34_56__33.jpg",
             "2025_10_31__12_13_20__11.jpg",
-            "2025_10_31__12_14_12__27.jpg"
+            "2025_10_31__12_14_12__27.jpg",
+            "2025_10_31__13_08_15__36.jpg",
+            "2025_10_31__13_46_22__03.jpg",
+            "2025_10_31__13_48_40__27.jpg",
+            "2025_10_31__13_52_38__16.jpg",
+            "2025_10_31__13_52_43__51.jpg",
+            "2025_10_31__13_53_40__57.jpg",
+            "2025_10_31__13_56_00__42.jpg",
+            "2025_10_31__13_56_48__6.jpg",
+            "2025_10_31__14_07_50__85.jpg",
+            "2025_10_31__14_10_47__9.jpg",
+            "2025_10_31__14_23_13__54.jpg",
+            "2025_10_31__14_27_25__35.jpg",
+            "2025_10_31__14_35_53__13.jpg",
+            "2025_10_31__14_36_32__17.jpg",
+            "2025_10_31__14_36_58__47.jpg",
+            "2025_10_31__14_39_23__94.jpg"
         ],
         "3": [
             "2025_10_28__13_57_15__56.jpg"
@@ -1119,7 +1407,23 @@ const IMAGE_DATA = {
             "2025_10_29__14_17_35__29.jpg",
             "2025_10_29__14_25_18__43.jpg",
             "2025_10_29__14_26_33__01.jpg",
-            "2025_10_29__14_26_35__85.jpg"
+            "2025_10_29__14_26_35__85.jpg",
+            "2025_10_31__13_08_15__36.jpg",
+            "2025_10_31__13_46_22__03.jpg",
+            "2025_10_31__13_48_40__27.jpg",
+            "2025_10_31__13_52_38__16.jpg",
+            "2025_10_31__13_52_43__51.jpg",
+            "2025_10_31__13_53_40__57.jpg",
+            "2025_10_31__13_56_00__42.jpg",
+            "2025_10_31__13_56_48__6.jpg",
+            "2025_10_31__14_07_50__85.jpg",
+            "2025_10_31__14_10_47__9.jpg",
+            "2025_10_31__14_23_13__54.jpg",
+            "2025_10_31__14_27_25__35.jpg",
+            "2025_10_31__14_35_53__13.jpg",
+            "2025_10_31__14_36_32__17.jpg",
+            "2025_10_31__14_36_58__47.jpg",
+            "2025_10_31__14_39_23__94.jpg"
         ],
         "Natur": [
             "2025_10_29__14_34_56__33.jpg",
