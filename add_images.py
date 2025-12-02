@@ -155,6 +155,8 @@ for image, metadata in IMAGE_STRUCTURED['by_filename'].items():
     org_img = Path(IMAGE_STRUCTURED['directory']) / image
     thumbnail = Path(thumbnails) / image
 
+    if thumbnail.is_file(): continue
+
     # Calculate the thumbnail size
     h = metadata['image_height']
     w = metadata['image_width']
