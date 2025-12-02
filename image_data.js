@@ -153,7 +153,7 @@ const IMAGE_DATA = {
             "aperture": 5.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:23 14:39:57",
-            "file_size": "2.1 MB",
+            "file_size": "2.4 MB",
             "focal": "135.0 mm",
             "image_height": 3330,
             "image_width": 3330,
