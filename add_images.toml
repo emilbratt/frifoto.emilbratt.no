@@ -5,6 +5,7 @@ thumbnail_size = 500
 
 [images]
 '2025_10_28__13_57_15__56.jpg' = { rating = 3, tags = [ 'Allvi', 'Lade Hundepark', ] }
+'2025_10_23__14_31_27__44.jpg' = { tags = [ 'Allvi', 'Lade Hundepark', ] }
 '2025_10_23__14_39_57__13.jpg' = { tags = [ 'Lade Hundepark', ] }
 '2025_10_23__14_46_23__77.jpg' = { tags = [ 'Lade Hundepark', ] }
 '2025_10_23__14_55_24__12.jpg' = { tags = [ 'Lade Hundepark', ] }
