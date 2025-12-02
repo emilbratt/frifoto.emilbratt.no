@@ -161,7 +161,7 @@ for image, metadata in IMAGE_STRUCTURED['by_filename'].items():
     h = metadata['image_height']
     w = metadata['image_width']
     i = 1
-    while ((h > w) * h + (w > h) * w) > DATA['config']['thumbnail_size']: # while the longest side is greater than max length
+    while ((h >= w) * h + (w > h) * w) > DATA['config']['thumbnail_size']: # while the longest side is greater than max length
         h = metadata['image_height'] / i
         w = metadata['image_width'] / i
         i += 1
