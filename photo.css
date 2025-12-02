@@ -24,11 +24,19 @@ a {
     font-weight: bold;
     border: none;
     border-radius: 1.5rem;
+    color: inherit;
 }
-a:hover, a:active {
+button {
+    font-size: inherit;
+    background-color: inherit;
+    border: none;
+    color: inherit;
+}
+a:hover, a:active, button:hover, button:active {
     opacity: 0.8;
     cursor: pointer;
 }
+
 
 #photo-about-container {
     max-width: 80rem;
@@ -56,7 +64,7 @@ a:hover, a:active {
 #photo-about-paragraph {
     padding: 1rem;
     font-size: 1.2rem;
-    max-width: 20rem;
+    max-width: 30rem;
 }
 #photo-about-image {
     padding: 1rem;

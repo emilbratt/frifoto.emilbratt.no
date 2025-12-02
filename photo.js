@@ -8,7 +8,7 @@ Object.freeze(VIEW_MODES);
 const PROFILE_PICTURE = 'img/2025_10_28__13_57_15__56.jpg';
 
 // Globals for image data
-let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES
+let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES, ABOUT
 
 // Helper -> write qid(id).innerHTML instead of document.getElementById(id).innerHTML
 const qid = id => document.getElementById(id);
@@ -19,6 +19,7 @@ function main() {
     BY_RATING = IMAGE_DATA['by_rating'];
     BY_FILENAME = IMAGE_DATA['by_filename'];
     ALL_IMAGES = IMAGE_DATA['all_images'];
+    ABOUT = IMAGE_DATA['about'];
 
     const params = new URLSearchParams(document.location.search);
     const view_mode = params.get('view_mode') || 'photo-navigate';
@@ -59,15 +60,9 @@ function view_mode(id) {
 }
 
 function init_photo_about() {
-    qid('photo-about-header').innerHTML = '<h2>Emil Bratt</h2>';
-    qid('photo-about-footer').innerHTML = `
-        <a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Hovedside</a>
-    `;
-
-    qid('photo-about-paragraph').innerHTML = `
-        Her vil det komme text om meg.
-        Bildet av vårt kjæledyr vil byttes ut med et bilde av meg også. :)
-    `;
+    qid('photo-about-header').innerHTML = ABOUT['name'];
+    qid('photo-about-footer').innerHTML = `<a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Hovedside</a>`;
+    qid('photo-about-paragraph').innerHTML = ABOUT['bio'];
     qid('photo-about-image').src = PROFILE_PICTURE;
     view_mode('photo-about');
 
@@ -194,11 +189,9 @@ function init_photo_lightbox(tag, image) {
     document.addEventListener('keydown', function (event) {
         if (event.key === 'ArrowRight') {
             document.querySelector('.next-btn').click();
-        }
-        else if (event.key === 'ArrowLeft') {
+        } else if (event.key === 'ArrowLeft') {
             document.querySelector('.prev-btn').click();
-        }
-        else if (event.key === 'Escape') {
+        } else if (event.key === 'Escape') {
             document.querySelector('.back-btn').click();
         }
     });
@@ -237,8 +230,7 @@ function init_photo_slideshow(tag) {
             }
             window.history.pushState(null, '', `${window.location.pathname}?view_mode=photo-navigate`);
             init_photo_stream(tag)
-        }
-        else if (event.key === 'f') {
+        } else if (event.key === 'f') {
             if (document.fullscreenElement) {
                 document.exitFullscreen();
             } else {

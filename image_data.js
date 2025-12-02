@@ -2,6 +2,10 @@
 "use strict";
 
 const IMAGE_DATA = {
+    "about": {
+        "name": "<h2>Emil Bratt</h2>",
+        "bio": "<p>Eksfotograf som startet for fullt i 2011 og sluttet under Covid.\nHar vært med på mange spennende oppdrag gjennom min karriere.</p><p>Sport, konsert, event, bryllup, gravid, nyfødt og sist men ikke minst, natur. :)\nHar veldig lyst å starte opp proffesjonelt igjen,\nmen først skal det taes bilder rekreasjonelt. :)</p><p>Jeg utviklet denne nettsiden fordi jeg manglet en plattform å dele bilder på.\nSosiale nettsted har gjennomgått ekstreme forandringer siden jeg var aktiv,\nhvor en av de minst praktiske er at man må har brukerprofil overalt.\nJa, man må ha en brukerprofil for hver minste lille ting.\nDette funker ikke for meg som bare vil dele bilder.\nSå da tok jeg hammern og spikern fatt og snekret sammen denne nettsida.</p><p>Bildene du finner her er tilgjengelige for nedlasting og helt gratis for deg som privatperson.</p><p>Er du kanskje en utvikler og lurer på hva som holder denne nettsida sammen? Her ligger\n<button><a href=\"https://github.com/emilbratt/frifoto.emilbratt.no/\">kildekode!</a></button></p><p></p>"
+    },
     "all_images": [
         "2025_10_23__14_31_27__44.jpg",
         "2025_10_23__14_39_57__13.jpg",

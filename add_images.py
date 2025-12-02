@@ -16,7 +16,10 @@ IMAGE_STRUCTURED = {
     },
     'directory': {
         # path to images
-    }
+    },
+    'about': {
+        # name: string, bio: string
+    },
 }
 # List all images found in the image directory.
 NOT_INCLUDED = []
@@ -35,6 +38,8 @@ DATA = tomllib.load(f)
 f.close()
 
 IMAGE_STRUCTURED['directory'] = DATA['config']['image_directory']
+IMAGE_STRUCTURED['about']['name'] = f'<h2>{DATA['about']['name']}</h2>'
+IMAGE_STRUCTURED['about']['bio'] = ''.join([f'<p>{s}</p>' for s in DATA['about']['bio'].split('\n\n')])
 
 print(f"Before starting, edit {CONFIG_FILE} and make sure the images exists inside {DATA['config']['image_directory']}")
 opt = input('Continue [y/N]: ');
