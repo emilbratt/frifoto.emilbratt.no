@@ -135,7 +135,9 @@ const IMAGE_DATA = {
         "2025_11_06__14_58_28__15.jpg",
         "2025_11_06__14_58_42__28.jpg",
         "2025_11_06__14_59_20__92.jpg",
-        "2025_11_06__15_08_02__39.jpg"
+        "2025_11_06__15_08_02__39.jpg",
+        "2025_11_06__15_08_55__77.jpg",
+        "2025_11_06__15_09_02__41.jpg"
     ],
     "by_filename": {
         "2025_05_26__17_44_37__86.jpg": {
@@ -2214,6 +2216,38 @@ const IMAGE_DATA = {
             "tags": [
                 "Nordbyen Hundepark"
             ]
+        },
+        "2025_11_06__15_08_55__77.jpg": {
+            "ISO": 1600,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:11:06 15:08:55",
+            "file_size": "2.2 MB",
+            "focal": "135.0 mm",
+            "image_height": 3512,
+            "image_width": 5262,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/800",
+            "tags": [
+                "Nordbyen Hundepark"
+            ]
+        },
+        "2025_11_06__15_09_02__41.jpg": {
+            "ISO": 1600,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:11:06 15:09:02",
+            "file_size": "3.0 MB",
+            "focal": "135.0 mm",
+            "image_height": 3868,
+            "image_width": 5794,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/800",
+            "tags": [
+                "Nordbyen Hundepark"
+            ]
         }
     },
     "by_rating": {
@@ -2345,7 +2379,9 @@ const IMAGE_DATA = {
             "2025_11_06__14_58_28__15.jpg",
             "2025_11_06__14_58_42__28.jpg",
             "2025_11_06__14_59_20__92.jpg",
-            "2025_11_06__15_08_02__39.jpg"
+            "2025_11_06__15_08_02__39.jpg",
+            "2025_11_06__15_08_55__77.jpg",
+            "2025_11_06__15_09_02__41.jpg"
         ],
         "3": [
             "2025_10_28__13_57_15__56.jpg"
@@ -2504,7 +2540,9 @@ const IMAGE_DATA = {
             "2025_11_06__14_58_28__15.jpg",
             "2025_11_06__14_58_42__28.jpg",
             "2025_11_06__14_59_20__92.jpg",
-            "2025_11_06__15_08_02__39.jpg"
+            "2025_11_06__15_08_02__39.jpg",
+            "2025_11_06__15_08_55__77.jpg",
+            "2025_11_06__15_09_02__41.jpg"
         ]
     },
     "directory": "img"
