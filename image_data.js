@@ -7,6 +7,9 @@ const IMAGE_DATA = {
         "bio": "<p>Eksfotograf som startet for fullt i 2011 og sluttet under Covid.\nHar vært med på mange spennende oppdrag gjennom min karriere.</p><p>Sport, konsert, event, bryllup, gravid, nyfødt og sist men ikke minst, natur. :)\nHar veldig lyst å starte opp proffesjonelt igjen,\nmen først skal det taes bilder rekreasjonelt. :)</p><p>Jeg utviklet denne nettsiden fordi jeg manglet en plattform å dele bilder på.\nSosiale nettsted har gjennomgått ekstreme forandringer siden jeg var aktiv,\nhvor en av de minst praktiske er at man må har brukerprofil overalt.\nJa, man må ha en brukerprofil for hver minste lille ting.\nDette funker ikke for meg som bare vil dele bilder.\nSå da tok jeg hammern og spikern fatt og snekret sammen denne nettsida.</p><p>Bildene du finner her er tilgjengelige for nedlasting og helt gratis for deg som privatperson.</p><p>Er du kanskje en utvikler og lurer på hva som holder denne nettsida sammen? Her ligger\n<button><a href=\"https://github.com/emilbratt/frifoto.emilbratt.no/\">kildekode!</a></button></p><p></p>"
     },
     "all_images": [
+        "2025_05_26__17_44_37__86.jpg",
+        "2025_05_26__17_44_51__25.jpg",
+        "2025_05_26__17_45_25__57.jpg",
         "2025_10_23__14_31_27__44.jpg",
         "2025_10_23__14_39_57__13.jpg",
         "2025_10_23__14_46_23__77.jpg",
@@ -135,6 +138,54 @@ const IMAGE_DATA = {
         "2025_11_06__15_08_02__39.jpg"
     ],
     "by_filename": {
+        "2025_05_26__17_44_37__86.jpg": {
+            "ISO": 1600,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:05:26 17:44:37",
+            "file_size": "1256 kB",
+            "focal": "135.0 mm",
+            "image_height": 1830,
+            "image_width": 5490,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2000",
+            "tags": [
+                "Allvi"
+            ]
+        },
+        "2025_05_26__17_44_51__25.jpg": {
+            "ISO": 1600,
+            "aperture": 2.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:05:26 17:44:51",
+            "file_size": "2.2 MB",
+            "focal": "135.0 mm",
+            "image_height": 3556,
+            "image_width": 5327,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2000",
+            "tags": [
+                "Allvi"
+            ]
+        },
+        "2025_05_26__17_45_25__57.jpg": {
+            "ISO": 1600,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2025:05:26 17:45:25",
+            "file_size": "2.4 MB",
+            "focal": "135.0 mm",
+            "image_height": 3592,
+            "image_width": 5382,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2000",
+            "tags": [
+                "Allvi"
+            ]
+        },
         "2025_10_23__14_31_27__44.jpg": {
             "ISO": 1600,
             "aperture": 4.0,
@@ -2167,6 +2218,9 @@ const IMAGE_DATA = {
     },
     "by_rating": {
         "-1": [
+            "2025_05_26__17_44_37__86.jpg",
+            "2025_05_26__17_44_51__25.jpg",
+            "2025_05_26__17_45_25__57.jpg",
             "2025_10_23__14_31_27__44.jpg",
             "2025_10_23__14_39_57__13.jpg",
             "2025_10_23__14_46_23__77.jpg",
@@ -2299,6 +2353,9 @@ const IMAGE_DATA = {
     },
     "by_tag": {
         "Allvi": [
+            "2025_05_26__17_44_37__86.jpg",
+            "2025_05_26__17_44_51__25.jpg",
+            "2025_05_26__17_45_25__57.jpg",
             "2025_10_23__14_31_27__44.jpg",
             "2025_10_28__13_57_15__56.jpg",
             "2025_10_28__14_07_09__1.jpg",
