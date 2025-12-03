@@ -4,9 +4,12 @@
 const IMAGE_DATA = {
     "about": {
         "name": "<h2>Emil Bratt</h2>",
-        "bio": "<p>Eksfotograf som startet for fullt i 2011 og sluttet under Covid.\nHar vært med på mange spennende oppdrag gjennom min karriere.</p><p>Sport, konsert, event, bryllup, gravid, nyfødt og sist men ikke minst, natur. :)\nHar veldig lyst å starte opp proffesjonelt igjen,\nmen først skal det taes bilder rekreasjonelt. :)</p><p>Jeg utviklet denne nettsiden fordi jeg manglet en plattform å dele bilder på.\nSosiale nettsted har gjennomgått ekstreme forandringer siden jeg var aktiv,\nhvor en av de minst praktiske er at man må har brukerprofil overalt.\nJa, man må ha en brukerprofil for hver minste lille ting.\nDette funker ikke for meg som bare vil dele bilder.\nSå da tok jeg hammern og spikern fatt og snekret sammen denne nettsida.</p><p>Bildene du finner her er tilgjengelige for nedlasting og helt gratis for deg som privatperson.</p><p>Er du kanskje en utvikler og lurer på hva som holder denne nettsida sammen? Her ligger\n<button><a href=\"https://github.com/emilbratt/frifoto.emilbratt.no/\">kildekode!</a></button></p><p></p>"
+        "bio": "<p>Velkommen!</p><p>Jeg er en eksfotograf som startet for fullt i 2011 og sluttet under Covid.\nHar vært med på mange spennende oppdrag gjennom min karriere.</p><p>Jeg fotograferer alt mulig. Da jeg drev proffesjonelt,\nfotograferte jeg sport, konsert, event, bryllup, gravid, nyfødt og sist men ikke minst, natur.</p><p>Har veldig lyst å starte opp proffesjonelt igjen,\nmen først skal det taes bilder rekreasjonelt. :)\nBildene du finner her er tilgjengelige for nedlasting og helt gratis for deg som privatperson.\nDet vil komme flere bilder etter hvert.</p><p>Tidligere delte jeg alt sammen på facebook og instagram, men det gjør jeg ikke lenger.\nSosiale medier har desverre blitt vanskeligere å bruke for personer uten brukerkonto,\nså jeg tok hammern fatt og snekra sammen denne nettsida.\nEr du kanskje en utvikler selv og lurer på hva som holder denne nettsida sammen? Her ligger\n<button><a href=\"https://github.com/emilbratt/frifoto.emilbratt.no/\">kildekode!</a></button>\n</p>"
     },
     "all_images": [
+        "2024_05_20__19_51_15__09.jpg",
+        "2024_05_30__21_31_13__10.jpg",
+        "2024_05_30__21_37_10__46.jpg",
         "2025_05_26__17_44_37__86.jpg",
         "2025_05_26__17_44_51__25.jpg",
         "2025_05_26__17_45_25__57.jpg",
@@ -140,6 +143,56 @@ const IMAGE_DATA = {
         "2025_11_06__15_09_02__41.jpg"
     ],
     "by_filename": {
+        "2024_05_20__19_51_15__09.jpg": {
+            "ISO": 100,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2024:05:20 19:51:15",
+            "file_size": "2.1 MB",
+            "focal": "135.0 mm",
+            "image_height": 3868,
+            "image_width": 5794,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Manual",
+            "shutter_speed": "1/100",
+            "tags": [
+                "Natur"
+            ]
+        },
+        "2024_05_30__21_31_13__10.jpg": {
+            "ISO": 200,
+            "aperture": 8.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2024:05:30 21:31:13",
+            "file_size": "5.0 MB",
+            "focal": "135.0 mm",
+            "image_height": 3868,
+            "image_width": 5794,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Manual",
+            "shutter_speed": 5,
+            "tags": [
+                "Natur",
+                "Vann"
+            ]
+        },
+        "2024_05_30__21_37_10__46.jpg": {
+            "ISO": 800,
+            "aperture": 3.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2024:05:30 21:37:10",
+            "file_size": "4.8 MB",
+            "focal": "135.0 mm",
+            "image_height": 4871,
+            "image_width": 3763,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Manual",
+            "shutter_speed": 0.4,
+            "tags": [
+                "Natur",
+                "Vann"
+            ]
+        },
         "2025_05_26__17_44_37__86.jpg": {
             "ISO": 1600,
             "aperture": 2.5,
@@ -2252,6 +2305,9 @@ const IMAGE_DATA = {
     },
     "by_rating": {
         "-1": [
+            "2024_05_20__19_51_15__09.jpg",
+            "2024_05_30__21_31_13__10.jpg",
+            "2024_05_30__21_37_10__46.jpg",
             "2025_05_26__17_44_37__86.jpg",
             "2025_05_26__17_44_51__25.jpg",
             "2025_05_26__17_45_25__57.jpg",
@@ -2512,6 +2568,9 @@ const IMAGE_DATA = {
             "2025_11_02__14_05_22__72.jpg"
         ],
         "Natur": [
+            "2024_05_20__19_51_15__09.jpg",
+            "2024_05_30__21_31_13__10.jpg",
+            "2024_05_30__21_37_10__46.jpg",
             "2025_10_29__14_34_56__33.jpg",
             "2025_10_31__12_13_20__11.jpg",
             "2025_10_31__12_14_12__27.jpg",
@@ -2543,6 +2602,10 @@ const IMAGE_DATA = {
             "2025_11_06__15_08_02__39.jpg",
             "2025_11_06__15_08_55__77.jpg",
             "2025_11_06__15_09_02__41.jpg"
+        ],
+        "Vann": [
+            "2024_05_30__21_31_13__10.jpg",
+            "2024_05_30__21_37_10__46.jpg"
         ]
     },
     "directory": "img"
