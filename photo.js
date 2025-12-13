@@ -60,8 +60,8 @@ function view_mode(id) {
 }
 
 function init_photo_about() {
-    qid('photo-about-header').innerHTML = ABOUT['name'];
-    qid('photo-about-footer').innerHTML = `<a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Hovedside</a>`;
+    qid('photo-about-header').innerHTML = `<h2>${ABOUT['name']}</h2>`;
+    qid('photo-about-footer').innerHTML = `<a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Forside</a>`;
     qid('photo-about-paragraph').innerHTML = ABOUT['bio'];
     qid('photo-about-image').src = PROFILE_PICTURE;
     view_mode('photo-about');
@@ -98,7 +98,11 @@ function init_photo_directory_navigate() {
 }
 
 function init_photo_stream(tag) {
-    qid('photo-stream-header').innerHTML = `<h2>${tag}</h2>`;
+    qid('photo-stream-header').innerHTML = `
+    <a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Forside</a>
+    <h1>${tag}</h1>
+    <a href="${window.location.pathname}?view_mode=photo-slideshow&tag=${encodeURIComponent(tag)}" method="get">Lysbilde</a>
+    `;
 
     let html = '';
     if (tag === '') {
@@ -123,10 +127,6 @@ function init_photo_stream(tag) {
         }
     }
     qid('photo-stream-boxes').innerHTML = html;
-    qid('photo-stream-footer').innerHTML = `
-        <a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Hovedside</a>
-        <a href="${window.location.pathname}?view_mode=photo-slideshow&tag=${encodeURIComponent(tag)}" method="get">Lysbilde</a>
-    `;
     view_mode('photo-stream');
 
     document.addEventListener('keydown', function (event) {

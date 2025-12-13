@@ -1,5 +1,5 @@
 body {
-    margin: 0rem;
+    margin: 0;
     background-color: rgb(47, 47, 47);
     color: rgb(201, 209, 236);
     font-size: 1rem;
@@ -37,7 +37,6 @@ a:hover, a:active, button:hover, button:active {
     cursor: pointer;
 }
 
-
 #photo-about-container {
     max-width: 80rem;
     margin-left: auto;
@@ -45,9 +44,7 @@ a:hover, a:active, button:hover, button:active {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(69, 69, 69);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    background-color: rgb(47, 47, 47);
     gap: 1rem;
 }
 #photo-about-header > h2 {
@@ -86,7 +83,7 @@ a:hover, a:active, button:hover, button:active {
     font-size: inherit;
     text-align: center;
     box-sizing: border-box;
-    background-color: rgb(90, 101, 155);
+    background-color: rgb(83, 83, 83);
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -94,7 +91,7 @@ a:hover, a:active, button:hover, button:active {
     max-width: 80rem;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(69, 69, 69);
+    background-color: rgb(47, 47, 47);
 }
 #photo-navigate-boxes {
     padding: 0.9rem 0rem 0.9rem 0rem;
@@ -119,7 +116,6 @@ a:hover, a:active, button:hover, button:active {
 }
 #photo-navigate-header {
     display: flex;
-    margin-top: 1rem;
     justify-content:center;
     gap: 1rem;
     flex-wrap: wrap;
@@ -133,23 +129,52 @@ a:hover, a:active, button:hover, button:active {
     font-size: inherit;
     text-align: center;
     box-sizing: border-box;
-    background-color: rgb(90, 101, 155);
+    background-color: rgb(83, 83, 83);
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
 }
 
+#photo-stream {
+    height: 100dvh;
+}
 #photo-stream-container {
-    /* height: 100dvh; */
-    background-color: rgb(69, 69, 69);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    height: 100dvh;
+    background-color: rgb(47, 47, 47);
     align-content: center;
     max-width: 80rem;
     margin-left: auto;
     margin-right: auto;
+    padding: 0rem;
+}
+#photo-stream-header {
+    /* height: 10%; */
+    /* position: sticky; */
+    box-sizing: border-box;
+    padding: 0rem 1rem 1.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+#photo-stream-header > a {
+    padding: 0.9rem 0rem 0.9rem 0rem;
+    height: 3rem;
+    min-width: 6.5rem;
+    color: inherit;
+    font-size: inherit;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(83, 83, 83);
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
+}
+#photo-stream-header > h1 {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.4rem;
 }
 #photo-stream-boxes {
-    /* height: 80%;
-    overflow: scroll; */
+    box-sizing: border-box;
+    height: 88%;
+    overflow: scroll;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -165,37 +190,11 @@ a:hover, a:active, button:hover, button:active {
     height: 100%;
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
 }
-/* #photo-stream-header {
-    height: 10%;
-} */
-#photo-stream-header > h2 {
-    margin: auto;
-    padding: 1rem;
-    text-align: center;
-}
-#photo-stream-footer {
-    /* height: 10%; */
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    padding: 0.9rem 0rem 0.9rem 0rem;
-}
-#photo-stream-footer > a {
-    padding: 0.9rem 0rem 0.9rem 0rem;
-    height: 3rem;
-    min-width: 6.5rem;
-    color: inherit;
-    font-size: inherit;
-    text-align: center;
-    box-sizing: border-box;
-    background-color: rgb(90, 101, 155);
-    box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
-}
 
 #photo-lightbox-container {
     height: 100dvh;
     position: relative;
+    background-color: rgb(28, 28, 28);
 }
 #photo-lightbox-img {
     margin-top: auto;
@@ -231,7 +230,7 @@ a:hover, a:active, button:hover, button:active {
 }
 #photo-lightbox-img-caption {
     position: sticky;
-    color: inherit;
+    color: rgb(138, 138, 138);
     font-size: inherit;
     text-align: center;
     text-decoration: none;
@@ -241,11 +240,11 @@ a:hover, a:active, button:hover, button:active {
     padding: 0.9rem 0rem 0.9rem 0rem;
     height: 3rem;
     min-width: 6rem;
-    color: inherit;
+    color: rgb(138, 138, 138);
     font-size: inherit;
     text-align: center;
     box-sizing: border-box;
-    background-color: rgb(90, 101, 155);
+    background-color: rgb(40, 40, 40);
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
 }
 
