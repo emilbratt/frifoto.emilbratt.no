@@ -174,7 +174,8 @@ a:hover, a:active, button:hover, button:active {
 #photo-stream-boxes {
     box-sizing: border-box;
     height: 88%;
-    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
