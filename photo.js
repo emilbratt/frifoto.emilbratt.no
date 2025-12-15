@@ -1,14 +1,35 @@
 "use strict";
 
+// Globals
+let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES, ABOUT, CURRENT_VIEW
+const VIEW_MODES = [ 'photo-about', 'photo-navigate', 'photo-lightbox', 'photo-stream', 'photo-slideshow' ];
+Object.freeze(VIEW_MODES);
+
 document.addEventListener("DOMContentLoaded", main);
 document.title = 'Frifoto - EmilBratt';
 
-const VIEW_MODES = [ 'photo-about', 'photo-navigate', 'photo-lightbox', 'photo-stream', 'photo-slideshow' ];
-Object.freeze(VIEW_MODES);
-const PROFILE_PICTURE = 'img/2025_10_28__13_57_15__56.jpg';
+document.addEventListener('keydown', (event) => {
+    switch (CURRENT_VIEW) {
+        case 'photo-about':
+        case 'photo-stream':
+            if (event.key === 'Escape') {
+                document.querySelector('.photo-navigate-btn')?.click();
+            }
+            break;
 
-// Globals for image data
-let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES, ABOUT
+        case 'photo-lightbox':
+            if (event.key === 'ArrowRight') {
+                document.querySelector('.next-btn')?.click();
+            } else if (event.key === 'ArrowLeft') {
+                document.querySelector('.prev-btn')?.click();
+            } else if (event.key === 'Escape') {
+                document.querySelector('.back-btn')?.click();
+            }
+            break;
+    }
+});
+
+const PROFILE_PICTURE = 'img/2025_10_28__13_57_15__56.jpg';
 
 // Helper -> write qid(id).innerHTML instead of document.getElementById(id).innerHTML
 const qid = id => document.getElementById(id);
@@ -50,12 +71,9 @@ function main() {
 }
 
 function view_mode(id) {
+    CURRENT_VIEW = id;
     for (const d of VIEW_MODES) {
-        if (d === id) {
-            qid(id).style.display = 'block';
-        } else {
-            qid(d).style.display = 'none';
-        }
+        qid(d).style.display = d === id ? 'block' : 'none';
     }
 }
 
