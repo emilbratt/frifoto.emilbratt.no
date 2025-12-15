@@ -98,35 +98,35 @@ function init_photo_directory_navigate() {
 }
 
 function init_photo_stream(tag) {
-    qid('photo-stream-header').innerHTML = `
-    <a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Forside</a>
-    <h1>${tag}</h1>
-    <a href="${window.location.pathname}?view_mode=photo-slideshow&tag=${encodeURIComponent(tag)}" method="get">Lysbilde</a>
+    const header = qid('photo-stream-header');
+    header.innerHTML = `
+        <a class="photo-navigate-btn" href="${location.pathname}?view_mode=photo-navigate">Forside</a>
+        <h1>${tag}</h1>
+        <a href="${location.pathname}?view_mode=photo-slideshow&tag=${encodeURIComponent(tag)}">Lysbilde</a>
     `;
 
-    let html = '';
-    if (tag === '') {
-        for (const image of ALL_IMAGES) {
-            html += `
-                <div>
-                    <a href="${window.location.pathname}?view_mode=photo-lightbox&image=${encodeURIComponent(image)}" method="get">
-                        <img src="${IMG_DIR}/thumbnails/${image}" loading="lazy" />
-                    </a>
-                </div>
-            `;
-        }
-    } else {
-        for (const image of BY_TAG[tag]) {
-            html += `
-                <div>
-                    <a href="${window.location.pathname}?view_mode=photo-lightbox&tag=${encodeURIComponent(tag)}&image=${encodeURIComponent(image)}" method="get">
-                        <img src="${IMG_DIR}/thumbnails/${image}" loading="lazy" />
-                    </a>
-                </div>
-            `;
-        }
+    const container = qid('photo-stream-boxes');
+    container.textContent = '';
+
+    const frag = document.createDocumentFragment();
+    const images = tag === '' ? ALL_IMAGES : BY_TAG[tag];
+    const tag_query = tag === '' ? '' : `tag=${encodeURIComponent(tag)}`;
+
+    for (const image of images) {
+        const div = document.createElement('div');
+        const a = document.createElement('a');
+        const img = document.createElement('img');
+
+        a.href = `${location.pathname}?view_mode=photo-lightbox&${tag_query}&image=${encodeURIComponent(image)}`;
+        img.src = `${IMG_DIR}/thumbnails/${image}`;
+        img.loading = 'lazy';
+
+        a.appendChild(img);
+        div.appendChild(a);
+        frag.appendChild(div);
     }
-    qid('photo-stream-boxes').innerHTML = html;
+
+    container.appendChild(frag);
     view_mode('photo-stream');
 
     document.addEventListener('keydown', function (event) {
