@@ -1,7 +1,7 @@
 "use strict";
 
 // Globals
-let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES, ABOUT, CURRENT_VIEW
+let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES, ABOUT, CURRENT_VIEW, IMAGE_INDEX, TAG_INDEX
 const VIEW_MODES = [ 'photo-about', 'photo-navigate', 'photo-lightbox', 'photo-stream', 'photo-slideshow' ];
 Object.freeze(VIEW_MODES);
 
@@ -41,6 +41,18 @@ function main() {
     BY_FILENAME = IMAGE_DATA['by_filename'];
     ALL_IMAGES = IMAGE_DATA['all_images'];
     ABOUT = IMAGE_DATA['about'];
+
+    // TODO: PERFORMANCE 001
+    // If we decide to not reload page on every button click in lightbox view mode, this will increase performance.
+    // // Create indexes for images e.g. map an image (for example 123.jpg) to specific index for fast lookup..
+    // IMAGE_INDEX = Object.create(null);
+    // ALL_IMAGES.forEach((img, i) => IMAGE_INDEX[img] = i);
+    // TAG_INDEX = {};
+    // for (const tag in BY_TAG) {
+    //     TAG_INDEX[tag] = Object.fromEntries(
+    //         BY_TAG[tag].map((img, i) => [img, i])
+    //     );
+    // }
 
     const params = new URLSearchParams(document.location.search);
     const view_mode = params.get('view_mode') || 'photo-navigate';
@@ -156,8 +168,10 @@ function init_photo_stream(tag) {
 
 function init_photo_lightbox(tag, image) {
     let index, next_index, previous_index, metadata, next_image, previous_image, img_number;
-
     if (tag === '') {
+        // TODO: PERFORMANCE 001
+        // If we decide to not reload page on every button click in lightbox view mode, this will increase performance.
+        // index = IMAGE_INDEX[image];
         index = ALL_IMAGES.indexOf(image);
         next_index = index === ALL_IMAGES.length-1 ? 0 : index+1;
         previous_index = index === 0 ? ALL_IMAGES.length-1 : index-1;
@@ -166,6 +180,9 @@ function init_photo_lightbox(tag, image) {
         previous_image = ALL_IMAGES[previous_index];
         img_number = `${index+1}/${ALL_IMAGES.length}`;
     } else {
+        // TODO: PERFORMANCE 001
+        // If we decide to not reload page on every button click in lightbox view mode, this will increase performance.
+        // index = TAG_INDEX[tag][image];
         index = BY_TAG[tag].indexOf(image);
         next_index = index === BY_TAG[tag].length-1 ? 0 : index+1;
         previous_index = index === 0 ? BY_TAG[tag].length-1 : index-1;
