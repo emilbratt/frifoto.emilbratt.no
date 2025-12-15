@@ -206,9 +206,11 @@ function init_photo_lightbox(tag, image) {
         }
     });
 
-    let date = new Date(metadata['capture_time'].replace(/^(\d+):(\d+):(\d+)/, "$1-$2-$3").replace(" ", "T"));
-    let dt = new Date(date);
-    date = dt.toLocaleString("no-NO", { timeZone: "UTC" }).split(',')[0]
+    let date = new Date(metadata['capture_time']
+        .replace(/^(\d+):(\d+):(\d+)/, "$1-$2-$3")
+        .replace(" ", "T"))
+        .toLocaleString("no-NO", { timeZone: "UTC" })
+        .split(',')[0];
     qid('photo-lightbox-img-caption').innerHTML = `
         ${img_number}
         - ${metadata['camera']}
