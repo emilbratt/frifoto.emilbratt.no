@@ -176,6 +176,8 @@ a:hover, a:active, button:hover, button:active {
     height: 88%;
     overflow-y: auto;
     overflow-x: hidden;
+    scrollbar-color: rgb(201, 209, 236) rgb(83, 83, 83);
+    scrollbar-width: thin;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
