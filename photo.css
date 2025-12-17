@@ -260,9 +260,11 @@ a:hover, a:active, button:hover, button:active {
     position: absolute;
     transition: opacity 4s ease;
 }
-.photo-slide-hide {
+.slideshow img {
     opacity: 0;
+    transition: opacity 1.2s ease-in-out;
+    will-change: opacity;
 }
-.photo-slide-show {
+.slideshow img.active {
     opacity: 1;
 }

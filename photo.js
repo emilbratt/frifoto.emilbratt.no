@@ -1,7 +1,8 @@
 "use strict";
 
 // Globals
-let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES, ABOUT, CURRENT_VIEW, IMAGE_INDEX, TAG_INDEX
+let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES, ABOUT, CURRENT_VIEW, IMAGE_INDEX, TAG_INDEX, SLIDE_RANDOM;
+SLIDE_RANDOM = true;
 const VIEW_MODES = [ 'photo-about', 'photo-navigate', 'photo-lightbox', 'photo-stream', 'photo-slideshow' ];
 Object.freeze(VIEW_MODES);
 
@@ -239,31 +240,8 @@ function init_photo_lightbox(tag, image) {
 }
 
 function init_photo_slideshow(tag) {
-    let index = -1;
-    const images = [];
-    function _apply_next_image() {
-        const img_a = qid('photo-slideshow-image-a');
-        const img_b = qid('photo-slideshow-image-b');
-
-        const is_visible = img_a.classList.contains('photo-slide-show');
-        const img_fade_in = is_visible ? img_a : img_b;
-        const img_fade_out  = is_visible ? img_b : img_a;
-
-        index = (index + 1) % images.length;
-        img_fade_out.src = images[index];
-
-        // Start the crossfade
-        img_fade_in.classList.remove('photo-slide-show');
-        img_fade_in.classList.add('photo-slide-hide');
-
-        img_fade_out.classList.add('photo-slide-show');
-        img_fade_out.classList.remove('photo-slide-hide');
-    }
-
-    const is_random = true; // Hardcode slide-show shuffling of images for now..
-    const image_time = 10000;
-    const slide_show_container = qid('photo-slideshow-container');
-
+    view_mode('photo-slideshow');
+    const container = qid('photo-slideshow-container');
     document.addEventListener('keydown', function (event) {
         if (event.key === 'Escape') {
             if (document.fullscreenElement) {
@@ -275,42 +253,60 @@ function init_photo_slideshow(tag) {
             if (document.fullscreenElement) {
                 document.exitFullscreen();
             } else {
-                if (slide_show_container.requestFullscreen) {
-                    slide_show_container.requestFullscreen();
-                } else if (slide_show_container.webkitRequestFullscreen) { // Safari
-                    slide_show_container.webkitRequestFullscreen();
+                if (container.requestFullscreen) {
+                    container.requestFullscreen();
+                } else if (container.webkitRequestFullscreen) { // Safari
+                    container.webkitRequestFullscreen();
                 }
             }
         }
     });
-    slide_show_container.addEventListener('click', () => {
+    container.addEventListener('click', () => {
         if (document.fullscreenElement) {
             document.exitFullscreen();
         } else {
-            if (slide_show_container.requestFullscreen) {
-                slide_show_container.requestFullscreen();
-            } else if (slide_show_container.webkitRequestFullscreen) { // Safari
-                slide_show_container.webkitRequestFullscreen();
+            if (container.requestFullscreen) {
+                container.requestFullscreen();
+            } else if (container.webkitRequestFullscreen) { // Safari
+                container.webkitRequestFullscreen();
             }
         }
     });
 
+    const images = [];
     if (tag === '') {
         for (const image of ALL_IMAGES) { images.push(IMG_DIR + '/' + image); }
     } else {
         for (const image of BY_TAG[tag]) { images.push(IMG_DIR + '/' + image); }
     }
-
-    if (is_random) {
+    if (SLIDE_RANDOM) {
         for (let i = images.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [images[i], images[j]] = [images[j], images[i]];
         }
     }
 
-    _apply_next_image();
-    view_mode('photo-slideshow');
-    setInterval(_apply_next_image, image_time);
+    const fragment = document.createDocumentFragment();
+    for (let i = 0; i < images.length; i++) {
+        const img = new Image();
+        img.src = images[i];
+        if (i === 0) {
+            img.className = 'active';
+        }
+        img.loading = 'lazy';
+        fragment.appendChild(img);
+    }
+    container.appendChild(fragment);
+
+    let index = 0;
+    setInterval(
+        () => {
+            container.children[index].classList.remove('active');
+            index = (index + 1) % container.children.length;
+            container.children[index].classList.add('active');
+        },
+        8000
+    );
 }
 
 function nav_filter_boxes() {
