@@ -200,6 +200,7 @@ a:hover, a:active, button:hover, button:active {
     background-color: rgb(28, 28, 28);
 }
 #photo-lightbox-img {
+    height: calc(100dvh - 6rem);
     margin-top: auto;
     margin-bottom: auto;
     position: sticky;
@@ -211,15 +212,6 @@ a:hover, a:active, button:hover, button:active {
     box-sizing: border-box;
     max-height: 90%;
 }
-@media only screen and (max-height: 55rem) { #photo-lightbox-img { max-height: 87%; } }
-@media only screen and (max-height: 43rem) { #photo-lightbox-img { max-height: 85%; } }
-@media only screen and (max-height: 36rem) { #photo-lightbox-img { max-height: 82%; } }
-@media only screen and (max-height: 31rem) { #photo-lightbox-img { max-height: 78%; } }
-@media only screen and (max-height: 28rem) { #photo-lightbox-img { max-height: 75%; } }
-@media only screen and (max-height: 25rem) { #photo-lightbox-img { max-height: 70%; } }
-@media only screen and (max-height: 20rem) { #photo-lightbox-img { max-height: 65%; } }
-@media only screen and (max-height: 15rem) { #photo-lightbox-img { max-height: 55%; } }
-@media only screen and (max-height: 10rem) { #photo-lightbox-img { max-height: 50%; } }
 #photo-lightbox-container-nav-box {
     position: fixed;
     bottom: 0;
