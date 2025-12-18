@@ -102,7 +102,7 @@ a:hover, a:active, button:hover, button:active {
 }
 #photo-navigate-boxes > div > a > img {
     border-radius: 1.5rem;
-    object-fit: scale-down;
+    object-fit: contain;
     width: 15rem;
     background-color: rgb(173, 173, 173);
     padding: 0.3rem;

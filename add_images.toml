@@ -1,7 +1,7 @@
 [config]
 image_directory = 'img'
 javascript_name = 'image_data.js'
-thumbnail_size = 500
+thumbnail_size = 250
 
 [about]
 name = 'Emil Bratt'
