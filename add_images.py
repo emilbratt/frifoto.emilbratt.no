@@ -150,6 +150,7 @@ with open(DATA['config']['javascript_name'], 'w', encoding='utf-8') as js:
 print(f"Data written to {DATA['config']['javascript_name']}\n")
 
 # CREATE THUMBNAILS
+quality = str(DATA['config']['thumbnail_quality'])
 thumbnails = Path(IMAGE_STRUCTURED['directory']) / 'thumbnails'
 thumbnails.mkdir(parents=True, exist_ok=True)
 total,step = len(IMAGE_STRUCTURED['by_filename'].keys()),0
@@ -176,7 +177,7 @@ for image, metadata in IMAGE_STRUCTURED['by_filename'].items():
     # Runs the shell command, creating the thumbnail.
     try:
         result = subprocess.run(
-            ["magick", org_img, '-resize', f'{w}x{h}', str(thumbnail)],
+            ["magick", org_img, '-resize', f'{w}x{h}', '-format', 'jpeg', '-quality', quality, str(thumbnail)],
             capture_output=True,
             text=True,
             check=True

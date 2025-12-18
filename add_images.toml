@@ -2,6 +2,7 @@
 image_directory = 'img'
 javascript_name = 'image_data.js'
 thumbnail_size = 250
+thumbnail_quality = 30 # jpg quality option
 
 [about]
 name = 'Emil Bratt'
