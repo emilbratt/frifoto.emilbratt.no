@@ -146,6 +146,7 @@ const IMAGE_DATA = {
         "2025_11_06__15_08_02__39.jpg",
         "2025_11_06__15_08_55__77.jpg",
         "2025_11_06__15_09_02__41.jpg",
+        "2026_01_02__22_24_03__74.jpg",
         "2026_01_04__22_01_05__66.jpg"
     ],
     "by_filename": {
@@ -2390,6 +2391,23 @@ const IMAGE_DATA = {
                 "Nordbyen Hundepark"
             ]
         },
+        "2026_01_02__22_24_03__74.jpg": {
+            "ISO": 1600,
+            "aperture": 1.6,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:01:02 22:24:03",
+            "file_size": "729 kB",
+            "focal": "50.0 mm",
+            "image_height": 3140,
+            "image_width": 5024,
+            "lens": "Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF",
+            "shooting_mode": "Manual",
+            "shutter_speed": 1.3,
+            "tags": [
+                "Natur",
+                "Nordlys"
+            ]
+        },
         "2026_01_04__22_01_05__66.jpg": {
             "ISO": 1600,
             "aperture": 2.8,
@@ -2548,6 +2566,7 @@ const IMAGE_DATA = {
             "2025_11_06__15_08_02__39.jpg",
             "2025_11_06__15_08_55__77.jpg",
             "2025_11_06__15_09_02__41.jpg",
+            "2026_01_02__22_24_03__74.jpg",
             "2026_01_04__22_01_05__66.jpg"
         ],
         "3": [
@@ -2692,6 +2711,7 @@ const IMAGE_DATA = {
             "2025_10_31__12_13_20__11.jpg",
             "2025_10_31__12_14_12__27.jpg",
             "2025_11_01__13_09_36__52.jpg",
+            "2026_01_02__22_24_03__74.jpg",
             "2026_01_04__22_01_05__66.jpg"
         ],
         "Nordbyen Hundepark": [
@@ -2722,6 +2742,7 @@ const IMAGE_DATA = {
             "2025_11_06__15_09_02__41.jpg"
         ],
         "Nordlys": [
+            "2026_01_02__22_24_03__74.jpg",
             "2026_01_04__22_01_05__66.jpg"
         ],
         "Vann": [
