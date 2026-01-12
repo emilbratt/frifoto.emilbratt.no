@@ -176,8 +176,17 @@ for image, metadata in IMAGE_STRUCTURED['by_filename'].items():
 
     # Runs the shell command, creating the thumbnail.
     try:
-        result = subprocess.run(
+        # create thumbnail
+        subprocess.run(
             ["magick", org_img, '-resize', f'{w}x{h}', '-format', 'jpeg', '-quality', quality, str(thumbnail)],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+
+        # strip metadata
+        subprocess.run(
+            ["exiftool", str(thumbnail), '-all=', '-overwrite_original', ],
             capture_output=True,
             text=True,
             check=True
