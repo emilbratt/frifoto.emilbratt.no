@@ -7,6 +7,7 @@ const IMAGE_DATA = {
         "bio": "<p>Velkommen!</p><p>Jeg er en eksfotograf som startet for fullt i 2011 og sluttet under Covid.\nHar vært med på mange spennende oppdrag gjennom min karriere.</p><p>Jeg fotograferer alt mulig. Da jeg drev proffesjonelt,\nfotograferte jeg sport, konsert, event, bryllup, gravid, nyfødt og sist men ikke minst, natur.</p><p>Har veldig lyst å starte opp proffesjonelt igjen,\nmen først skal det taes bilder rekreasjonelt. :)\nBildene du finner her er tilgjengelige for nedlasting og helt gratis for deg som privatperson.\nDet vil komme flere bilder etter hvert.</p><p>Tidligere delte jeg alt sammen på facebook og instagram, men det gjør jeg ikke lenger.\nSosiale medier har desverre blitt vanskeligere å bruke for personer uten brukerkonto,\nså jeg tok hammern fatt og snekra sammen denne nettsida.\nEr du kanskje en utvikler selv og lurer på hva som holder denne nettsida sammen? Her ligger\n<button><a href=\"https://github.com/emilbratt/frifoto.emilbratt.no/\">kildekode!</a></button>\n</p>"
     },
     "all_images": [
+        "2020_08_15__18_00_29__38.jpg",
         "2023_02_02__15_42_51__74.jpg",
         "2024_05_20__19_51_15__09.jpg",
         "2024_05_30__21_31_13__10.jpg",
@@ -151,6 +152,23 @@ const IMAGE_DATA = {
         "2026_01_04__22_01_05__66.jpg"
     ],
     "by_filename": {
+        "2020_08_15__18_00_29__38.jpg": {
+            "ISO": 100,
+            "aperture": 5.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2020:08:15 18:00:29",
+            "file_size": "2.9 MB",
+            "focal": "135.0 mm",
+            "image_height": 3575,
+            "image_width": 5720,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Manual",
+            "shutter_speed": "1/125",
+            "tags": [
+                "Natur",
+                "Sommer"
+            ]
+        },
         "2023_02_02__15_42_51__74.jpg": {
             "ISO": 100,
             "aperture": 6.3,
@@ -2447,6 +2465,7 @@ const IMAGE_DATA = {
     },
     "by_rating": {
         "-1": [
+            "2020_08_15__18_00_29__38.jpg",
             "2023_02_02__15_42_51__74.jpg",
             "2024_05_20__19_51_15__09.jpg",
             "2024_05_30__21_31_13__10.jpg",
@@ -2722,6 +2741,7 @@ const IMAGE_DATA = {
             "2025_11_02__14_05_22__72.jpg"
         ],
         "Natur": [
+            "2020_08_15__18_00_29__38.jpg",
             "2023_02_02__15_42_51__74.jpg",
             "2024_05_20__19_51_15__09.jpg",
             "2024_05_30__21_31_13__10.jpg",
@@ -2768,6 +2788,9 @@ const IMAGE_DATA = {
         ],
         "Skumring": [
             "2023_02_02__15_42_51__74.jpg"
+        ],
+        "Sommer": [
+            "2020_08_15__18_00_29__38.jpg"
         ],
         "Vann": [
             "2024_05_30__21_31_13__10.jpg",
