@@ -1,8 +1,9 @@
 "use strict";
 
 // Globals
-let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES, ABOUT, CURRENT_VIEW, IMAGE_INDEX, TAG_INDEX, SLIDE_RANDOM;
+let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES, ABOUT, CURRENT_VIEW, IMAGE_INDEX, TAG_INDEX, SLIDE_RANDOM, NEW_IMAGES, NEW_IMAGES_TAG;
 SLIDE_RANDOM = true;
+NEW_IMAGES_TAG = 'Nye Bilder';
 const VIEW_MODES = [ 'photo-about', 'photo-navigate', 'photo-lightbox', 'photo-stream', 'photo-slideshow' ];
 Object.freeze(VIEW_MODES);
 
@@ -35,6 +36,7 @@ const PROFILE_PICTURE = 'img/2025_10_28__13_57_15__56.jpg';
 // Helper -> write qid(id).innerHTML instead of document.getElementById(id).innerHTML
 const qid = id => document.getElementById(id);
 
+// Beware of saturating the main function with new logic, as it is called on every page load..
 function main() {
     IMG_DIR = IMAGE_DATA['directory'];
     BY_TAG = IMAGE_DATA['by_tag'];
@@ -42,6 +44,17 @@ function main() {
     BY_FILENAME = IMAGE_DATA['by_filename'];
     ALL_IMAGES = IMAGE_DATA['all_images'];
     ABOUT = IMAGE_DATA['about'];
+    NEW_IMAGES = IMAGE_DATA['new_images']
+
+    // // Only load new images on first page load..
+    // if (!sessionStorage.getItem("ongoing")) {
+    //     sessionStorage.setItem("ongoing", "true");
+    //     const new_images = __get_new_images();
+    //     if (new_images.length > 0) {
+    //         // show the images..
+    //         console.log(new_images);
+    //     }
+    // }
 
     // TODO: PERFORMANCE 001
     // If we decide to not reload page on every button click in lightbox view mode, this will increase performance.
@@ -106,6 +119,18 @@ function init_photo_about() {
 
 function init_photo_directory_navigate() {
     let html = '';
+    if (NEW_IMAGES.length > 0) {
+        const random = Math.floor(Math.random() * NEW_IMAGES.length);
+        const img = `${IMG_DIR}/thumbnails/${NEW_IMAGES[random]}`;
+        html += `
+        <div class="filterDiv ${NEW_IMAGES_TAG}">
+            <a href="${window.location.pathname}?view_mode=photo-stream&tag=${encodeURIComponent(NEW_IMAGES_TAG)}" method="get">
+                <img src="${img}" loading="lazy" />
+            </a>
+            <h2>${NEW_IMAGES_TAG}</h2>
+        </div>
+        `;
+    }
     for (const [tag, images] of Object.entries(BY_TAG)) {
         const random = Math.floor(Math.random() * images.length);
         const img = `${IMG_DIR}/thumbnails/${images[random]}`;
@@ -119,10 +144,14 @@ function init_photo_directory_navigate() {
         `;
     }
 
+    // Disable autofocus on mobile (or at least devices with small screens)
+    // ..it is bad UX because the keyboard will pop up and consume half the screen :):).
+    let autofocus = has_small_screen() ? '' : 'autofocus';
+
     qid('photo-navigate-header').innerHTML = `
         <a href="${window.location.pathname}?view_mode=photo-about" method="get">Om Meg</a>
         <a href="${window.location.pathname}?view_mode=photo-stream" method="get">Alle Bilder</a>
-        <input type="text" id="input_nav_filter" onkeyup="nav_filter_boxes()" autofocus placeholder="Filtrer" title="Type in a name">
+        <input type="text" id="input_nav_filter" onkeyup="nav_filter_boxes()" ${autofocus} placeholder="Filtrer" title="Søk på nøkkelord">
     `;
     qid('photo-navigate-boxes').innerHTML = html;
     view_mode('photo-navigate');
@@ -140,7 +169,11 @@ function init_photo_stream(tag) {
     container.textContent = '';
 
     const frag = document.createDocumentFragment();
-    const images = tag === '' ? ALL_IMAGES : BY_TAG[tag];
+    const images
+        = tag ===  '' ? ALL_IMAGES
+        : tag === NEW_IMAGES_TAG ? NEW_IMAGES
+        : BY_TAG[tag];
+
     const tag_query = tag === '' ? '' : `tag=${encodeURIComponent(tag)}`;
 
     for (const image of images) {
@@ -168,31 +201,21 @@ function init_photo_stream(tag) {
 }
 
 function init_photo_lightbox(tag, image) {
-    let index, next_index, previous_index, metadata, next_image, previous_image, img_number;
-    if (tag === '') {
-        // TODO: PERFORMANCE 001
-        // If we decide to not reload page on every button click in lightbox view mode, this will increase performance.
-        // index = IMAGE_INDEX[image];
-        index = ALL_IMAGES.indexOf(image);
-        next_index = index === ALL_IMAGES.length-1 ? 0 : index+1;
-        previous_index = index === 0 ? ALL_IMAGES.length-1 : index-1;
-        metadata = BY_FILENAME[image];
-        next_image = ALL_IMAGES[next_index];
-        previous_image = ALL_IMAGES[previous_index];
-        img_number = `${index+1}/${ALL_IMAGES.length}`;
-    } else {
-        // TODO: PERFORMANCE 001
-        // If we decide to not reload page on every button click in lightbox view mode, this will increase performance.
-        // index = TAG_INDEX[tag][image];
-        index = BY_TAG[tag].indexOf(image);
-        next_index = index === BY_TAG[tag].length-1 ? 0 : index+1;
-        previous_index = index === 0 ? BY_TAG[tag].length-1 : index-1;
-        metadata = BY_FILENAME[image];
-        next_image = BY_TAG[tag][next_index];
-        previous_image = BY_TAG[tag][previous_index];
-        img_number = `${index+1}/${BY_TAG[tag].length}`;
-    }
+    const images
+        = tag === NEW_IMAGES_TAG ? NEW_IMAGES
+        : tag === '' ? ALL_IMAGES
+        : BY_TAG[tag];
 
+    // TODO: PERFORMANCE 001n
+    // If we decide to not reload page on every button click in lightbox view mode, this will increase performance.
+    // index = IMAGE_INDEX[image];
+    const index = images.indexOf(image);
+    const next_index = index === images.length-1 ? 0 : index+1;
+    const previous_index = index === 0 ? images.length-1 : index-1;
+    const metadata = BY_FILENAME[image];
+    const next_image = images[next_index];
+    const previous_image = images[previous_index];
+    const img_number = `${index+1} av ${images.length}`;
     const img = qid('photo-lightbox-img');
     img.src = IMG_DIR + '/' + image;
     img.addEventListener('click', () => {
@@ -213,11 +236,8 @@ function init_photo_lightbox(tag, image) {
         .toLocaleString("no-NO", { timeZone: "UTC" })
         .split(',')[0];
     qid('photo-lightbox-img-caption').innerHTML = `
-        ${img_number}
-        - ${metadata['camera']}
-        - ${metadata['focal']}
-        - ISO ${metadata['ISO']} f${metadata['aperture']} ${metadata['shutter_speed']}s
-        - ${date}
+        Bilde: ${img_number} dato. ${date}<br>
+        ${metadata['camera']} & ${metadata['lens']} - ${metadata['shutter_speed']}s f${metadata['aperture']} ISO ${metadata['ISO']} @ ${metadata['focal']}
     `;
 
     qid('photo-lightbox-container-nav-box-buttons').innerHTML = `
@@ -324,3 +344,54 @@ function nav_filter_boxes() {
         }
     }
 }
+
+// only for use when
+function has_small_screen() {
+    // first, quick dirty check..
+
+    // consider it handhield
+    if (window.innerWidth <= 600) return true;
+    if (window.innerHeight <= 600) return true;
+
+    return false;
+}
+
+// functions not in use for now
+//
+// currently we use has_small_screen as it works for our use case.
+// function __is_handhield() {
+//     const devices = [
+//         /Android/i,
+//         /webOS/i,
+//         /iPhone/i,
+//         /iPad/i,
+//         /iPod/i,
+//         /BlackBerry/i,
+//         /Windows Phone/i
+//     ];
+
+//     return devices.some((toMatchItem) => {
+//         return navigator.userAgent.match(toMatchItem);
+//     });
+// }
+//
+// we have another way of showing new images, might change later though..
+// function __get_new_images() {
+//     // When new images are added, keep track of the new ones and show them in a collection..
+//     // This thing is not implemented yet.
+//     // As of now, we use IMAGE_DATA['new_images'] instead..
+//     let new_images = Array();
+//     const json = localStorage.getItem('all_images');
+//     if (json === null) {
+//         // This will be true if the page has never been loaded before, lets "reset" the local storage
+//         // ..just to make sure..
+//         localStorage.clear();
+//         // first load, ever.. we do not anounce new images
+//     } else {
+//         // alright, time to anounce new images if there are any..
+//         const current_images = JSON.parse(json);
+//         new_images = ALL_IMAGES.filter(x => !new Set(current_images).has(x));
+//     }
+//     localStorage.setItem('all_images', JSON.stringify(ALL_IMAGES));
+//     return new_images;
+// }

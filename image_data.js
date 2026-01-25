@@ -2843,6 +2843,7 @@ const IMAGE_DATA = {
             "2023_02_02__15_42_51__74.jpg"
         ]
     },
-    "directory": "img"
+    "directory": "img",
+    "new_images": []
 }
 Object.freeze(IMAGE_DATA);
