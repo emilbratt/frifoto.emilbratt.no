@@ -1,6 +1,6 @@
 [config]
 image_directory = 'img'
-javascript_name = 'image_data.js'
+javascript_name = 'datamodel.js'
 thumbnail_size = 400 # longest side will never exceede 400 pixels..
 thumbnail_quality = 60 # jpg quality option
 

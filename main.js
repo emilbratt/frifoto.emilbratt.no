@@ -38,13 +38,13 @@ const qid = id => document.getElementById(id);
 
 // Beware of saturating the main function with new logic, as it is called on every page load..
 function main() {
-    IMG_DIR = IMAGE_DATA['directory'];
-    BY_TAG = IMAGE_DATA['by_tag'];
-    BY_RATING = IMAGE_DATA['by_rating'];
-    BY_FILENAME = IMAGE_DATA['by_filename'];
-    ALL_IMAGES = IMAGE_DATA['all_images'];
-    ABOUT = IMAGE_DATA['about'];
-    NEW_IMAGES = IMAGE_DATA['new_images']
+    IMG_DIR = DATA_MODEL['directory'];
+    BY_TAG = DATA_MODEL['by_tag'];
+    BY_RATING = DATA_MODEL['by_rating'];
+    BY_FILENAME = DATA_MODEL['by_filename'];
+    ALL_IMAGES = DATA_MODEL['all_images'];
+    ABOUT = DATA_MODEL['about'];
+    NEW_IMAGES = DATA_MODEL['new_images']
 
     // // Only load new images on first page load..
     // if (!sessionStorage.getItem("ongoing")) {
@@ -379,7 +379,7 @@ function has_small_screen() {
 // function __get_new_images() {
 //     // When new images are added, keep track of the new ones and show them in a collection..
 //     // This thing is not implemented yet.
-//     // As of now, we use IMAGE_DATA['new_images'] instead..
+//     // As of now, we use DATA_MODEL['new_images'] instead..
 //     let new_images = Array();
 //     const json = localStorage.getItem('all_images');
 //     if (json === null) {
