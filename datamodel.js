@@ -2629,7 +2629,7 @@ const DATAMODEL = {
             "focal": "35.0 mm",
             "image_height": 3868,
             "image_width": 5794,
-            "lens": "Sigma 35mm f/1.4 DG HSM or Sigma 35mm f/1.5 FF High-Speed Prime | 017",
+            "lens": "Sigma 35mm f/1.4 DG HSM",
             "shooting_mode": "Manual",
             "shutter_speed": 2,
             "tags": [
