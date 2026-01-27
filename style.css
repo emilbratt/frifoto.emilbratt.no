@@ -101,7 +101,7 @@ a:hover, a:active, button:hover, button:active {
     gap: 1rem;
 }
 #photo-navigate-boxes > div > a > img {
-    border-radius: 1.5rem;
+    border-radius: 5rem;
     object-fit: contain;
     width: 15rem;
     background-color: rgb(173, 173, 173);
@@ -220,7 +220,10 @@ a:hover, a:active, button:hover, button:active {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     box-sizing: border-box;
-    max-height: 90%;
+    max-height: 92%;
+}
+@media only screen and (max-width: 55rem) {
+    #photo-lightbox-img { max-height: 83%; }
 }
 #photo-lightbox-container-nav-box {
     position: fixed;
