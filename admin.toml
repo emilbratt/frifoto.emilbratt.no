@@ -3,6 +3,7 @@ image_directory = 'img'
 javascript_name = 'datamodel.js'
 thumbnail_size = 400 # longest side will never exceede 400 pixels..
 thumbnail_quality = 60 # jpg quality option
+new_images_timeframe = 604800 # = 60*60*24*7 = one week in seconds (unix epoch time)
 
 [about]
 name = 'Emil Bratt'
@@ -169,7 +170,7 @@ Er du kanskje en utvikler selv og lurer på hva som holder denne nettsida sammen
 '2025_11_06__15_08_02__39.jpg' = { tags = [ 'Nordbyen Hundepark', ] }
 '2025_11_06__15_08_55__77.jpg' = { tags = [ 'Nordbyen Hundepark', ] }
 '2025_11_06__15_09_02__41.jpg' = { tags = [ 'Nordbyen Hundepark', ] }
-'2026_01_04__22_01_05__66.jpg' = { tags = [ 'Natur', 'Nordlys', ] }
-'2026_01_02__22_24_03__74.jpg' = { tags = [ 'Natur', 'Nordlys', ] }
+'2026_01_04__22_01_05__66.jpg' = { tags = [ 'Natur', 'Nordlys', 'Natt', ] }
+'2026_01_02__22_24_03__74.jpg' = { tags = [ 'Natur', 'Nordlys', 'Natt', ] }
 '2026_01_20__15_07_52__62.jpg' = { tags = [ 'Allvi', 'Nordbyen Hundepark', ] }
 '2026_01_20__15_25_26__37.jpg' = { tags = [ 'Allvi', 'Nordbyen Hundepark', ] }

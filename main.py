@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # After processing, this will hold all the structured information we need
-IMAGE_STRUCTURED = {
+DATAMODEL = {
     'all_images': [
         # [img0, img1,.. ]
     ],
@@ -30,10 +30,21 @@ IMAGE_STRUCTURED = {
     'about': {
         # name: string, bio: string
     },
+
+    # Save timestamp for when the JS data was last generated/updated.
+    # Sometimes it is good to know how long since last update has taken place,
+    # for example, if you want to omit displaying "new added images" after a week etc..
+    'updated': None # unix epoch,
 }
 # List all images found in the image directory.
 NOT_INCLUDED = []
 CONFIG_FILE = 'admin.toml'
+
+# Some exif metadata is incorrect, fix by having it map to the correct data..
+EXIF_FIX = {
+    # 'wrong value': correct value',..
+    'Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF': 'Sigma 50mm f/1.4 DG HSM',
+}
 
 import tomllib
 from pathlib import Path
@@ -42,14 +53,15 @@ import json
 import os
 import subprocess
 import sys
+import time
 
 f = open(CONFIG_FILE, "rb")
 DATA = tomllib.load(f)
 f.close()
 
-IMAGE_STRUCTURED['directory'] = DATA['config']['image_directory']
-IMAGE_STRUCTURED['about']['name'] = f'{DATA['about']['name']}'
-IMAGE_STRUCTURED['about']['bio'] = ''.join([f'<p>{s}</p>' for s in DATA['about']['bio'].split('\n\n')])
+DATAMODEL['directory'] = DATA['config']['image_directory']
+DATAMODEL['about']['name'] = f'{DATA['about']['name']}'
+DATAMODEL['about']['bio'] = ''.join([f'<p>{s}</p>' for s in DATA['about']['bio'].split('\n\n')])
 
 print(f"Before starting, edit {CONFIG_FILE} and make sure the images exists inside {DATA['config']['image_directory']}")
 opt = input('Continue [y/N]: ');
@@ -70,7 +82,7 @@ def validate_all_images_exists(images):
 def get_exif(rawe, key_list):
     for key in key_list:
         if key in rawe:
-            return rawe[key]
+            return EXIF_FIX.get(rawe[key], rawe[key])
     return None
 
 images = [f for f in Path(DATA['config']['image_directory']).iterdir() if f.is_file()]
@@ -118,36 +130,36 @@ for f in images:
         if data == None:
             sys.exit(f"ERRIR: EXIF field '{alias}' not found for image: {f.name}")
 
-    IMAGE_STRUCTURED['all_images'].append(f.name)
+    DATAMODEL['all_images'].append(f.name)
 
-    IMAGE_STRUCTURED['by_filename'][f.name] = {}
+    DATAMODEL['by_filename'][f.name] = {}
     DATA['images'][f.name]['tags'].sort()
 
-    IMAGE_STRUCTURED['by_filename'][f.name]['tags'] = DATA['images'][f.name]['tags']
+    DATAMODEL['by_filename'][f.name]['tags'] = DATA['images'][f.name]['tags']
 
     for k,metadata in exif.items():
-        IMAGE_STRUCTURED['by_filename'][f.name][k] = metadata
+        DATAMODEL['by_filename'][f.name][k] = metadata
 
     rating = DATA['images'][f.name].get('rating', -1) # '-1' just means that rating is not specified..
-    if rating not in IMAGE_STRUCTURED['by_rating']:
-        IMAGE_STRUCTURED['by_rating'][rating] = []
-    IMAGE_STRUCTURED['by_rating'][rating].append(f.name)
+    if rating not in DATAMODEL['by_rating']:
+        DATAMODEL['by_rating'][rating] = []
+    DATAMODEL['by_rating'][rating].append(f.name)
 
     for tag in DATA['images'][f.name]['tags']:
-        if tag not in IMAGE_STRUCTURED['by_tag']:
-            IMAGE_STRUCTURED['by_tag'][tag] = []
-        IMAGE_STRUCTURED['by_tag'][tag].append(f.name)
+        if tag not in DATAMODEL['by_tag']:
+            DATAMODEL['by_tag'][tag] = []
+        DATAMODEL['by_tag'][tag].append(f.name)
 
 # CREATE THUMBNAILS
 quality = str(DATA['config']['thumbnail_quality'])
-thumbnails = Path(IMAGE_STRUCTURED['directory']) / 'thumbnails'
+thumbnails = Path(DATAMODEL['directory']) / 'thumbnails'
 thumbnails.mkdir(parents=True, exist_ok=True)
-total,step = len(IMAGE_STRUCTURED['by_filename'].keys()),0
-for image, metadata in IMAGE_STRUCTURED['by_filename'].items():
+total,step = len(DATAMODEL['by_filename'].keys()),0
+for image, metadata in DATAMODEL['by_filename'].items():
     step += 1
     progress = int(step / total * 100)
     print(f'[{progress}%]\tCreating thumbnail for {image}')
-    org_img = Path(IMAGE_STRUCTURED['directory']) / image
+    org_img = Path(DATAMODEL['directory']) / image
     thumbnail = Path(thumbnails) / image
 
     if thumbnail.is_file(): continue
@@ -180,37 +192,39 @@ for image, metadata in IMAGE_STRUCTURED['by_filename'].items():
             text=True,
             check=True
         )
-        IMAGE_STRUCTURED['new_images'].append(image)
+        DATAMODEL['new_images'].append(image)
     except:
         sys.exit(f'failed to create thumbnail for {image}')
 
 
-print(f"Thumbnails created in {IMAGE_STRUCTURED['directory']}/{thumbnails.name}\n")
+print(f"Thumbnails created in {DATAMODEL['directory']}/{thumbnails.name}\n")
 
 # Sort all image data before JSON-ifying it, to keep data consistant. (very usefull when doing diffs between commits)
-IMAGE_STRUCTURED = dict(sorted(IMAGE_STRUCTURED.items()))
-IMAGE_STRUCTURED['all_images'].sort()
-IMAGE_STRUCTURED['new_images'].sort()
+DATAMODEL = dict(sorted(DATAMODEL.items()))
+DATAMODEL['all_images'].sort()
+DATAMODEL['new_images'].sort()
 
-IMAGE_STRUCTURED['by_filename'] = dict(sorted(IMAGE_STRUCTURED['by_filename'].items()))
-for k,v in IMAGE_STRUCTURED['by_filename'].items():
-    IMAGE_STRUCTURED['by_filename'][k] = dict(sorted(v.items()))
+DATAMODEL['by_filename'] = dict(sorted(DATAMODEL['by_filename'].items()))
+for k,v in DATAMODEL['by_filename'].items():
+    DATAMODEL['by_filename'][k] = dict(sorted(v.items()))
 
-IMAGE_STRUCTURED['by_rating'] = dict(sorted(IMAGE_STRUCTURED['by_rating'].items()))
-for k,v in IMAGE_STRUCTURED['by_rating'].items():
-    IMAGE_STRUCTURED['by_rating'][k].sort()
+DATAMODEL['by_rating'] = dict(sorted(DATAMODEL['by_rating'].items()))
+for k,v in DATAMODEL['by_rating'].items():
+    DATAMODEL['by_rating'][k].sort()
 
-IMAGE_STRUCTURED['by_tag'] = dict(sorted(IMAGE_STRUCTURED['by_tag'].items()))
-for k,v in IMAGE_STRUCTURED['by_tag'].items():
-    IMAGE_STRUCTURED['by_tag'][k].sort()
+DATAMODEL['by_tag'] = dict(sorted(DATAMODEL['by_tag'].items()))
+for k,v in DATAMODEL['by_tag'].items():
+    DATAMODEL['by_tag'][k].sort()
+
+DATAMODEL['updated'] = int(time.time())
 
 # Write final javascript JSON object file..
-json_data = json.dumps(IMAGE_STRUCTURED, indent=4, ensure_ascii=False)
+json_data = json.dumps(DATAMODEL, indent=4, ensure_ascii=False)
 with open(DATA['config']['javascript_name'], 'w', encoding='utf-8') as js:
     js.write(f'//THIS FILE IS GENERATED BY "{os.path.basename(__file__)}"\n')
     js.write('"use strict";\n\n')
-    js.write(f'const DATA_MODEL = {json_data}\n')
-    js.write('Object.freeze(DATA_MODEL);\n')
+    js.write(f'const DATAMODEL = {json_data}\n')
+    js.write('Object.freeze(DATAMODEL);\n')
 print(f"Data written to {DATA['config']['javascript_name']}\n")
 
 # Show images not included.
