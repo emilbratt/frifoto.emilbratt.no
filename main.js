@@ -185,14 +185,13 @@ function init_photo_stream(tag) {
         : tag === NEW_IMAGES_TAG ? NEW_IMAGES
         : BY_TAG[tag];
 
-    const tag_query = tag === '' ? '' : `tag=${encodeURIComponent(tag)}`;
-
+    const tag_query = tag === '' ? '' : `&tag=${encodeURIComponent(tag)}`;
     for (const image of images) {
         const div = document.createElement('div');
         const a = document.createElement('a');
         const img = document.createElement('img');
 
-        a.href = `${location.pathname}?view_mode=photo-lightbox&${tag_query}&image=${encodeURIComponent(image)}`;
+        a.href = `${location.pathname}?view_mode=photo-lightbox${tag_query}&image=${encodeURIComponent(image)}`;
         img.src = `${IMG_DIR}/thumbnails/${image}`;
         img.loading = 'lazy';
 
@@ -250,12 +249,12 @@ function init_photo_lightbox(tag, image) {
         Bilde: ${img_number} dato. ${date}<br>
         ${metadata['camera']} & ${metadata['lens']} - ${metadata['shutter_speed']}s f${metadata['aperture']} ISO ${metadata['ISO']} @ ${metadata['focal']}
     `;
-
+    const tag_query = tag === '' ? '' : `&tag=${encodeURIComponent(tag)}`;
     qid('photo-lightbox-container-nav-box-buttons').innerHTML = `
-        <a class="back-btn" href="${window.location.pathname}?view_mode=photo-stream&tag=${encodeURIComponent(tag)}" method="get">Tilbake</a>
+        <a class="back-btn" href="${window.location.pathname}?view_mode=photo-stream${tag_query}" method="get">Tilbake</a>
         <a href="${img.src}" download="${image}" type="image/jpg" method="get">Last Ned</a>
-        <a class="prev-btn" href="${window.location.pathname}?view_mode=photo-lightbox&tag=${encodeURIComponent(tag)}&image=${encodeURIComponent(previous_image)}" method="get">Forrige</a>
-        <a class="next-btn" href="${window.location.pathname}?view_mode=photo-lightbox&tag=${encodeURIComponent(tag)}&image=${encodeURIComponent(next_image)}" method="get">Neste</a>
+        <a class="prev-btn" href="${window.location.pathname}?view_mode=photo-lightbox${tag_query}&image=${encodeURIComponent(previous_image)}" method="get">Forrige</a>
+        <a class="next-btn" href="${window.location.pathname}?view_mode=photo-lightbox${tag_query}&image=${encodeURIComponent(next_image)}" method="get">Neste</a>
     `;
     view_mode('photo-lightbox');
 
