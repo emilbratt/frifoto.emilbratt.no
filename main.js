@@ -44,7 +44,18 @@ function main() {
     BY_FILENAME = DATAMODEL['by_filename'];
     ALL_IMAGES = DATAMODEL['all_images'];
     ABOUT = DATAMODEL['about'];
-    NEW_IMAGES = DATAMODEL['new_images']
+
+    let new_images_at = DATAMODEL['new_images_at'];
+    let timeframe = DATAMODEL['new_images_timeframe'];
+    const now = parseInt( Date.now()/1000, 10 );  // Unix timestamp in seconds
+    // Should we show new images?
+    if (now - new_images_at < timeframe) {
+        // YES, show new images..
+        NEW_IMAGES = DATAMODEL['new_images']
+    } else {
+        // NO, do not show new images..
+        NEW_IMAGES = [];
+    }
 
     // // Only load new images on first page load..
     // if (!sessionStorage.getItem("ongoing")) {

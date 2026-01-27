@@ -31,14 +31,15 @@ DATAMODEL = {
         # name: string, bio: string
     },
 
-    # Save timestamp for when the JS data was last generated/updated.
-    # Sometimes it is good to know how long since last update has taken place,
-    # for example, if you want to omit displaying "new added images" after a week etc..
-    'updated': None # unix epoch,
+    # Save timestamp for when new images was last added.
+    # Is used when for example, if you want to omit displaying "new added images" after a week etc..
+    'new_images_at': 0,
+    'new_images_timeframe': None,
 }
 # List all images found in the image directory.
 NOT_INCLUDED = []
 CONFIG_FILE = 'admin.toml'
+NEW_IMAGES_ADDED = False
 
 # Some exif metadata is incorrect, fix by having it map to the correct data..
 EXIF_FIX = {
@@ -62,6 +63,7 @@ f.close()
 DATAMODEL['directory'] = DATA['config']['image_directory']
 DATAMODEL['about']['name'] = f'{DATA['about']['name']}'
 DATAMODEL['about']['bio'] = ''.join([f'<p>{s}</p>' for s in DATA['about']['bio'].split('\n\n')])
+DATAMODEL['new_images_timeframe'] = int(DATA['config']['new_images_timeframe'])
 
 print(f"Before starting, edit {CONFIG_FILE} and make sure the images exists inside {DATA['config']['image_directory']}")
 opt = input('Continue [y/N]: ');
@@ -158,22 +160,22 @@ total,step = len(DATAMODEL['by_filename'].keys()),0
 for image, metadata in DATAMODEL['by_filename'].items():
     step += 1
     progress = int(step / total * 100)
-    print(f'[{progress}%]\tCreating thumbnail for {image}')
     org_img = Path(DATAMODEL['directory']) / image
     thumbnail = Path(thumbnails) / image
-
     if thumbnail.is_file(): continue
+    print(f'[{progress}%]\tCreating thumbnail for {image}')
+    NEW_IMAGES_ADDED = True
 
     # Calculate the thumbnail size
     h = metadata['image_height']
     w = metadata['image_width']
     i = 1
-    while ((h >= w) * h + (w > h) * w) > DATA['config']['thumbnail_size']: # while the longest side is greater than max length
+    while ((h >= w) * h + (w > h) * w) > DATA['config']['thumbnail_size']: # while the longest side is greater than thumbnail_size in admin.toml
         h = metadata['image_height'] / i
         w = metadata['image_width'] / i
         i += 1
         if i > 50:
-            sys.exit(f'i is {i}, too many iterations.. How big exactly is {image} really?')
+            sys.exit(f'Error: resize failed, i is {i}, too many iterations, how big exactly is {image} really?')
 
     # Runs the shell command, creating the thumbnail.
     try:
@@ -216,7 +218,8 @@ DATAMODEL['by_tag'] = dict(sorted(DATAMODEL['by_tag'].items()))
 for k,v in DATAMODEL['by_tag'].items():
     DATAMODEL['by_tag'][k].sort()
 
-DATAMODEL['updated'] = int(time.time())
+if NEW_IMAGES_ADDED:
+    DATAMODEL['new_images_at'] = int(time.time())
 
 # Write final javascript JSON object file..
 json_data = json.dumps(DATAMODEL, indent=4, ensure_ascii=False)
