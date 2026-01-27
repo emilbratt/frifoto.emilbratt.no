@@ -2465,7 +2465,7 @@ const DATAMODEL = {
             "focal": "20.0 mm",
             "image_height": 3849,
             "image_width": 5388,
-            "lens": "Sigma 20mm f/1.4 DG HSM | A",
+            "lens": "Sigma 20mm f/1.4 DG HSM",
             "shooting_mode": "Manual",
             "shutter_speed": 1.3,
             "tags": [

@@ -46,6 +46,7 @@ EXIF_FIX = {
     # 'wrong value': correct value',..
     'Sigma 50mm f/1.4 DG HSM | A or Zeiss Milvus 50mm f/1.4 or Sigma 50mm f/1.5 FF High-Speed Prime | 017 or Tokina Opera 50mm f/1.4 FF': 'Sigma 50mm f/1.4 DG HSM',
     'Sigma 35mm f/1.4 DG HSM or Sigma 35mm f/1.5 FF High-Speed Prime | 017': 'Sigma 35mm f/1.4 DG HSM',
+    'Sigma 20mm f/1.4 DG HSM | A': 'Sigma 20mm f/1.4 DG HSM'
 }
 
 import tomllib
