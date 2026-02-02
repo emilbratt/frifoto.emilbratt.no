@@ -162,9 +162,192 @@ const DATAMODEL = {
         "2026_01_25__22_49_52__88.jpg",
         "2026_01_27__23_09_39__41.jpg"
     ],
+    "by_added": {
+        "1764374400": [
+            "2025_10_23__14_46_23__77.jpg",
+            "2025_10_23__14_55_24__12.jpg",
+            "2025_10_23__14_58_44__79.jpg",
+            "2025_10_23__15_07_05__43.jpg",
+            "2025_10_23__15_17_47__46.jpg",
+            "2025_10_23__15_26_43__11.jpg",
+            "2025_10_28__14_07_09__1.jpg",
+            "2025_10_28__14_19_24__99.jpg",
+            "2025_10_28__14_22_47__12.jpg",
+            "2025_10_28__14_23_30__11.jpg",
+            "2025_10_28__14_33_04__63.jpg",
+            "2025_10_28__14_33_45__91.jpg",
+            "2025_10_28__14_34_12__56.jpg",
+            "2025_10_28__14_34_30__8.jpg"
+        ],
+        "1764460800": [
+            "2025_10_28__13_57_15__56.jpg",
+            "2025_10_28__14_37_30__55.jpg",
+            "2025_10_28__14_39_04__72.jpg",
+            "2025_10_28__14_41_14__09.jpg",
+            "2025_10_28__14_42_18__53.jpg",
+            "2025_10_28__14_45_04__66.jpg",
+            "2025_10_28__14_48_47__99.jpg",
+            "2025_10_29__13_13_27__55.jpg",
+            "2025_10_29__13_14_09__15.jpg",
+            "2025_10_29__13_14_47__73.jpg",
+            "2025_10_29__13_14_53__63.jpg",
+            "2025_10_29__13_14_55__28.jpg",
+            "2025_10_29__13_14_55__9.jpg",
+            "2025_10_29__13_17_23__98.jpg",
+            "2025_10_29__13_17_26__32.jpg",
+            "2025_10_29__13_20_28__34.jpg"
+        ],
+        "1764547200": [
+            "2025_10_29__13_20_35__57.jpg",
+            "2025_10_29__13_21_03__82.jpg",
+            "2025_10_29__13_27_48__74.jpg",
+            "2025_10_29__13_27_54__27.jpg",
+            "2025_10_29__13_31_48__07.jpg",
+            "2025_10_29__13_34_02__16.jpg",
+            "2025_10_29__13_35_18__2.jpg",
+            "2025_10_29__13_37_02__56.jpg",
+            "2025_10_29__13_42_48__77.jpg",
+            "2025_10_29__13_45_27__39.jpg",
+            "2025_10_29__13_45_27__75.jpg",
+            "2025_10_29__13_45_28__56.jpg",
+            "2025_10_29__13_47_10__72.jpg",
+            "2025_10_29__13_47_55__89.jpg",
+            "2025_10_29__13_49_28__92.jpg",
+            "2025_10_29__13_56_37__2.jpg",
+            "2025_10_29__14_03_42__67.jpg",
+            "2025_10_29__14_07_58__19.jpg",
+            "2025_10_29__14_08_51__62.jpg",
+            "2025_10_29__14_17_35__29.jpg",
+            "2025_10_29__14_25_18__43.jpg",
+            "2025_10_29__14_26_33__01.jpg",
+            "2025_10_29__14_26_35__85.jpg",
+            "2025_10_29__14_34_56__33.jpg",
+            "2025_10_31__12_13_20__11.jpg",
+            "2025_10_31__12_14_12__27.jpg",
+            "2025_10_31__13_08_15__36.jpg",
+            "2025_10_31__13_46_22__03.jpg",
+            "2025_10_31__13_48_40__27.jpg",
+            "2025_10_31__13_52_38__16.jpg",
+            "2025_10_31__13_52_43__51.jpg",
+            "2025_10_31__13_53_40__57.jpg",
+            "2025_10_31__13_56_00__42.jpg",
+            "2025_10_31__13_56_48__6.jpg",
+            "2025_10_31__14_07_50__85.jpg",
+            "2025_10_31__14_10_47__9.jpg",
+            "2025_10_31__14_23_13__54.jpg",
+            "2025_10_31__14_27_25__35.jpg",
+            "2025_10_31__14_35_53__13.jpg",
+            "2025_10_31__14_36_32__17.jpg",
+            "2025_10_31__14_36_58__47.jpg",
+            "2025_10_31__14_39_23__94.jpg",
+            "2025_11_01__12_45_35__09.jpg",
+            "2025_11_01__12_46_37__84.jpg",
+            "2025_11_01__13_01_12__45.jpg",
+            "2025_11_01__13_09_36__52.jpg"
+        ],
+        "1764633600": [
+            "2025_10_23__14_31_27__44.jpg",
+            "2025_10_23__14_39_57__13.jpg",
+            "2025_11_02__13_12_00__68.jpg",
+            "2025_11_02__13_15_18__72.jpg",
+            "2025_11_02__13_15_49__5.jpg",
+            "2025_11_02__13_16_01__35.jpg",
+            "2025_11_02__13_16_01__86.jpg",
+            "2025_11_02__13_19_05__75.jpg",
+            "2025_11_02__13_19_08__45.jpg",
+            "2025_11_02__13_19_13__97.jpg",
+            "2025_11_02__13_19_45__05.jpg",
+            "2025_11_02__13_24_03__63.jpg",
+            "2025_11_02__13_24_25__54.jpg",
+            "2025_11_02__13_25_05__9.jpg",
+            "2025_11_02__13_26_14__88.jpg",
+            "2025_11_02__13_31_15__06.jpg",
+            "2025_11_02__13_34_36__6.jpg",
+            "2025_11_02__13_34_46__77.jpg",
+            "2025_11_02__13_36_00__58.jpg",
+            "2025_11_02__13_46_45__79.jpg",
+            "2025_11_02__13_54_04__11.jpg",
+            "2025_11_02__13_54_54__27.jpg",
+            "2025_11_02__13_59_56__24.jpg",
+            "2025_11_02__14_00_55__63.jpg",
+            "2025_11_02__14_03_45__12.jpg",
+            "2025_11_02__14_04_17__47.jpg",
+            "2025_11_02__14_05_22__72.jpg",
+            "2025_11_03__12_55_47__32.jpg",
+            "2025_11_03__12_56_51__5.jpg",
+            "2025_11_03__12_57_06__24.jpg",
+            "2025_11_03__13_03_51__47.jpg",
+            "2025_11_03__13_05_15__36.jpg",
+            "2025_11_03__13_31_40__15.jpg",
+            "2025_11_03__13_40_20__62.jpg",
+            "2025_11_03__13_42_06__16.jpg",
+            "2025_11_03__13_42_41__23.jpg",
+            "2025_11_03__13_42_59__87.jpg",
+            "2025_11_03__13_43_33__49.jpg",
+            "2025_11_03__13_51_01__93.jpg",
+            "2025_11_06__14_47_37__21.jpg",
+            "2025_11_06__14_50_19__97.jpg",
+            "2025_11_06__14_55_48__1.jpg",
+            "2025_11_06__14_55_50__64.jpg",
+            "2025_11_06__14_56_17__69.jpg",
+            "2025_11_06__14_56_24__71.jpg",
+            "2025_11_06__14_58_24__73.jpg",
+            "2025_11_06__14_58_28__15.jpg",
+            "2025_11_06__14_58_42__28.jpg",
+            "2025_11_06__14_59_20__92.jpg",
+            "2025_11_06__15_08_02__39.jpg"
+        ],
+        "1764720000": [
+            "2024_05_20__19_51_15__09.jpg",
+            "2024_05_30__21_37_10__46.jpg",
+            "2025_05_26__17_44_37__86.jpg",
+            "2025_05_26__17_44_51__25.jpg",
+            "2025_05_26__17_45_25__57.jpg",
+            "2025_11_06__15_08_55__77.jpg",
+            "2025_11_06__15_09_02__41.jpg"
+        ],
+        "1764806400": [
+            "2024_05_30__21_31_13__10.jpg"
+        ],
+        "1767830400": [
+            "2024_05_30__21_39_00__33.jpg",
+            "2024_10_14__13_28_15__68.jpg",
+            "2025_10_29__13_19_25__73.jpg",
+            "2025_10_29__14_06_06__07.jpg",
+            "2025_10_29__14_06_22__96.jpg",
+            "2026_01_04__22_01_05__66.jpg"
+        ],
+        "1768003200": [
+            "2026_01_02__22_24_03__74.jpg"
+        ],
+        "1768089600": [
+            "2023_02_02__15_42_51__74.jpg"
+        ],
+        "1768176000": [
+            "2020_08_15__18_00_29__38.jpg"
+        ],
+        "1768953600": [
+            "2026_01_20__15_07_52__62.jpg",
+            "2026_01_20__15_25_26__37.jpg"
+        ],
+        "1769472000": [
+            "2026_01_24__15_37_01__28.jpg",
+            "2026_01_24__15_44_05__88.jpg",
+            "2026_01_24__15_44_14__14.jpg",
+            "2026_01_24__15_47_08__20.jpg",
+            "2026_01_24__15_51_02__05.jpg",
+            "2026_01_24__15_52_40__43.jpg",
+            "2026_01_24__16_03_30__01.jpg",
+            "2026_01_25__22_49_52__88.jpg"
+        ],
+        "1769558400": [
+            "2026_01_27__23_09_39__41.jpg"
+        ]
+    },
     "by_filename": {
         "2020_08_15__18_00_29__38.jpg": {
             "ISO": 100,
+            "added": 1768176000,
             "aperture": 5.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2020:08:15 18:00:29",
@@ -182,6 +365,7 @@ const DATAMODEL = {
         },
         "2023_02_02__15_42_51__74.jpg": {
             "ISO": 100,
+            "added": 1768089600,
             "aperture": 6.3,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2023:02:02 15:42:51",
@@ -200,6 +384,7 @@ const DATAMODEL = {
         },
         "2024_05_20__19_51_15__09.jpg": {
             "ISO": 100,
+            "added": 1764720000,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2024:05:20 19:51:15",
@@ -216,6 +401,7 @@ const DATAMODEL = {
         },
         "2024_05_30__21_31_13__10.jpg": {
             "ISO": 200,
+            "added": 1764806400,
             "aperture": 8.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2024:05:30 21:31:13",
@@ -233,6 +419,7 @@ const DATAMODEL = {
         },
         "2024_05_30__21_37_10__46.jpg": {
             "ISO": 800,
+            "added": 1764720000,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2024:05:30 21:37:10",
@@ -250,6 +437,7 @@ const DATAMODEL = {
         },
         "2024_05_30__21_39_00__33.jpg": {
             "ISO": 200,
+            "added": 1767830400,
             "aperture": 9.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2024:05:30 21:39:00",
@@ -267,6 +455,7 @@ const DATAMODEL = {
         },
         "2024_10_14__13_28_15__68.jpg": {
             "ISO": 100,
+            "added": 1767830400,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2024:10:14 13:28:15",
@@ -284,6 +473,7 @@ const DATAMODEL = {
         },
         "2025_05_26__17_44_37__86.jpg": {
             "ISO": 1600,
+            "added": 1764720000,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:05:26 17:44:37",
@@ -300,6 +490,7 @@ const DATAMODEL = {
         },
         "2025_05_26__17_44_51__25.jpg": {
             "ISO": 1600,
+            "added": 1764720000,
             "aperture": 2.8,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:05:26 17:44:51",
@@ -316,6 +507,7 @@ const DATAMODEL = {
         },
         "2025_05_26__17_45_25__57.jpg": {
             "ISO": 1600,
+            "added": 1764720000,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:05:26 17:45:25",
@@ -332,6 +524,7 @@ const DATAMODEL = {
         },
         "2025_10_23__14_31_27__44.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 4.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:23 14:31:27",
@@ -349,6 +542,7 @@ const DATAMODEL = {
         },
         "2025_10_23__14_39_57__13.jpg": {
             "ISO": 3200,
+            "added": 1764633600,
             "aperture": 5.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:23 14:39:57",
@@ -365,6 +559,7 @@ const DATAMODEL = {
         },
         "2025_10_23__14_46_23__77.jpg": {
             "ISO": 3200,
+            "added": 1764374400,
             "aperture": 4.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:23 14:46:23",
@@ -381,6 +576,7 @@ const DATAMODEL = {
         },
         "2025_10_23__14_55_24__12.jpg": {
             "ISO": 3200,
+            "added": 1764374400,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:23 14:55:24",
@@ -397,6 +593,7 @@ const DATAMODEL = {
         },
         "2025_10_23__14_58_44__79.jpg": {
             "ISO": 3200,
+            "added": 1764374400,
             "aperture": 2.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:23 14:58:44",
@@ -413,6 +610,7 @@ const DATAMODEL = {
         },
         "2025_10_23__15_07_05__43.jpg": {
             "ISO": 3200,
+            "added": 1764374400,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:23 15:07:05",
@@ -429,6 +627,7 @@ const DATAMODEL = {
         },
         "2025_10_23__15_17_47__46.jpg": {
             "ISO": 3200,
+            "added": 1764374400,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:23 15:17:47",
@@ -445,6 +644,7 @@ const DATAMODEL = {
         },
         "2025_10_23__15_26_43__11.jpg": {
             "ISO": 3200,
+            "added": 1764374400,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:23 15:26:43",
@@ -461,6 +661,7 @@ const DATAMODEL = {
         },
         "2025_10_28__13_57_15__56.jpg": {
             "ISO": 1600,
+            "added": 1764460800,
             "aperture": 2.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:28 13:57:15",
@@ -478,6 +679,7 @@ const DATAMODEL = {
         },
         "2025_10_28__14_07_09__1.jpg": {
             "ISO": 3200,
+            "added": 1764374400,
             "aperture": 3.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:28 14:07:09",
@@ -495,6 +697,7 @@ const DATAMODEL = {
         },
         "2025_10_28__14_19_24__99.jpg": {
             "ISO": 3200,
+            "added": 1764374400,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:28 14:19:24",
@@ -512,6 +715,7 @@ const DATAMODEL = {
         },
         "2025_10_28__14_22_47__12.jpg": {
             "ISO": 3200,
+            "added": 1764374400,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:28 14:22:47",
@@ -529,6 +733,7 @@ const DATAMODEL = {
         },
         "2025_10_28__14_23_30__11.jpg": {
             "ISO": 3200,
+            "added": 1764374400,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:28 14:23:30",
@@ -546,6 +751,7 @@ const DATAMODEL = {
         },
         "2025_10_28__14_33_04__63.jpg": {
             "ISO": 1600,
+            "added": 1764374400,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:28 14:33:04",
@@ -562,6 +768,7 @@ const DATAMODEL = {
         },
         "2025_10_28__14_33_45__91.jpg": {
             "ISO": 1600,
+            "added": 1764374400,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:28 14:33:45",
@@ -578,6 +785,7 @@ const DATAMODEL = {
         },
         "2025_10_28__14_34_12__56.jpg": {
             "ISO": 3200,
+            "added": 1764374400,
             "aperture": 3.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:28 14:34:12",
@@ -594,6 +802,7 @@ const DATAMODEL = {
         },
         "2025_10_28__14_34_30__8.jpg": {
             "ISO": 3200,
+            "added": 1764374400,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:28 14:34:30",
@@ -610,6 +819,7 @@ const DATAMODEL = {
         },
         "2025_10_28__14_37_30__55.jpg": {
             "ISO": 3200,
+            "added": 1764460800,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:28 14:37:30",
@@ -626,6 +836,7 @@ const DATAMODEL = {
         },
         "2025_10_28__14_39_04__72.jpg": {
             "ISO": 3200,
+            "added": 1764460800,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:28 14:39:04",
@@ -642,6 +853,7 @@ const DATAMODEL = {
         },
         "2025_10_28__14_41_14__09.jpg": {
             "ISO": 3200,
+            "added": 1764460800,
             "aperture": 2.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:28 14:41:14",
@@ -658,6 +870,7 @@ const DATAMODEL = {
         },
         "2025_10_28__14_42_18__53.jpg": {
             "ISO": 3200,
+            "added": 1764460800,
             "aperture": 2.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:28 14:42:18",
@@ -674,6 +887,7 @@ const DATAMODEL = {
         },
         "2025_10_28__14_45_04__66.jpg": {
             "ISO": 3200,
+            "added": 1764460800,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:28 14:45:04",
@@ -690,6 +904,7 @@ const DATAMODEL = {
         },
         "2025_10_28__14_48_47__99.jpg": {
             "ISO": 3200,
+            "added": 1764460800,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:28 14:48:47",
@@ -706,6 +921,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_13_27__55.jpg": {
             "ISO": 1600,
+            "added": 1764460800,
             "aperture": 5.6,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:13:27",
@@ -722,6 +938,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_14_09__15.jpg": {
             "ISO": 1600,
+            "added": 1764460800,
             "aperture": 5.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:14:09",
@@ -738,6 +955,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_14_47__73.jpg": {
             "ISO": 1600,
+            "added": 1764460800,
             "aperture": 5.6,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:14:47",
@@ -754,6 +972,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_14_53__63.jpg": {
             "ISO": 1600,
+            "added": 1764460800,
             "aperture": 5.6,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:14:53",
@@ -770,6 +989,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_14_55__28.jpg": {
             "ISO": 1600,
+            "added": 1764460800,
             "aperture": 4.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:14:55",
@@ -786,6 +1006,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_14_55__9.jpg": {
             "ISO": 1600,
+            "added": 1764460800,
             "aperture": 4.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:14:55",
@@ -802,6 +1023,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_17_23__98.jpg": {
             "ISO": 1600,
+            "added": 1764460800,
             "aperture": 8.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:17:23",
@@ -818,6 +1040,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_17_26__32.jpg": {
             "ISO": 1600,
+            "added": 1764460800,
             "aperture": 9.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:17:26",
@@ -834,6 +1057,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_19_25__73.jpg": {
             "ISO": 1600,
+            "added": 1767830400,
             "aperture": 4.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:19:25",
@@ -850,6 +1074,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_20_28__34.jpg": {
             "ISO": 1600,
+            "added": 1764460800,
             "aperture": 6.3,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:20:28",
@@ -866,6 +1091,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_20_35__57.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 6.3,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:20:35",
@@ -882,6 +1108,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_21_03__82.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 7.1,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:21:03",
@@ -898,6 +1125,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_27_48__74.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 5.6,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:27:48",
@@ -914,6 +1142,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_27_54__27.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 8.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:27:54",
@@ -930,6 +1159,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_31_48__07.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:31:48",
@@ -946,6 +1176,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_34_02__16.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 5.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:34:02",
@@ -962,6 +1193,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_35_18__2.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 2.8,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:35:18",
@@ -978,6 +1210,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_37_02__56.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 3.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:37:02",
@@ -994,6 +1227,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_42_48__77.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:42:48",
@@ -1011,6 +1245,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_45_27__39.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 4.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:45:27",
@@ -1027,6 +1262,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_45_27__75.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 4.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:45:27",
@@ -1043,6 +1279,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_45_28__56.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 4.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:45:28",
@@ -1059,6 +1296,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_47_10__72.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:47:10",
@@ -1075,6 +1313,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_47_55__89.jpg": {
             "ISO": 200,
+            "added": 1764547200,
             "aperture": 4.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:47:55",
@@ -1092,6 +1331,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_49_28__92.jpg": {
             "ISO": 400,
+            "added": 1764547200,
             "aperture": 6.3,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:49:28",
@@ -1108,6 +1348,7 @@ const DATAMODEL = {
         },
         "2025_10_29__13_56_37__2.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 3.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 13:56:37",
@@ -1124,6 +1365,7 @@ const DATAMODEL = {
         },
         "2025_10_29__14_03_42__67.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 5.6,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 14:03:42",
@@ -1140,6 +1382,7 @@ const DATAMODEL = {
         },
         "2025_10_29__14_06_06__07.jpg": {
             "ISO": 1600,
+            "added": 1767830400,
             "aperture": 4.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 14:06:06",
@@ -1156,6 +1399,7 @@ const DATAMODEL = {
         },
         "2025_10_29__14_06_22__96.jpg": {
             "ISO": 1600,
+            "added": 1767830400,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 14:06:22",
@@ -1172,6 +1416,7 @@ const DATAMODEL = {
         },
         "2025_10_29__14_07_58__19.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 2.8,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 14:07:58",
@@ -1188,6 +1433,7 @@ const DATAMODEL = {
         },
         "2025_10_29__14_08_51__62.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 7.1,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 14:08:51",
@@ -1204,6 +1450,7 @@ const DATAMODEL = {
         },
         "2025_10_29__14_17_35__29.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 14:17:35",
@@ -1220,6 +1467,7 @@ const DATAMODEL = {
         },
         "2025_10_29__14_25_18__43.jpg": {
             "ISO": 3200,
+            "added": 1764547200,
             "aperture": 4.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 14:25:18",
@@ -1236,6 +1484,7 @@ const DATAMODEL = {
         },
         "2025_10_29__14_26_33__01.jpg": {
             "ISO": 3200,
+            "added": 1764547200,
             "aperture": 3.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 14:26:33",
@@ -1252,6 +1501,7 @@ const DATAMODEL = {
         },
         "2025_10_29__14_26_35__85.jpg": {
             "ISO": 3200,
+            "added": 1764547200,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 14:26:35",
@@ -1268,6 +1518,7 @@ const DATAMODEL = {
         },
         "2025_10_29__14_34_56__33.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 7.1,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:29 14:34:56",
@@ -1285,6 +1536,7 @@ const DATAMODEL = {
         },
         "2025_10_31__12_13_20__11.jpg": {
             "ISO": 800,
+            "added": 1764547200,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 12:13:20",
@@ -1302,6 +1554,7 @@ const DATAMODEL = {
         },
         "2025_10_31__12_14_12__27.jpg": {
             "ISO": 400,
+            "added": 1764547200,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 12:14:12",
@@ -1319,6 +1572,7 @@ const DATAMODEL = {
         },
         "2025_10_31__13_08_15__36.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 2.8,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 13:08:15",
@@ -1335,6 +1589,7 @@ const DATAMODEL = {
         },
         "2025_10_31__13_46_22__03.jpg": {
             "ISO": 3200,
+            "added": 1764547200,
             "aperture": 1.8,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 13:46:22",
@@ -1351,6 +1606,7 @@ const DATAMODEL = {
         },
         "2025_10_31__13_48_40__27.jpg": {
             "ISO": 3200,
+            "added": 1764547200,
             "aperture": 2.8,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 13:48:40",
@@ -1367,6 +1623,7 @@ const DATAMODEL = {
         },
         "2025_10_31__13_52_38__16.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 13:52:38",
@@ -1383,6 +1640,7 @@ const DATAMODEL = {
         },
         "2025_10_31__13_52_43__51.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 13:52:43",
@@ -1399,6 +1657,7 @@ const DATAMODEL = {
         },
         "2025_10_31__13_53_40__57.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 13:53:40",
@@ -1415,6 +1674,7 @@ const DATAMODEL = {
         },
         "2025_10_31__13_56_00__42.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 13:56:00",
@@ -1431,6 +1691,7 @@ const DATAMODEL = {
         },
         "2025_10_31__13_56_48__6.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 2.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 13:56:48",
@@ -1447,6 +1708,7 @@ const DATAMODEL = {
         },
         "2025_10_31__14_07_50__85.jpg": {
             "ISO": 3200,
+            "added": 1764547200,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 14:07:50",
@@ -1463,6 +1725,7 @@ const DATAMODEL = {
         },
         "2025_10_31__14_10_47__9.jpg": {
             "ISO": 3200,
+            "added": 1764547200,
             "aperture": 2.8,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 14:10:47",
@@ -1479,6 +1742,7 @@ const DATAMODEL = {
         },
         "2025_10_31__14_23_13__54.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 1.4,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 14:23:13",
@@ -1495,6 +1759,7 @@ const DATAMODEL = {
         },
         "2025_10_31__14_27_25__35.jpg": {
             "ISO": 1600,
+            "added": 1764547200,
             "aperture": 1.4,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 14:27:25",
@@ -1511,6 +1776,7 @@ const DATAMODEL = {
         },
         "2025_10_31__14_35_53__13.jpg": {
             "ISO": 3200,
+            "added": 1764547200,
             "aperture": 2.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 14:35:53",
@@ -1527,6 +1793,7 @@ const DATAMODEL = {
         },
         "2025_10_31__14_36_32__17.jpg": {
             "ISO": 3200,
+            "added": 1764547200,
             "aperture": 1.4,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 14:36:32",
@@ -1543,6 +1810,7 @@ const DATAMODEL = {
         },
         "2025_10_31__14_36_58__47.jpg": {
             "ISO": 3200,
+            "added": 1764547200,
             "aperture": 1.4,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 14:36:58",
@@ -1559,6 +1827,7 @@ const DATAMODEL = {
         },
         "2025_10_31__14_39_23__94.jpg": {
             "ISO": 3200,
+            "added": 1764547200,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:10:31 14:39:23",
@@ -1575,6 +1844,7 @@ const DATAMODEL = {
         },
         "2025_11_01__12_45_35__09.jpg": {
             "ISO": 3200,
+            "added": 1764547200,
             "aperture": 4.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:01 12:45:35",
@@ -1591,6 +1861,7 @@ const DATAMODEL = {
         },
         "2025_11_01__12_46_37__84.jpg": {
             "ISO": 3200,
+            "added": 1764547200,
             "aperture": 2.8,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:01 12:46:37",
@@ -1607,6 +1878,7 @@ const DATAMODEL = {
         },
         "2025_11_01__13_01_12__45.jpg": {
             "ISO": 3200,
+            "added": 1764547200,
             "aperture": 5.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:01 13:01:12",
@@ -1623,6 +1895,7 @@ const DATAMODEL = {
         },
         "2025_11_01__13_09_36__52.jpg": {
             "ISO": 800,
+            "added": 1764547200,
             "aperture": 5.6,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:01 13:09:36",
@@ -1640,6 +1913,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_12_00__68.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 4.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:12:00",
@@ -1656,6 +1930,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_15_18__72.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 3.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:15:18",
@@ -1672,6 +1947,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_15_49__5.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 4.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:15:49",
@@ -1688,6 +1964,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_16_01__35.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:16:01",
@@ -1704,6 +1981,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_16_01__86.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:16:01",
@@ -1720,6 +1998,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_19_05__75.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:19:05",
@@ -1736,6 +2015,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_19_08__45.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 4.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:19:08",
@@ -1752,6 +2032,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_19_13__97.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:19:13",
@@ -1768,6 +2049,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_19_45__05.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:19:45",
@@ -1784,6 +2066,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_24_03__63.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 5.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:24:03",
@@ -1800,6 +2083,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_24_25__54.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 5.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:24:25",
@@ -1816,6 +2100,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_25_05__9.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 4.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:25:05",
@@ -1832,6 +2117,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_26_14__88.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:26:14",
@@ -1848,6 +2134,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_31_15__06.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 4.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:31:15",
@@ -1864,6 +2151,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_34_36__6.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:34:36",
@@ -1880,6 +2168,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_34_46__77.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:34:46",
@@ -1896,6 +2185,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_36_00__58.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:36:00",
@@ -1912,6 +2202,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_46_45__79.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 4.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:46:45",
@@ -1928,6 +2219,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_54_04__11.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:54:04",
@@ -1944,6 +2236,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_54_54__27.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 4.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:54:54",
@@ -1960,6 +2253,7 @@ const DATAMODEL = {
         },
         "2025_11_02__13_59_56__24.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 13:59:56",
@@ -1976,6 +2270,7 @@ const DATAMODEL = {
         },
         "2025_11_02__14_00_55__63.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 2.8,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 14:00:55",
@@ -1993,6 +2288,7 @@ const DATAMODEL = {
         },
         "2025_11_02__14_03_45__12.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 2.8,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 14:03:45",
@@ -2009,6 +2305,7 @@ const DATAMODEL = {
         },
         "2025_11_02__14_04_17__47.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 2.8,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 14:04:17",
@@ -2025,6 +2322,7 @@ const DATAMODEL = {
         },
         "2025_11_02__14_05_22__72.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:02 14:05:22",
@@ -2041,6 +2339,7 @@ const DATAMODEL = {
         },
         "2025_11_03__12_55_47__32.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 3.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:03 12:55:47",
@@ -2057,6 +2356,7 @@ const DATAMODEL = {
         },
         "2025_11_03__12_56_51__5.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:03 12:56:51",
@@ -2073,6 +2373,7 @@ const DATAMODEL = {
         },
         "2025_11_03__12_57_06__24.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 3.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:03 12:57:06",
@@ -2089,6 +2390,7 @@ const DATAMODEL = {
         },
         "2025_11_03__13_03_51__47.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:03 13:03:51",
@@ -2105,6 +2407,7 @@ const DATAMODEL = {
         },
         "2025_11_03__13_05_15__36.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:03 13:05:15",
@@ -2121,6 +2424,7 @@ const DATAMODEL = {
         },
         "2025_11_03__13_31_40__15.jpg": {
             "ISO": 3200,
+            "added": 1764633600,
             "aperture": 4.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:03 13:31:40",
@@ -2137,6 +2441,7 @@ const DATAMODEL = {
         },
         "2025_11_03__13_40_20__62.jpg": {
             "ISO": 3200,
+            "added": 1764633600,
             "aperture": 4.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:03 13:40:20",
@@ -2153,6 +2458,7 @@ const DATAMODEL = {
         },
         "2025_11_03__13_42_06__16.jpg": {
             "ISO": 3200,
+            "added": 1764633600,
             "aperture": 3.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:03 13:42:06",
@@ -2169,6 +2475,7 @@ const DATAMODEL = {
         },
         "2025_11_03__13_42_41__23.jpg": {
             "ISO": 3200,
+            "added": 1764633600,
             "aperture": 4.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:03 13:42:41",
@@ -2185,6 +2492,7 @@ const DATAMODEL = {
         },
         "2025_11_03__13_42_59__87.jpg": {
             "ISO": 3200,
+            "added": 1764633600,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:03 13:42:59",
@@ -2201,6 +2509,7 @@ const DATAMODEL = {
         },
         "2025_11_03__13_43_33__49.jpg": {
             "ISO": 3200,
+            "added": 1764633600,
             "aperture": 4.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:03 13:43:33",
@@ -2217,6 +2526,7 @@ const DATAMODEL = {
         },
         "2025_11_03__13_51_01__93.jpg": {
             "ISO": 3200,
+            "added": 1764633600,
             "aperture": 3.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:03 13:51:01",
@@ -2233,6 +2543,7 @@ const DATAMODEL = {
         },
         "2025_11_06__14_47_37__21.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:06 14:47:37",
@@ -2249,6 +2560,7 @@ const DATAMODEL = {
         },
         "2025_11_06__14_50_19__97.jpg": {
             "ISO": 3200,
+            "added": 1764633600,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:06 14:50:19",
@@ -2265,6 +2577,7 @@ const DATAMODEL = {
         },
         "2025_11_06__14_55_48__1.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 2.8,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:06 14:55:48",
@@ -2281,6 +2594,7 @@ const DATAMODEL = {
         },
         "2025_11_06__14_55_50__64.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 2.8,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:06 14:55:50",
@@ -2297,6 +2611,7 @@ const DATAMODEL = {
         },
         "2025_11_06__14_56_17__69.jpg": {
             "ISO": 3200,
+            "added": 1764633600,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:06 14:56:17",
@@ -2313,6 +2628,7 @@ const DATAMODEL = {
         },
         "2025_11_06__14_56_24__71.jpg": {
             "ISO": 3200,
+            "added": 1764633600,
             "aperture": 2.8,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:06 14:56:24",
@@ -2329,6 +2645,7 @@ const DATAMODEL = {
         },
         "2025_11_06__14_58_24__73.jpg": {
             "ISO": 3200,
+            "added": 1764633600,
             "aperture": 2.8,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:06 14:58:24",
@@ -2345,6 +2662,7 @@ const DATAMODEL = {
         },
         "2025_11_06__14_58_28__15.jpg": {
             "ISO": 3200,
+            "added": 1764633600,
             "aperture": 3.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:06 14:58:28",
@@ -2361,6 +2679,7 @@ const DATAMODEL = {
         },
         "2025_11_06__14_58_42__28.jpg": {
             "ISO": 3200,
+            "added": 1764633600,
             "aperture": 4.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:06 14:58:42",
@@ -2377,6 +2696,7 @@ const DATAMODEL = {
         },
         "2025_11_06__14_59_20__92.jpg": {
             "ISO": 1600,
+            "added": 1764633600,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:06 14:59:20",
@@ -2393,6 +2713,7 @@ const DATAMODEL = {
         },
         "2025_11_06__15_08_02__39.jpg": {
             "ISO": 3200,
+            "added": 1764633600,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:06 15:08:02",
@@ -2409,6 +2730,7 @@ const DATAMODEL = {
         },
         "2025_11_06__15_08_55__77.jpg": {
             "ISO": 1600,
+            "added": 1764720000,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:06 15:08:55",
@@ -2425,6 +2747,7 @@ const DATAMODEL = {
         },
         "2025_11_06__15_09_02__41.jpg": {
             "ISO": 1600,
+            "added": 1764720000,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2025:11:06 15:09:02",
@@ -2441,6 +2764,7 @@ const DATAMODEL = {
         },
         "2026_01_02__22_24_03__74.jpg": {
             "ISO": 1600,
+            "added": 1768003200,
             "aperture": 1.6,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2026:01:02 22:24:03",
@@ -2459,6 +2783,7 @@ const DATAMODEL = {
         },
         "2026_01_04__22_01_05__66.jpg": {
             "ISO": 1600,
+            "added": 1767830400,
             "aperture": 2.8,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2026:01:04 22:01:05",
@@ -2477,6 +2802,7 @@ const DATAMODEL = {
         },
         "2026_01_20__15_07_52__62.jpg": {
             "ISO": 1600,
+            "added": 1768953600,
             "aperture": 2.0,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2026:01:20 15:07:52",
@@ -2494,6 +2820,7 @@ const DATAMODEL = {
         },
         "2026_01_20__15_25_26__37.jpg": {
             "ISO": 3200,
+            "added": 1768953600,
             "aperture": 2.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2026:01:20 15:25:26",
@@ -2511,6 +2838,7 @@ const DATAMODEL = {
         },
         "2026_01_24__15_37_01__28.jpg": {
             "ISO": 3200,
+            "added": 1769472000,
             "aperture": 2.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2026:01:24 15:37:01",
@@ -2527,6 +2855,7 @@ const DATAMODEL = {
         },
         "2026_01_24__15_44_05__88.jpg": {
             "ISO": 3200,
+            "added": 1769472000,
             "aperture": 2.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2026:01:24 15:44:05",
@@ -2543,6 +2872,7 @@ const DATAMODEL = {
         },
         "2026_01_24__15_44_14__14.jpg": {
             "ISO": 3200,
+            "added": 1769472000,
             "aperture": 2.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2026:01:24 15:44:14",
@@ -2559,6 +2889,7 @@ const DATAMODEL = {
         },
         "2026_01_24__15_47_08__20.jpg": {
             "ISO": 3200,
+            "added": 1769472000,
             "aperture": 2.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2026:01:24 15:47:08",
@@ -2575,6 +2906,7 @@ const DATAMODEL = {
         },
         "2026_01_24__15_51_02__05.jpg": {
             "ISO": 6400,
+            "added": 1769472000,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2026:01:24 15:51:02",
@@ -2591,6 +2923,7 @@ const DATAMODEL = {
         },
         "2026_01_24__15_52_40__43.jpg": {
             "ISO": 3200,
+            "added": 1769472000,
             "aperture": 2.5,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2026:01:24 15:52:40",
@@ -2607,6 +2940,7 @@ const DATAMODEL = {
         },
         "2026_01_24__16_03_30__01.jpg": {
             "ISO": 3200,
+            "added": 1769472000,
             "aperture": 2.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2026:01:24 16:03:30",
@@ -2623,6 +2957,7 @@ const DATAMODEL = {
         },
         "2026_01_25__22_49_52__88.jpg": {
             "ISO": 3200,
+            "added": 1769472000,
             "aperture": 1.6,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2026:01:25 22:49:52",
@@ -2640,10 +2975,11 @@ const DATAMODEL = {
         },
         "2026_01_27__23_09_39__41.jpg": {
             "ISO": 1600,
+            "added": 1769558400,
             "aperture": 3.2,
             "camera": "Canon EOS 5D Mark III",
             "capture_time": "2026:01:27 23:09:39",
-            "file_size": "1325 kB",
+            "file_size": "1544 kB",
             "focal": "135.0 mm",
             "image_height": 5794,
             "image_width": 3868,
@@ -3027,18 +3363,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-     "new_images": [
-        "2026_01_24__15_37_01__28.jpg",
-        "2026_01_24__15_44_05__88.jpg",
-        "2026_01_24__15_44_14__14.jpg",
-        "2026_01_24__15_47_08__20.jpg",
-        "2026_01_24__15_51_02__05.jpg",
-        "2026_01_24__15_52_40__43.jpg",
-        "2026_01_24__16_03_30__01.jpg",
-        "2026_01_25__22_49_52__88.jpg",
-        "2026_01_27__23_09_39__41.jpg"
-    ],
-    "new_images_at": 1769536703,
+    "generated": "2026-02-02T18:42:37+0000",
     "new_images_timeframe": 604800
 }
 Object.freeze(DATAMODEL);

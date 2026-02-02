@@ -1,6 +1,5 @@
 [config]
 image_directory = 'img'
-javascript_name = 'datamodel.js'
 thumbnail_size = 400 # longest side will never exceede 400 pixels..
 thumbnail_quality = 60 # jpg quality option
 new_images_timeframe = 604800 # = 60*60*24*7 = one week in seconds (unix epoch time)

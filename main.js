@@ -45,27 +45,15 @@ function main() {
     ALL_IMAGES = DATAMODEL['all_images'];
     ABOUT = DATAMODEL['about'];
 
-    let new_images_at = DATAMODEL['new_images_at'];
     let timeframe = DATAMODEL['new_images_timeframe'];
     const now = parseInt( Date.now()/1000, 10 );  // Unix timestamp in seconds
+    NEW_IMAGES = [];
     // Should we show new images?
-    if (now - new_images_at < timeframe) {
-        // YES, show new images..
-        NEW_IMAGES = DATAMODEL['new_images']
-    } else {
-        // NO, do not show new images..
-        NEW_IMAGES = [];
+    for (const [ts, images] of Object.entries(DATAMODEL['by_added'])) {
+        if (now - ts < timeframe) {
+            NEW_IMAGES = NEW_IMAGES.concat(images);
+        }
     }
-
-    // // Only load new images on first page load..
-    // if (!sessionStorage.getItem("ongoing")) {
-    //     sessionStorage.setItem("ongoing", "true");
-    //     const new_images = __get_new_images();
-    //     if (new_images.length > 0) {
-    //         // show the images..
-    //         console.log(new_images);
-    //     }
-    // }
 
     // TODO: PERFORMANCE 001
     // If we decide to not reload page on every button click in lightbox view mode, this will increase performance.
@@ -130,11 +118,23 @@ function init_photo_about() {
 
 function init_photo_directory_navigate() {
     let html = '';
+
+    const random = Math.floor(Math.random() * ALL_IMAGES.length);
+    const img = `${IMG_DIR}/thumbnails/${ALL_IMAGES[random]}`;
+    html += `
+    <div>
+        <a href="${window.location.pathname}?view_mode=photo-stream" method="get">
+            <img src="${img}" loading="lazy" />
+        </a>
+        <h2>Alle Bilder</h2>
+    </div>
+    `;
+
     if (NEW_IMAGES.length > 0) {
         const random = Math.floor(Math.random() * NEW_IMAGES.length);
         const img = `${IMG_DIR}/thumbnails/${NEW_IMAGES[random]}`;
         html += `
-        <div class="filterDiv ${NEW_IMAGES_TAG}">
+        <div>
             <a href="${window.location.pathname}?view_mode=photo-stream&tag=${encodeURIComponent(NEW_IMAGES_TAG)}" method="get">
                 <img src="${img}" loading="lazy" />
             </a>
@@ -146,7 +146,7 @@ function init_photo_directory_navigate() {
         const random = Math.floor(Math.random() * images.length);
         const img = `${IMG_DIR}/thumbnails/${images[random]}`;
         html += `
-        <div class="filterDiv ${tag}">
+        <div>
             <a href="${window.location.pathname}?view_mode=photo-stream&tag=${encodeURIComponent(tag)}" method="get">
                 <img src="${img}" loading="lazy" />
             </a>
@@ -161,7 +161,6 @@ function init_photo_directory_navigate() {
 
     qid('photo-navigate-header').innerHTML = `
         <a href="${window.location.pathname}?view_mode=photo-about" method="get">Om Meg</a>
-        <a href="${window.location.pathname}?view_mode=photo-stream" method="get">Alle Bilder</a>
         <input type="text" id="input_nav_filter" onkeyup="nav_filter_boxes()" ${autofocus} placeholder="Filtrer" title="Søk på nøkkelord">
     `;
     qid('photo-navigate-boxes').innerHTML = html;
@@ -383,25 +382,4 @@ function has_small_screen() {
 //     return devices.some((toMatchItem) => {
 //         return navigator.userAgent.match(toMatchItem);
 //     });
-// }
-//
-// we have another way of showing new images, might change later though..
-// function __get_new_images() {
-//     // When new images are added, keep track of the new ones and show them in a collection..
-//     // This thing is not implemented yet.
-//     // As of now, we use DATAMODEL['new_images'] instead..
-//     let new_images = Array();
-//     const json = localStorage.getItem('all_images');
-//     if (json === null) {
-//         // This will be true if the page has never been loaded before, lets "reset" the local storage
-//         // ..just to make sure..
-//         localStorage.clear();
-//         // first load, ever.. we do not anounce new images
-//     } else {
-//         // alright, time to anounce new images if there are any..
-//         const current_images = JSON.parse(json);
-//         new_images = ALL_IMAGES.filter(x => !new Set(current_images).has(x));
-//     }
-//     localStorage.setItem('all_images', JSON.stringify(ALL_IMAGES));
-//     return new_images;
 // }
