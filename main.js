@@ -31,8 +31,6 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
-const PROFILE_PICTURE = 'img/2025_10_28__13_57_15__56.jpg';
-
 // Helper -> write qid(id).innerHTML instead of document.getElementById(id).innerHTML
 const qid = id => document.getElementById(id);
 
@@ -106,7 +104,7 @@ function init_photo_about() {
     qid('photo-about-header').innerHTML = `<h2>${ABOUT['name']}</h2>`;
     qid('photo-about-footer').innerHTML = `<a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Forside</a>`;
     qid('photo-about-paragraph').innerHTML = ABOUT['bio'];
-    qid('photo-about-image').src = PROFILE_PICTURE;
+    qid('photo-about-image').src = `${IMG_DIR}/${DATAMODEL['about']['image']}`;
     view_mode('photo-about');
 
     document.addEventListener('keydown', function (event) {

@@ -4,7 +4,8 @@
 const DATAMODEL = {
     "about": {
         "name": "Emil Bratt",
-        "bio": "<p>Velkommen!</p><p>Jeg er en eksfotograf som startet for fullt i 2011 og sluttet under Covid.\nHar vært med på mange spennende oppdrag gjennom min karriere.</p><p>Jeg fotograferer alt mulig. Da jeg drev proffesjonelt,\nfotograferte jeg sport, konsert, event, bryllup, gravid, nyfødt og sist men ikke minst, natur.</p><p>Har veldig lyst å starte opp proffesjonelt igjen,\nmen først skal det taes bilder rekreasjonelt. :)\nBildene du finner her er tilgjengelige for nedlasting og helt gratis for deg som privatperson.\nDet vil komme flere bilder etter hvert.</p><p>Tidligere delte jeg alt sammen på facebook og instagram, men det gjør jeg ikke lenger.\nSosiale medier har desverre blitt vanskeligere å bruke for personer uten brukerkonto,\nså jeg tok hammern fatt og snekra sammen denne nettsida.\nEr du kanskje en utvikler selv og lurer på hva som holder denne nettsida sammen? Her ligger\n<button><a href=\"https://github.com/emilbratt/frifoto.emilbratt.no/\">kildekode!</a></button>\n</p>"
+        "bio": "<p>Velkommen!</p><p>Jeg er en eksfotograf som startet for fullt i 2011 og sluttet under Covid.\nHar vært med på mange spennende oppdrag gjennom min karriere.</p><p>Jeg fotograferer alt mulig. Da jeg drev proffesjonelt,\nfotograferte jeg sport, konsert, event, bryllup, gravid, nyfødt og sist men ikke minst, natur.</p><p>Har veldig lyst å starte opp proffesjonelt igjen,\nmen først skal det taes bilder rekreasjonelt. :)\nBildene du finner her er tilgjengelige for nedlasting og helt gratis for deg som privatperson.\nDet vil komme flere bilder etter hvert.</p><p>Tidligere delte jeg alt sammen på facebook og instagram, men det gjør jeg ikke lenger.\nSosiale medier har desverre blitt vanskeligere å bruke for personer uten brukerkonto,\nså jeg tok hammern fatt og snekra sammen denne nettsida.\nEr du kanskje en utvikler selv og lurer på hva som holder denne nettsida sammen? Her ligger\n<button><a href=\"https://github.com/emilbratt/frifoto.emilbratt.no/\">kildekode!</a></button>\n</p>",
+        "image": "2026_02_02__22_18_47__78.jpg"
     },
     "all_images": [
         "2020_08_15__18_00_29__38.jpg",
@@ -160,7 +161,11 @@ const DATAMODEL = {
         "2026_01_24__15_52_40__43.jpg",
         "2026_01_24__16_03_30__01.jpg",
         "2026_01_25__22_49_52__88.jpg",
-        "2026_01_27__23_09_39__41.jpg"
+        "2026_01_27__23_09_39__41.jpg",
+        "2026_02_01__20_15_26__45.jpg",
+        "2026_02_02__21_46_33__38.jpg",
+        "2026_02_02__22_18_47__78.jpg",
+        "2026_02_02__22_30_51__54.jpg"
     ],
     "by_added": {
         "1764374400": [
@@ -342,6 +347,12 @@ const DATAMODEL = {
         ],
         "1769558400": [
             "2026_01_27__23_09_39__41.jpg"
+        ],
+        "1769990400": [
+            "2026_02_01__20_15_26__45.jpg",
+            "2026_02_02__21_46_33__38.jpg",
+            "2026_02_02__22_18_47__78.jpg",
+            "2026_02_02__22_30_51__54.jpg"
         ]
     },
     "by_filename": {
@@ -2990,6 +3001,79 @@ const DATAMODEL = {
                 "Arkitektur",
                 "Natt"
             ]
+        },
+        "2026_02_01__20_15_26__45.jpg": {
+            "ISO": 3200,
+            "added": 1769990400,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:02:01 20:15:26",
+            "file_size": "1924 kB",
+            "focal": "35.0 mm",
+            "image_height": 2933,
+            "image_width": 4394,
+            "lens": "Sigma 35mm f/1.4 DG HSM",
+            "shooting_mode": "Manual",
+            "shutter_speed": 1,
+            "tags": [
+                "Allvi",
+                "Natt"
+            ]
+        },
+        "2026_02_02__21_46_33__38.jpg": {
+            "ISO": 3200,
+            "added": 1769990400,
+            "aperture": 1.4,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:02:02 21:46:33",
+            "file_size": "2.5 MB",
+            "focal": "35.0 mm",
+            "image_height": 4520,
+            "image_width": 3616,
+            "lens": "Sigma 35mm f/1.4 DG HSM",
+            "shooting_mode": "Manual",
+            "shutter_speed": 1,
+            "tags": [
+                "Allvi",
+                "Natt"
+            ]
+        },
+        "2026_02_02__22_18_47__78.jpg": {
+            "ISO": 3200,
+            "added": 1769990400,
+            "aperture": 1.4,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:02:02 22:18:47",
+            "file_size": "2.2 MB",
+            "focal": "35.0 mm",
+            "image_height": 3532,
+            "image_width": 4415,
+            "lens": "Sigma 35mm f/1.4 DG HSM",
+            "shooting_mode": "Manual",
+            "shutter_speed": 0.8,
+            "tags": [
+                "Allvi",
+                "Natt",
+                "Portrett"
+            ]
+        },
+        "2026_02_02__22_30_51__54.jpg": {
+            "ISO": 3200,
+            "added": 1769990400,
+            "aperture": 1.4,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:02:02 22:30:51",
+            "file_size": "2.8 MB",
+            "focal": "50.0 mm",
+            "image_height": 3868,
+            "image_width": 5794,
+            "lens": "Sigma 50mm f/1.4 DG HSM",
+            "shooting_mode": "Manual",
+            "shutter_speed": 0.8,
+            "tags": [
+                "Allvi",
+                "Natt"
+            ]
         }
     },
     "by_rating": {
@@ -3146,7 +3230,11 @@ const DATAMODEL = {
             "2026_01_24__15_52_40__43.jpg",
             "2026_01_24__16_03_30__01.jpg",
             "2026_01_25__22_49_52__88.jpg",
-            "2026_01_27__23_09_39__41.jpg"
+            "2026_01_27__23_09_39__41.jpg",
+            "2026_02_01__20_15_26__45.jpg",
+            "2026_02_02__21_46_33__38.jpg",
+            "2026_02_02__22_18_47__78.jpg",
+            "2026_02_02__22_30_51__54.jpg"
         ],
         "3": [
             "2025_10_28__13_57_15__56.jpg"
@@ -3170,7 +3258,11 @@ const DATAMODEL = {
             "2025_11_02__14_00_55__63.jpg",
             "2026_01_20__15_07_52__62.jpg",
             "2026_01_20__15_25_26__37.jpg",
-            "2026_01_25__22_49_52__88.jpg"
+            "2026_01_25__22_49_52__88.jpg",
+            "2026_02_01__20_15_26__45.jpg",
+            "2026_02_02__21_46_33__38.jpg",
+            "2026_02_02__22_18_47__78.jpg",
+            "2026_02_02__22_30_51__54.jpg"
         ],
         "Arkitektur": [
             "2026_01_27__23_09_39__41.jpg"
@@ -3290,7 +3382,11 @@ const DATAMODEL = {
             "2026_01_02__22_24_03__74.jpg",
             "2026_01_04__22_01_05__66.jpg",
             "2026_01_25__22_49_52__88.jpg",
-            "2026_01_27__23_09_39__41.jpg"
+            "2026_01_27__23_09_39__41.jpg",
+            "2026_02_01__20_15_26__45.jpg",
+            "2026_02_02__21_46_33__38.jpg",
+            "2026_02_02__22_18_47__78.jpg",
+            "2026_02_02__22_30_51__54.jpg"
         ],
         "Natur": [
             "2020_08_15__18_00_29__38.jpg",
@@ -3347,6 +3443,9 @@ const DATAMODEL = {
             "2026_01_02__22_24_03__74.jpg",
             "2026_01_04__22_01_05__66.jpg"
         ],
+        "Portrett": [
+            "2026_02_02__22_18_47__78.jpg"
+        ],
         "Skumring": [
             "2023_02_02__15_42_51__74.jpg"
         ],
@@ -3363,7 +3462,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-02-02T18:42:37+0000",
+    "generated": "2026-02-02T23:46:11+0000",
     "new_images_timeframe": 604800
 }
 Object.freeze(DATAMODEL);

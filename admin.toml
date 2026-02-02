@@ -6,6 +6,7 @@ new_images_timeframe = 604800 # = 60*60*24*7 = one week in seconds (unix epoch t
 
 [about]
 name = 'Emil Bratt'
+image = '2026_02_02__22_18_47__78.jpg'
 bio = """
 Velkommen!
 
@@ -182,3 +183,7 @@ Er du kanskje en utvikler selv og lurer på hva som holder denne nettsida sammen
 '2026_01_24__16_03_30__01.jpg' = { tags = [ 'Nordbyen Hundepark', ] }
 '2026_01_25__22_49_52__88.jpg' = { tags = [ 'Allvi', 'Natt', ] }
 '2026_01_27__23_09_39__41.jpg' = { tags = [ 'Arkitektur', 'Natt', ] }
+'2026_02_01__20_15_26__45.jpg' = { tags = [ 'Allvi', 'Natt', ] }
+'2026_02_02__21_46_33__38.jpg' = { tags = [ 'Allvi', 'Natt', ] }
+'2026_02_02__22_18_47__78.jpg' = { tags = [ 'Allvi', 'Natt', 'Portrett' ] }
+'2026_02_02__22_30_51__54.jpg' = { tags = [ 'Allvi', 'Natt', ] }

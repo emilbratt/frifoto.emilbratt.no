@@ -41,7 +41,7 @@ DATAMODEL_LAYOUT = {
     },
 
     'about': {
-        # name: string, bio: string
+        # name: string, bio: string, image: string,
     },
 
     'directory': None, # path to images
@@ -104,6 +104,7 @@ NEW_DATAMODEL = DATAMODEL_LAYOUT
 NEW_DATAMODEL['directory'] = DATA['config']['image_directory']
 NEW_DATAMODEL['about']['name'] = f'{DATA['about']['name']}'
 NEW_DATAMODEL['about']['bio'] = ''.join([f'<p>{s}</p>' for s in DATA['about']['bio'].split('\n\n')])
+NEW_DATAMODEL['about']['image'] = f'{DATA['about']['image']}'
 NEW_DATAMODEL['new_images_timeframe'] = int(DATA['config']['new_images_timeframe'])
 
 print(f"Before starting, edit {CONFIG_FILE} and make sure the images exists inside {DATA['config']['image_directory']}")
