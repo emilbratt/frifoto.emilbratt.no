@@ -42,10 +42,9 @@ function main() {
     BY_FILENAME = DATAMODEL['by_filename'];
     ALL_IMAGES = DATAMODEL['all_images'];
     ABOUT = DATAMODEL['about'];
-
+    NEW_IMAGES = [];
     let timeframe = DATAMODEL['new_images_timeframe'];
     const now = parseInt( Date.now()/1000, 10 );  // Unix timestamp in seconds
-    NEW_IMAGES = [];
     // Should we show new images?
     for (const [ts, images] of Object.entries(DATAMODEL['by_added'])) {
         if (now - ts < timeframe) {
@@ -69,10 +68,7 @@ function main() {
     const view_mode = params.get('view_mode') || 'photo-navigate';
     const tag = params.get('tag') || '';
     const image = params.get('image') || '';
-    if (params.has('download')) {
-        alert('DOWNLOAD NOT IMPLEMENTED YET');
-    }
-    switch(view_mode) {
+    switch (view_mode) {
         case 'photo-about':
             init_photo_about();
             break;
@@ -104,7 +100,7 @@ function init_photo_about() {
     qid('photo-about-header').innerHTML = `<h2>${ABOUT['name']}</h2>`;
     qid('photo-about-footer').innerHTML = `<a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Forside</a>`;
     qid('photo-about-paragraph').innerHTML = ABOUT['bio'];
-    qid('photo-about-image').src = `${IMG_DIR}/${DATAMODEL['about']['image']}`;
+    qid('photo-about-image').src = `${IMG_DIR}/${ABOUT['image']}`;
     view_mode('photo-about');
 
     document.addEventListener('keydown', function (event) {
