@@ -165,7 +165,18 @@ const DATAMODEL = {
         "2026_02_01__20_15_26__45.jpg",
         "2026_02_02__21_46_33__38.jpg",
         "2026_02_02__22_18_47__78.jpg",
-        "2026_02_02__22_30_51__54.jpg"
+        "2026_02_02__22_30_51__54.jpg",
+        "2026_02_11__10_51_31__58.jpg",
+        "2026_02_11__11_03_58__04.jpg",
+        "2026_02_11__11_13_40__02.jpg",
+        "2026_02_11__11_22_53__75.jpg",
+        "2026_02_11__11_23_12__99.jpg",
+        "2026_02_11__11_31_05__08.jpg",
+        "2026_02_11__11_32_44__39.jpg",
+        "2026_02_11__11_34_19__66.jpg",
+        "2026_02_11__11_43_44__38.jpg",
+        "2026_02_11__11_43_45__27.jpg",
+        "2026_02_11__11_49_37__46.jpg"
     ],
     "by_added": {
         "1764374400": [
@@ -353,6 +364,19 @@ const DATAMODEL = {
             "2026_02_02__21_46_33__38.jpg",
             "2026_02_02__22_18_47__78.jpg",
             "2026_02_02__22_30_51__54.jpg"
+        ],
+        "1770854400": [
+            "2026_02_11__10_51_31__58.jpg",
+            "2026_02_11__11_03_58__04.jpg",
+            "2026_02_11__11_13_40__02.jpg",
+            "2026_02_11__11_22_53__75.jpg",
+            "2026_02_11__11_23_12__99.jpg",
+            "2026_02_11__11_31_05__08.jpg",
+            "2026_02_11__11_32_44__39.jpg",
+            "2026_02_11__11_34_19__66.jpg",
+            "2026_02_11__11_43_44__38.jpg",
+            "2026_02_11__11_43_45__27.jpg",
+            "2026_02_11__11_49_37__46.jpg"
         ]
     },
     "by_filename": {
@@ -3074,6 +3098,194 @@ const DATAMODEL = {
                 "Allvi",
                 "Natt"
             ]
+        },
+        "2026_02_11__10_51_31__58.jpg": {
+            "ISO": 400,
+            "added": 1770854400,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:02:11 10:51:31",
+            "file_size": "1726 kB",
+            "focal": "135.0 mm",
+            "image_height": 3868,
+            "image_width": 5794,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/5000",
+            "tags": [
+                "Nordbyen Hundepark"
+            ]
+        },
+        "2026_02_11__11_03_58__04.jpg": {
+            "ISO": 800,
+            "added": 1770854400,
+            "aperture": 4.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:02:11 11:03:58",
+            "file_size": "1702 kB",
+            "focal": "135.0 mm",
+            "image_height": 3868,
+            "image_width": 5794,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/3200",
+            "tags": [
+                "Nordbyen Hundepark"
+            ]
+        },
+        "2026_02_11__11_13_40__02.jpg": {
+            "ISO": 800,
+            "added": 1770854400,
+            "aperture": 4.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:02:11 11:13:40",
+            "file_size": "1915 kB",
+            "focal": "135.0 mm",
+            "image_height": 3660,
+            "image_width": 5124,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Nordbyen Hundepark"
+            ]
+        },
+        "2026_02_11__11_22_53__75.jpg": {
+            "ISO": 1600,
+            "added": 1770854400,
+            "aperture": 2.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:02:11 11:22:53",
+            "file_size": "1552 kB",
+            "focal": "135.0 mm",
+            "image_height": 3455,
+            "image_width": 4837,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/3200",
+            "tags": [
+                "Nordbyen Hundepark"
+            ]
+        },
+        "2026_02_11__11_23_12__99.jpg": {
+            "ISO": 1600,
+            "added": 1770854400,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:02:11 11:23:12",
+            "file_size": "2.4 MB",
+            "focal": "135.0 mm",
+            "image_height": 3867,
+            "image_width": 4654,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/3200",
+            "tags": [
+                "Nordbyen Hundepark"
+            ]
+        },
+        "2026_02_11__11_31_05__08.jpg": {
+            "ISO": 800,
+            "added": 1770854400,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:02:11 11:31:05",
+            "file_size": "1787 kB",
+            "focal": "135.0 mm",
+            "image_height": 3347,
+            "image_width": 5015,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Nordbyen Hundepark"
+            ]
+        },
+        "2026_02_11__11_32_44__39.jpg": {
+            "ISO": 800,
+            "added": 1770854400,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:02:11 11:32:44",
+            "file_size": "1571 kB",
+            "focal": "135.0 mm",
+            "image_height": 3014,
+            "image_width": 4516,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Nordbyen Hundepark"
+            ]
+        },
+        "2026_02_11__11_34_19__66.jpg": {
+            "ISO": 1600,
+            "added": 1770854400,
+            "aperture": 3.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:02:11 11:34:19",
+            "file_size": "806 kB",
+            "focal": "135.0 mm",
+            "image_height": 3050,
+            "image_width": 4880,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Allvi",
+                "Nordbyen Hundepark"
+            ]
+        },
+        "2026_02_11__11_43_44__38.jpg": {
+            "ISO": 1600,
+            "added": 1770854400,
+            "aperture": 4.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:02:11 11:43:44",
+            "file_size": "1344 kB",
+            "focal": "135.0 mm",
+            "image_height": 3245,
+            "image_width": 5192,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Nordbyen Hundepark"
+            ]
+        },
+        "2026_02_11__11_43_45__27.jpg": {
+            "ISO": 1600,
+            "added": 1770854400,
+            "aperture": 5.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:02:11 11:43:45",
+            "file_size": "1458 kB",
+            "focal": "135.0 mm",
+            "image_height": 3310,
+            "image_width": 5296,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Nordbyen Hundepark"
+            ]
+        },
+        "2026_02_11__11_49_37__46.jpg": {
+            "ISO": 1600,
+            "added": 1770854400,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:02:11 11:49:37",
+            "file_size": "1931 kB",
+            "focal": "135.0 mm",
+            "image_height": 5064,
+            "image_width": 3798,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Nordbyen Hundepark"
+            ]
         }
     },
     "by_rating": {
@@ -3234,7 +3446,18 @@ const DATAMODEL = {
             "2026_02_01__20_15_26__45.jpg",
             "2026_02_02__21_46_33__38.jpg",
             "2026_02_02__22_18_47__78.jpg",
-            "2026_02_02__22_30_51__54.jpg"
+            "2026_02_02__22_30_51__54.jpg",
+            "2026_02_11__10_51_31__58.jpg",
+            "2026_02_11__11_03_58__04.jpg",
+            "2026_02_11__11_13_40__02.jpg",
+            "2026_02_11__11_22_53__75.jpg",
+            "2026_02_11__11_23_12__99.jpg",
+            "2026_02_11__11_31_05__08.jpg",
+            "2026_02_11__11_32_44__39.jpg",
+            "2026_02_11__11_34_19__66.jpg",
+            "2026_02_11__11_43_44__38.jpg",
+            "2026_02_11__11_43_45__27.jpg",
+            "2026_02_11__11_49_37__46.jpg"
         ],
         "3": [
             "2025_10_28__13_57_15__56.jpg"
@@ -3262,7 +3485,8 @@ const DATAMODEL = {
             "2026_02_01__20_15_26__45.jpg",
             "2026_02_02__21_46_33__38.jpg",
             "2026_02_02__22_18_47__78.jpg",
-            "2026_02_02__22_30_51__54.jpg"
+            "2026_02_02__22_30_51__54.jpg",
+            "2026_02_11__11_34_19__66.jpg"
         ],
         "Arkitektur": [
             "2026_01_27__23_09_39__41.jpg"
@@ -3437,7 +3661,18 @@ const DATAMODEL = {
             "2026_01_24__15_47_08__20.jpg",
             "2026_01_24__15_51_02__05.jpg",
             "2026_01_24__15_52_40__43.jpg",
-            "2026_01_24__16_03_30__01.jpg"
+            "2026_01_24__16_03_30__01.jpg",
+            "2026_02_11__10_51_31__58.jpg",
+            "2026_02_11__11_03_58__04.jpg",
+            "2026_02_11__11_13_40__02.jpg",
+            "2026_02_11__11_22_53__75.jpg",
+            "2026_02_11__11_23_12__99.jpg",
+            "2026_02_11__11_31_05__08.jpg",
+            "2026_02_11__11_32_44__39.jpg",
+            "2026_02_11__11_34_19__66.jpg",
+            "2026_02_11__11_43_44__38.jpg",
+            "2026_02_11__11_43_45__27.jpg",
+            "2026_02_11__11_49_37__46.jpg"
         ],
         "Nordlys": [
             "2026_01_02__22_24_03__74.jpg",
@@ -3462,7 +3697,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-02-02T23:46:11+0000",
+    "generated": "2026-02-12T16:18:23+0000",
     "new_images_timeframe": 604800
 }
 Object.freeze(DATAMODEL);
