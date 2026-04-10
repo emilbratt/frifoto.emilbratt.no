@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(47, 47, 47);
+    background-color: rgb(5, 5, 5);
     color: rgb(201, 209, 236);
     font-size: 1rem;
     font-family: tahoma, arial, helvetica, sans-serif;
@@ -44,7 +44,7 @@ a:hover, a:active, button:hover, button:active {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(47, 47, 47);
+    background-color: rgb(5, 5, 5);
     gap: 1rem;
 }
 #photo-about-header > h2 {
@@ -83,7 +83,7 @@ a:hover, a:active, button:hover, button:active {
     font-size: inherit;
     text-align: center;
     box-sizing: border-box;
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(31, 31, 31);
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -91,7 +91,7 @@ a:hover, a:active, button:hover, button:active {
     max-width: 80rem;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(47, 47, 47);
+    background-color: rgb(5, 5, 5);
 }
 #photo-navigate-boxes {
     padding: 0.9rem 0rem 0.9rem 0rem;
@@ -104,7 +104,7 @@ a:hover, a:active, button:hover, button:active {
     border-radius: 5rem;
     object-fit: contain;
     width: 15rem;
-    background-color: rgb(173, 173, 173);
+    background-color: rgb(46, 46, 46);
     padding: 0.3rem;
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
 }
@@ -136,7 +136,7 @@ a:hover, a:active, button:hover, button:active {
     font-size: inherit;
     text-align: center;
     box-sizing: border-box;
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(31, 31, 31);
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -145,7 +145,7 @@ a:hover, a:active, button:hover, button:active {
 }
 #photo-stream-container {
     height: 100dvh;
-    background-color: rgb(47, 47, 47);
+    background-color: rgb(5, 5, 5);
     align-content: center;
     max-width: 80rem;
     margin-left: auto;
@@ -169,7 +169,7 @@ a:hover, a:active, button:hover, button:active {
     font-size: inherit;
     text-align: center;
     box-sizing: border-box;
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(31, 31, 31);
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
 }
 #photo-stream-header > h1 {
@@ -191,7 +191,7 @@ a:hover, a:active, button:hover, button:active {
     gap: 1rem;
 }
 #photo-stream-boxes > div {
-    background-color: rgb(173, 173, 173);
+    background-color: rgb(46, 46, 46);
     height: 10rem;
     padding: 0.3rem;
 }
@@ -207,7 +207,7 @@ a:hover, a:active, button:hover, button:active {
 #photo-lightbox-container {
     height: 100dvh;
     position: relative;
-    background-color: rgb(28, 28, 28);
+    background-color: rgb(5, 5, 5);
 }
 #photo-lightbox-img {
     height: calc(100dvh - 7rem);
@@ -252,7 +252,7 @@ a:hover, a:active, button:hover, button:active {
     font-size: inherit;
     text-align: center;
     box-sizing: border-box;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(31, 31, 31);
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
 }
 
