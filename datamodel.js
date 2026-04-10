@@ -4,7 +4,7 @@
 const DATAMODEL = {
     "about": {
         "name": "Emil Bratt",
-        "bio": "<p>Velkommen!</p><p>Jeg er en eksfotograf som startet for fullt i 2011 og sluttet under Covid.\nHar vært med på mange spennende oppdrag gjennom min karriere.</p><p>Jeg fotograferer alt mulig. Da jeg drev proffesjonelt,\nfotograferte jeg sport, konsert, event, bryllup, gravid, nyfødt og sist men ikke minst, natur.</p><p>Har veldig lyst å starte opp proffesjonelt igjen,\nmen først skal det taes bilder rekreasjonelt. :)\nBildene du finner her er tilgjengelige for nedlasting og helt gratis for deg som privatperson.\nDet vil komme flere bilder etter hvert.</p><p>Tidligere delte jeg alt sammen på facebook og instagram, men det gjør jeg ikke lenger.\nSosiale medier har desverre blitt vanskeligere å bruke for personer uten brukerkonto,\nså jeg tok hammern fatt og snekra sammen denne nettsida.\nEr du kanskje en utvikler selv og lurer på hva som holder denne nettsida sammen? Her ligger\n<button><a href=\"https://github.com/emilbratt/frifoto.emilbratt.no/\">kildekode!</a></button>\n</p>",
+        "bio": "<p>Velkommen!</p><p>Jeg startet for fullt med foto i 2011 da, men kjøpte allerede mitt første speilrefleks i 2010.\nHar vært med på mange spennende oppdrag gjennom min karriere.</p><p>Jeg fotograferer alt mulig, sport, konsert, event, bryllup, gravid, nyfødt og sist men ikke minst, natur.</p><p>Bildene du finner her er tilgjengelige for nedlasting og helt gratis for deg som privatperson.\nDet vil komme flere bilder med tiden, så følg med. :):)</p><p>Tidligere delte jeg alt sammen på facebook og instagram, men jeg tenkte at det var på tide med en egen nettside.\nKanskje husker du meg fra instagram-kontoen '<a href=\"https://www.instagram.com/borstingphotography/\">Borsting Photography</a>'</p><p>Uansett, jeg tok hammern fatt og snekra sammen denne nettsida.\nEr du kanskje en utvikler selv og lurer på hva som holder denne nettsida sammen? Her ligger\n<button><a href=\"https://github.com/emilbratt/frifoto.emilbratt.no/\">kildekode!</a></button>\n</p>",
         "image": "2026_02_02__22_18_47__78.jpg"
     },
     "all_images": [
@@ -3804,7 +3804,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-04-10T21:14:24+0000",
+    "generated": "2026-04-10T21:20:25+0000",
     "new_images_timeframe": 604800
 }
 Object.freeze(DATAMODEL);
