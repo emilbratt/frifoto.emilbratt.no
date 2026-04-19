@@ -181,7 +181,11 @@ const DATAMODEL = {
         "2026_03_18__12_04_14__27.jpg",
         "2026_03_18__12_06_49__02.jpg",
         "2026_03_18__12_12_41__95.jpg",
-        "2026_03_18__12_51_13__15.jpg"
+        "2026_03_18__12_51_13__15.jpg",
+        "2026_04_13__18_27_17__45.jpg",
+        "2026_04_15__19_28_48__08.jpg",
+        "2026_04_15__19_31_15__82.jpg",
+        "2026_04_15__19_32_29__90.jpg"
     ],
     "by_added": {
         "1764374400": [
@@ -389,6 +393,12 @@ const DATAMODEL = {
             "2026_03_18__12_06_49__02.jpg",
             "2026_03_18__12_12_41__95.jpg",
             "2026_03_18__12_51_13__15.jpg"
+        ],
+        "1776556800": [
+            "2026_04_13__18_27_17__45.jpg",
+            "2026_04_15__19_28_48__08.jpg",
+            "2026_04_15__19_31_15__82.jpg",
+            "2026_04_15__19_32_29__90.jpg"
         ]
     },
     "by_filename": {
@@ -3383,6 +3393,75 @@ const DATAMODEL = {
             "tags": [
                 "Nordbyen Hundepark"
             ]
+        },
+        "2026_04_13__18_27_17__45.jpg": {
+            "ISO": 3200,
+            "added": 1776556800,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:04:13 18:27:17",
+            "file_size": "2.5 MB",
+            "focal": "135.0 mm",
+            "image_height": 3650,
+            "image_width": 5468,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/3200",
+            "tags": [
+                "Allvi",
+                "Snækks"
+            ]
+        },
+        "2026_04_15__19_28_48__08.jpg": {
+            "ISO": 3200,
+            "added": 1776556800,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:04:15 19:28:48",
+            "file_size": "2.4 MB",
+            "focal": "135.0 mm",
+            "image_height": 3786,
+            "image_width": 5671,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/1600",
+            "tags": [
+                "Snækks"
+            ]
+        },
+        "2026_04_15__19_31_15__82.jpg": {
+            "ISO": 3200,
+            "added": 1776556800,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:04:15 19:31:15",
+            "file_size": "2.1 MB",
+            "focal": "135.0 mm",
+            "image_height": 3682,
+            "image_width": 5515,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/1000",
+            "tags": [
+                "Snækks"
+            ]
+        },
+        "2026_04_15__19_32_29__90.jpg": {
+            "ISO": 3200,
+            "added": 1776556800,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:04:15 19:32:29",
+            "file_size": "1542 kB",
+            "focal": "135.0 mm",
+            "image_height": 3828,
+            "image_width": 5735,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/1000",
+            "tags": [
+                "Snækks"
+            ]
         }
     },
     "by_rating": {
@@ -3559,7 +3638,11 @@ const DATAMODEL = {
             "2026_03_18__12_04_14__27.jpg",
             "2026_03_18__12_06_49__02.jpg",
             "2026_03_18__12_12_41__95.jpg",
-            "2026_03_18__12_51_13__15.jpg"
+            "2026_03_18__12_51_13__15.jpg",
+            "2026_04_13__18_27_17__45.jpg",
+            "2026_04_15__19_28_48__08.jpg",
+            "2026_04_15__19_31_15__82.jpg",
+            "2026_04_15__19_32_29__90.jpg"
         ],
         "3": [
             "2025_10_28__13_57_15__56.jpg"
@@ -3588,7 +3671,8 @@ const DATAMODEL = {
             "2026_02_02__21_46_33__38.jpg",
             "2026_02_02__22_18_47__78.jpg",
             "2026_02_02__22_30_51__54.jpg",
-            "2026_02_11__11_34_19__66.jpg"
+            "2026_02_11__11_34_19__66.jpg",
+            "2026_04_13__18_27_17__45.jpg"
         ],
         "Arkitektur": [
             "2026_01_27__23_09_39__41.jpg"
@@ -3791,6 +3875,12 @@ const DATAMODEL = {
         "Skumring": [
             "2023_02_02__15_42_51__74.jpg"
         ],
+        "Snækks": [
+            "2026_04_13__18_27_17__45.jpg",
+            "2026_04_15__19_28_48__08.jpg",
+            "2026_04_15__19_31_15__82.jpg",
+            "2026_04_15__19_32_29__90.jpg"
+        ],
         "Sommer": [
             "2020_08_15__18_00_29__38.jpg"
         ],
@@ -3804,7 +3894,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-04-10T21:20:25+0000",
+    "generated": "2026-04-19T20:26:27+0000",
     "new_images_timeframe": 604800
 }
 Object.freeze(DATAMODEL);
