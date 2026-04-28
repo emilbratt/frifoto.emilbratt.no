@@ -1,10 +1,9 @@
 "use strict";
 
 // Globals
-let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES, ABOUT, CURRENT_VIEW, IMAGE_INDEX, TAG_INDEX, SLIDE_RANDOM, NEW_IMAGES, NEW_IMAGES_TAG;
-SLIDE_RANDOM = true;
+let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES, ABOUT, CURRENT_VIEW, IMAGE_INDEX, TAG_INDEX, NEW_IMAGES, NEW_IMAGES_TAG;
 NEW_IMAGES_TAG = 'Nye Bilder';
-const VIEW_MODES = [ 'photo-about', 'photo-navigate', 'photo-lightbox', 'photo-stream', 'photo-slideshow' ];
+const VIEW_MODES = [ 'photo-about', 'photo-navigate', 'photo-lightbox', 'photo-stream', ];
 Object.freeze(VIEW_MODES);
 
 document.addEventListener("DOMContentLoaded", main);
@@ -80,9 +79,6 @@ function main() {
             break;
         case 'photo-stream':
             init_photo_stream(tag);
-            break;
-        case 'photo-slideshow':
-            init_photo_slideshow(tag);
             break;
         default:
             init_photo_directory_navigate();
@@ -166,7 +162,6 @@ function init_photo_stream(tag) {
     header.innerHTML = `
         <a class="photo-navigate-btn" href="${location.pathname}?view_mode=photo-navigate">Forside</a>
         <h1>${tag}</h1>
-        <a href="${location.pathname}?view_mode=photo-slideshow&tag=${encodeURIComponent(tag)}">Lysbilde</a>
     `;
 
     const container = qid('photo-stream-boxes');
@@ -260,76 +255,6 @@ function init_photo_lightbox(tag, image) {
             document.querySelector('.back-btn').click();
         }
     });
-}
-
-function init_photo_slideshow(tag) {
-    view_mode('photo-slideshow');
-    const container = qid('photo-slideshow-container');
-    document.addEventListener('keydown', function (event) {
-        if (event.key === 'Escape') {
-            if (document.fullscreenElement) {
-                document.exitFullscreen();
-            }
-            window.history.pushState(null, '', `${window.location.pathname}?view_mode=photo-navigate`);
-            init_photo_stream(tag)
-        } else if (event.key === 'f') {
-            if (document.fullscreenElement) {
-                document.exitFullscreen();
-            } else {
-                if (container.requestFullscreen) {
-                    container.requestFullscreen();
-                } else if (container.webkitRequestFullscreen) { // Safari
-                    container.webkitRequestFullscreen();
-                }
-            }
-        }
-    });
-    container.addEventListener('click', () => {
-        if (document.fullscreenElement) {
-            document.exitFullscreen();
-        } else {
-            if (container.requestFullscreen) {
-                container.requestFullscreen();
-            } else if (container.webkitRequestFullscreen) { // Safari
-                container.webkitRequestFullscreen();
-            }
-        }
-    });
-
-    const images = [];
-    if (tag === '') {
-        for (const image of ALL_IMAGES) { images.push(IMG_DIR + '/' + image); }
-    } else {
-        for (const image of BY_TAG[tag]) { images.push(IMG_DIR + '/' + image); }
-    }
-    if (SLIDE_RANDOM) {
-        for (let i = images.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [images[i], images[j]] = [images[j], images[i]];
-        }
-    }
-
-    const fragment = document.createDocumentFragment();
-    for (let i = 0; i < images.length; i++) {
-        const img = new Image();
-        img.src = images[i];
-        if (i === 0) {
-            img.className = 'active';
-        }
-        img.loading = 'lazy';
-        fragment.appendChild(img);
-    }
-    container.appendChild(fragment);
-
-    let index = 0;
-    setInterval(
-        () => {
-            container.children[index].classList.remove('active');
-            index = (index + 1) % container.children.length;
-            container.children[index].classList.add('active');
-        },
-        8000
-    );
 }
 
 function nav_filter_boxes() {
