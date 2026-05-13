@@ -290,8 +290,7 @@ a:hover, a:active, button:hover, button:active {
 #url-qr-code {
     display: block;
     margin: auto;
-    max-height: 80vh;
-    width: auto;
+    width: 90%;
 }
 #share-page-footer > a {
     display: block;
