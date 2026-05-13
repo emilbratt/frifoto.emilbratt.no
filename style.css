@@ -275,3 +275,35 @@ a:hover, a:active, button:hover, button:active {
 .slideshow img.active {
     opacity: 1;
 }
+
+#share-page-container {
+    padding: 0.9rem 0rem 0.9rem 0rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+#share-page-container > p {
+    display: block;
+    margin: auto;
+}
+#url-qr-code {
+    display: block;
+    margin: auto;
+    max-height: 80vh;
+    width: auto;
+}
+#share-page-footer > a {
+    display: block;
+    margin: auto;
+    padding: 0.9rem 0rem 0.9rem 0rem;
+    height: 3rem;
+    width: 9rem;
+    min-width: 6.5rem;
+    color: inherit;
+    font-size: inherit;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(31, 31, 31);
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
+}

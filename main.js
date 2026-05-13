@@ -1,9 +1,9 @@
 "use strict";
 
 // Globals
-let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES, ABOUT, CURRENT_VIEW, IMAGE_INDEX, TAG_INDEX, NEW_IMAGES, NEW_IMAGES_TAG;
+let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES, ABOUT, CURRENT_VIEW, IMAGE_INDEX, TAG_INDEX, NEW_IMAGES, NEW_IMAGES_TAG,URL;
 NEW_IMAGES_TAG = 'Nye Bilder';
-const VIEW_MODES = [ 'photo-about', 'photo-navigate', 'photo-lightbox', 'photo-stream', ];
+const VIEW_MODES = [ 'photo-about', 'photo-navigate', 'photo-lightbox', 'photo-stream', 'share-page' ];
 Object.freeze(VIEW_MODES);
 
 document.addEventListener("DOMContentLoaded", main);
@@ -41,6 +41,7 @@ function main() {
     BY_FILENAME = DATAMODEL['by_filename'];
     ALL_IMAGES = DATAMODEL['all_images'];
     ABOUT = DATAMODEL['about'];
+    URL = 'https://frifoto.emilbratt.no';
     NEW_IMAGES = [];
     let timeframe = DATAMODEL['new_images_timeframe'];
     const now = parseInt( Date.now()/1000, 10 );  // Unix timestamp in seconds
@@ -79,6 +80,9 @@ function main() {
             break;
         case 'photo-stream':
             init_photo_stream(tag);
+            break;
+        case 'share-page':
+            init_share_page();
             break;
         default:
             init_photo_directory_navigate();
@@ -151,6 +155,7 @@ function init_photo_directory_navigate() {
 
     qid('photo-navigate-header').innerHTML = `
         <a href="${window.location.pathname}?view_mode=photo-about" method="get">Om Meg</a>
+        <a href="${window.location.pathname}?view_mode=share-page" method="get">Del nettside</a>
         <input type="text" id="input_nav_filter" onkeyup="nav_filter_boxes()" ${autofocus} placeholder="Filtrer" title="Søk på nøkkelord">
     `;
     qid('photo-navigate-boxes').innerHTML = html;
@@ -255,6 +260,12 @@ function init_photo_lightbox(tag, image) {
             document.querySelector('.back-btn').click();
         }
     });
+}
+
+function init_share_page() {
+    view_mode('share-page');
+    qid('share-page-footer').innerHTML = `<a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Forside</a>`;
+    qid('url-qr-code').onclick=() => { navigator.clipboard.writeText(URL) };
 }
 
 function nav_filter_boxes() {
