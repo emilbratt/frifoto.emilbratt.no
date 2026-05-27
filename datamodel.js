@@ -251,7 +251,14 @@ const DATAMODEL = {
         "2026_05_15__16_39_02__72.jpg",
         "2026_05_15__16_47_18__64.jpg",
         "2026_05_15__16_47_27__93.jpg",
-        "2026_05_15__16_49_44__33.jpg"
+        "2026_05_15__16_49_44__33.jpg",
+        "2026_05_18__20_18_20__29.jpg",
+        "2026_05_18__20_25_54__61.jpg",
+        "2026_05_18__20_26_05__66.jpg",
+        "2026_05_18__20_43_01__78.jpg",
+        "2026_05_18__20_49_06__63.jpg",
+        "2026_05_18__20_49_43__86.jpg",
+        "2026_05_18__20_51_55__76.jpg"
     ],
     "by_added": {
         "1764374400": [
@@ -541,6 +548,15 @@ const DATAMODEL = {
             "2026_05_15__16_47_18__64.jpg",
             "2026_05_15__16_47_27__93.jpg",
             "2026_05_15__16_49_44__33.jpg"
+        ],
+        "1779753600": [
+            "2026_05_18__20_18_20__29.jpg",
+            "2026_05_18__20_25_54__61.jpg",
+            "2026_05_18__20_26_05__66.jpg",
+            "2026_05_18__20_43_01__78.jpg",
+            "2026_05_18__20_49_06__63.jpg",
+            "2026_05_18__20_49_43__86.jpg",
+            "2026_05_18__20_51_55__76.jpg"
         ]
     },
     "by_filename": {
@@ -4743,6 +4759,130 @@ const DATAMODEL = {
                 "Lade Hundepark",
                 "Snækks"
             ]
+        },
+        "2026_05_18__20_18_20__29.jpg": {
+            "ISO": 800,
+            "added": 1779753600,
+            "aperture": 1.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:18 20:18:20",
+            "file_size": "1380 kB",
+            "focal": "20.0 mm",
+            "image_height": 2718,
+            "image_width": 4832,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/1250",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2026_05_18__20_25_54__61.jpg": {
+            "ISO": 800,
+            "added": 1779753600,
+            "aperture": 1.4,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:18 20:25:54",
+            "file_size": "1866 kB",
+            "focal": "20.0 mm",
+            "image_height": 3045,
+            "image_width": 4872,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Lade Hundepark",
+                "Smækks"
+            ]
+        },
+        "2026_05_18__20_26_05__66.jpg": {
+            "ISO": 800,
+            "added": 1779753600,
+            "aperture": 1.4,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:18 20:26:05",
+            "file_size": "1961 kB",
+            "focal": "20.0 mm",
+            "image_height": 3844,
+            "image_width": 4805,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Lade Hundepark",
+                "Smækks"
+            ]
+        },
+        "2026_05_18__20_43_01__78.jpg": {
+            "ISO": 3200,
+            "added": 1779753600,
+            "aperture": 1.4,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:18 20:43:01",
+            "file_size": "1534 kB",
+            "focal": "20.0 mm",
+            "image_height": 3330,
+            "image_width": 5328,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/8000",
+            "tags": [
+                "Lade Hundepark",
+                "Smækks"
+            ]
+        },
+        "2026_05_18__20_49_06__63.jpg": {
+            "ISO": 1600,
+            "added": 1779753600,
+            "aperture": 1.4,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:18 20:49:06",
+            "file_size": "1885 kB",
+            "focal": "20.0 mm",
+            "image_height": 3385,
+            "image_width": 5416,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/1600",
+            "tags": [
+                "Lade Hundepark",
+                "Smækks"
+            ]
+        },
+        "2026_05_18__20_49_43__86.jpg": {
+            "ISO": 1600,
+            "added": 1779753600,
+            "aperture": 1.4,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:18 20:49:43",
+            "file_size": "1259 kB",
+            "focal": "20.0 mm",
+            "image_height": 3160,
+            "image_width": 5056,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2026_05_18__20_51_55__76.jpg": {
+            "ISO": 3200,
+            "added": 1779753600,
+            "aperture": 1.4,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:18 20:51:55",
+            "file_size": "2.8 MB",
+            "focal": "20.0 mm",
+            "image_height": 3671,
+            "image_width": 5499,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Lade Hundepark",
+                "Smækks"
+            ]
         }
     },
     "by_rating": {
@@ -4989,7 +5129,14 @@ const DATAMODEL = {
             "2026_05_15__16_39_02__72.jpg",
             "2026_05_15__16_47_18__64.jpg",
             "2026_05_15__16_47_27__93.jpg",
-            "2026_05_15__16_49_44__33.jpg"
+            "2026_05_15__16_49_44__33.jpg",
+            "2026_05_18__20_18_20__29.jpg",
+            "2026_05_18__20_25_54__61.jpg",
+            "2026_05_18__20_26_05__66.jpg",
+            "2026_05_18__20_43_01__78.jpg",
+            "2026_05_18__20_49_06__63.jpg",
+            "2026_05_18__20_49_43__86.jpg",
+            "2026_05_18__20_51_55__76.jpg"
         ],
         "3": [
             "2025_10_28__13_57_15__56.jpg"
@@ -5196,7 +5343,14 @@ const DATAMODEL = {
             "2026_05_15__16_39_02__72.jpg",
             "2026_05_15__16_47_18__64.jpg",
             "2026_05_15__16_47_27__93.jpg",
-            "2026_05_15__16_49_44__33.jpg"
+            "2026_05_15__16_49_44__33.jpg",
+            "2026_05_18__20_18_20__29.jpg",
+            "2026_05_18__20_25_54__61.jpg",
+            "2026_05_18__20_26_05__66.jpg",
+            "2026_05_18__20_43_01__78.jpg",
+            "2026_05_18__20_49_06__63.jpg",
+            "2026_05_18__20_49_43__86.jpg",
+            "2026_05_18__20_51_55__76.jpg"
         ],
         "Natt": [
             "2026_01_02__22_24_03__74.jpg",
@@ -5285,6 +5439,13 @@ const DATAMODEL = {
         "Skumring": [
             "2023_02_02__15_42_51__74.jpg"
         ],
+        "Smækks": [
+            "2026_05_18__20_25_54__61.jpg",
+            "2026_05_18__20_26_05__66.jpg",
+            "2026_05_18__20_43_01__78.jpg",
+            "2026_05_18__20_49_06__63.jpg",
+            "2026_05_18__20_51_55__76.jpg"
+        ],
         "Snækks": [
             "2026_04_13__18_27_17__45.jpg",
             "2026_04_15__19_28_48__08.jpg",
@@ -5324,7 +5485,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-05-16T12:50:34+0000",
+    "generated": "2026-05-27T06:30:39+0000",
     "new_images_timeframe": 604800
 }
 Object.freeze(DATAMODEL);
