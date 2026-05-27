@@ -4792,7 +4792,7 @@ const DATAMODEL = {
             "shutter_speed": "1/2500",
             "tags": [
                 "Lade Hundepark",
-                "Smækks"
+                "Snækks"
             ]
         },
         "2026_05_18__20_26_05__66.jpg": {
@@ -4810,7 +4810,7 @@ const DATAMODEL = {
             "shutter_speed": "1/2500",
             "tags": [
                 "Lade Hundepark",
-                "Smækks"
+                "Snækks"
             ]
         },
         "2026_05_18__20_43_01__78.jpg": {
@@ -4828,7 +4828,7 @@ const DATAMODEL = {
             "shutter_speed": "1/8000",
             "tags": [
                 "Lade Hundepark",
-                "Smækks"
+                "Snækks"
             ]
         },
         "2026_05_18__20_49_06__63.jpg": {
@@ -4846,7 +4846,7 @@ const DATAMODEL = {
             "shutter_speed": "1/1600",
             "tags": [
                 "Lade Hundepark",
-                "Smækks"
+                "Snækks"
             ]
         },
         "2026_05_18__20_49_43__86.jpg": {
@@ -4881,7 +4881,7 @@ const DATAMODEL = {
             "shutter_speed": "1/2500",
             "tags": [
                 "Lade Hundepark",
-                "Smækks"
+                "Snækks"
             ]
         }
     },
@@ -5439,13 +5439,6 @@ const DATAMODEL = {
         "Skumring": [
             "2023_02_02__15_42_51__74.jpg"
         ],
-        "Smækks": [
-            "2026_05_18__20_25_54__61.jpg",
-            "2026_05_18__20_26_05__66.jpg",
-            "2026_05_18__20_43_01__78.jpg",
-            "2026_05_18__20_49_06__63.jpg",
-            "2026_05_18__20_51_55__76.jpg"
-        ],
         "Snækks": [
             "2026_04_13__18_27_17__45.jpg",
             "2026_04_15__19_28_48__08.jpg",
@@ -5470,7 +5463,12 @@ const DATAMODEL = {
             "2026_05_15__16_34_42__57.jpg",
             "2026_05_15__16_47_18__64.jpg",
             "2026_05_15__16_47_27__93.jpg",
-            "2026_05_15__16_49_44__33.jpg"
+            "2026_05_15__16_49_44__33.jpg",
+            "2026_05_18__20_25_54__61.jpg",
+            "2026_05_18__20_26_05__66.jpg",
+            "2026_05_18__20_43_01__78.jpg",
+            "2026_05_18__20_49_06__63.jpg",
+            "2026_05_18__20_51_55__76.jpg"
         ],
         "Sommer": [
             "2020_08_15__18_00_29__38.jpg"
@@ -5485,7 +5483,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-05-27T06:30:39+0000",
+    "generated": "2026-05-27T14:49:05+0000",
     "new_images_timeframe": 604800
 }
 Object.freeze(DATAMODEL);
