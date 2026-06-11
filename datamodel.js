@@ -258,7 +258,16 @@ const DATAMODEL = {
         "2026_05_18__20_43_01__78.jpg",
         "2026_05_18__20_49_06__63.jpg",
         "2026_05_18__20_49_43__86.jpg",
-        "2026_05_18__20_51_55__76.jpg"
+        "2026_05_18__20_51_55__76.jpg",
+        "2026_05_19__19_00_35__28.jpg",
+        "2026_05_19__19_00_47__11.jpg",
+        "2026_05_19__19_02_23__19.jpg",
+        "2026_05_19__19_15_44__49.jpg",
+        "2026_05_19__19_26_55__79.jpg",
+        "2026_05_19__20_05_02__62.jpg",
+        "2026_05_19__20_11_09__17.jpg",
+        "2026_05_19__20_13_36__28.jpg",
+        "2026_05_19__20_18_30__90.jpg"
     ],
     "by_added": {
         "1764374400": [
@@ -557,6 +566,17 @@ const DATAMODEL = {
             "2026_05_18__20_49_06__63.jpg",
             "2026_05_18__20_49_43__86.jpg",
             "2026_05_18__20_51_55__76.jpg"
+        ],
+        "1781136000": [
+            "2026_05_19__19_00_35__28.jpg",
+            "2026_05_19__19_00_47__11.jpg",
+            "2026_05_19__19_02_23__19.jpg",
+            "2026_05_19__19_15_44__49.jpg",
+            "2026_05_19__19_26_55__79.jpg",
+            "2026_05_19__20_05_02__62.jpg",
+            "2026_05_19__20_11_09__17.jpg",
+            "2026_05_19__20_13_36__28.jpg",
+            "2026_05_19__20_18_30__90.jpg"
         ]
     },
     "by_filename": {
@@ -3567,7 +3587,7 @@ const DATAMODEL = {
             "shutter_speed": "1/3200",
             "tags": [
                 "Allvi",
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_15__19_28_48__08.jpg": {
@@ -3584,7 +3604,7 @@ const DATAMODEL = {
             "shooting_mode": "Shutter speed priority AE",
             "shutter_speed": "1/1600",
             "tags": [
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_15__19_31_15__82.jpg": {
@@ -3601,7 +3621,7 @@ const DATAMODEL = {
             "shooting_mode": "Shutter speed priority AE",
             "shutter_speed": "1/1000",
             "tags": [
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_15__19_32_29__90.jpg": {
@@ -3618,7 +3638,7 @@ const DATAMODEL = {
             "shooting_mode": "Shutter speed priority AE",
             "shutter_speed": "1/1000",
             "tags": [
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_16__17_11_22__12.jpg": {
@@ -3636,7 +3656,7 @@ const DATAMODEL = {
             "shutter_speed": "1/3200",
             "tags": [
                 "Allvi",
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_16__17_18_39__37.jpg": {
@@ -3653,7 +3673,7 @@ const DATAMODEL = {
             "shooting_mode": "Shutter speed priority AE",
             "shutter_speed": "1/3200",
             "tags": [
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_16__17_18_42__02.jpg": {
@@ -3687,7 +3707,7 @@ const DATAMODEL = {
             "shooting_mode": "Shutter speed priority AE",
             "shutter_speed": "1/3200",
             "tags": [
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_16__17_32_22__00.jpg": {
@@ -3704,7 +3724,7 @@ const DATAMODEL = {
             "shooting_mode": "Shutter speed priority AE",
             "shutter_speed": "1/2500",
             "tags": [
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_16__17_32_32__21.jpg": {
@@ -3721,7 +3741,7 @@ const DATAMODEL = {
             "shooting_mode": "Shutter speed priority AE",
             "shutter_speed": "1/2500",
             "tags": [
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_16__17_35_10__26.jpg": {
@@ -3738,7 +3758,7 @@ const DATAMODEL = {
             "shooting_mode": "Shutter speed priority AE",
             "shutter_speed": "1/2500",
             "tags": [
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_16__17_35_24__69.jpg": {
@@ -3756,7 +3776,7 @@ const DATAMODEL = {
             "shutter_speed": "1/2500",
             "tags": [
                 "Allvi",
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_16__17_35_59__93.jpg": {
@@ -3774,7 +3794,7 @@ const DATAMODEL = {
             "shutter_speed": "1/2500",
             "tags": [
                 "Allvi",
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_16__17_36_11__44.jpg": {
@@ -3792,7 +3812,7 @@ const DATAMODEL = {
             "shutter_speed": "1/2500",
             "tags": [
                 "Allvi",
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_16__17_36_21__61.jpg": {
@@ -3809,7 +3829,7 @@ const DATAMODEL = {
             "shooting_mode": "Shutter speed priority AE",
             "shutter_speed": "1/2500",
             "tags": [
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_16__18_26_06__47.jpg": {
@@ -4013,7 +4033,7 @@ const DATAMODEL = {
             "shooting_mode": "Shutter speed priority AE",
             "shutter_speed": "1/8000",
             "tags": [
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_26__08_12_54__05.jpg": {
@@ -4030,7 +4050,7 @@ const DATAMODEL = {
             "shooting_mode": "Shutter speed priority AE",
             "shutter_speed": "1/6400",
             "tags": [
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_26__08_18_17__28.jpg": {
@@ -4047,7 +4067,7 @@ const DATAMODEL = {
             "shooting_mode": "Shutter speed priority AE",
             "shutter_speed": "1/8000",
             "tags": [
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_04_26__08_21_25__36.jpg": {
@@ -4254,7 +4274,7 @@ const DATAMODEL = {
             "shutter_speed": "1/2000",
             "tags": [
                 "Lade Hundepark",
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_05_01__10_45_58__89.jpg": {
@@ -4272,7 +4292,7 @@ const DATAMODEL = {
             "shutter_speed": "1/4000",
             "tags": [
                 "Lade Hundepark",
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_05_01__10_48_46__65.jpg": {
@@ -4290,7 +4310,7 @@ const DATAMODEL = {
             "shutter_speed": "1/8000",
             "tags": [
                 "Lade Hundepark",
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_05_01__12_10_33__47.jpg": {
@@ -4683,7 +4703,7 @@ const DATAMODEL = {
             "shutter_speed": "1/4000",
             "tags": [
                 "Lade Hundepark",
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_05_15__16_39_02__72.jpg": {
@@ -4719,7 +4739,7 @@ const DATAMODEL = {
             "shutter_speed": "1/2500",
             "tags": [
                 "Lade Hundepark",
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_05_15__16_47_27__93.jpg": {
@@ -4738,7 +4758,7 @@ const DATAMODEL = {
             "tags": [
                 "Allvi",
                 "Lade Hundepark",
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_05_15__16_49_44__33.jpg": {
@@ -4757,7 +4777,7 @@ const DATAMODEL = {
             "tags": [
                 "Allvi",
                 "Lade Hundepark",
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_05_18__20_18_20__29.jpg": {
@@ -4792,7 +4812,7 @@ const DATAMODEL = {
             "shutter_speed": "1/2500",
             "tags": [
                 "Lade Hundepark",
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_05_18__20_26_05__66.jpg": {
@@ -4810,7 +4830,7 @@ const DATAMODEL = {
             "shutter_speed": "1/2500",
             "tags": [
                 "Lade Hundepark",
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_05_18__20_43_01__78.jpg": {
@@ -4828,7 +4848,7 @@ const DATAMODEL = {
             "shutter_speed": "1/8000",
             "tags": [
                 "Lade Hundepark",
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_05_18__20_49_06__63.jpg": {
@@ -4846,7 +4866,7 @@ const DATAMODEL = {
             "shutter_speed": "1/1600",
             "tags": [
                 "Lade Hundepark",
-                "Snækks"
+                "Snacks"
             ]
         },
         "2026_05_18__20_49_43__86.jpg": {
@@ -4881,7 +4901,163 @@ const DATAMODEL = {
             "shutter_speed": "1/2500",
             "tags": [
                 "Lade Hundepark",
-                "Snækks"
+                "Snacks"
+            ]
+        },
+        "2026_05_19__19_00_35__28.jpg": {
+            "ISO": 800,
+            "added": 1781136000,
+            "aperture": 3.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:19 19:00:35",
+            "file_size": "1306 kB",
+            "focal": "20.0 mm",
+            "image_height": 3633,
+            "image_width": 4671,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/1600",
+            "tags": [
+                "Lade Hundepark",
+                "Snacks"
+            ]
+        },
+        "2026_05_19__19_00_47__11.jpg": {
+            "ISO": 800,
+            "added": 1781136000,
+            "aperture": 3.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:19 19:00:47",
+            "file_size": "1438 kB",
+            "focal": "20.0 mm",
+            "image_height": 2682,
+            "image_width": 4768,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/8000",
+            "tags": [
+                "Lade Hundepark",
+                "Snacks"
+            ]
+        },
+        "2026_05_19__19_02_23__19.jpg": {
+            "ISO": 1600,
+            "added": 1781136000,
+            "aperture": 4.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:19 19:02:23",
+            "file_size": "1521 kB",
+            "focal": "20.0 mm",
+            "image_height": 2770,
+            "image_width": 4432,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Lade Hundepark",
+                "Snacks"
+            ]
+        },
+        "2026_05_19__19_15_44__49.jpg": {
+            "ISO": 1600,
+            "added": 1781136000,
+            "aperture": 5.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:19 19:15:44",
+            "file_size": "1893 kB",
+            "focal": "20.0 mm",
+            "image_height": 3515,
+            "image_width": 5624,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2026_05_19__19_26_55__79.jpg": {
+            "ISO": 1600,
+            "added": 1781136000,
+            "aperture": 2.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:19 19:26:55",
+            "file_size": "1356 kB",
+            "focal": "20.0 mm",
+            "image_height": 3516,
+            "image_width": 4395,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2026_05_19__20_05_02__62.jpg": {
+            "ISO": 400,
+            "added": 1781136000,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:19 20:05:02",
+            "file_size": "1861 kB",
+            "focal": "20.0 mm",
+            "image_height": 3181,
+            "image_width": 4765,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2026_05_19__20_11_09__17.jpg": {
+            "ISO": 400,
+            "added": 1781136000,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:19 20:11:09",
+            "file_size": "2.3 MB",
+            "focal": "20.0 mm",
+            "image_height": 3803,
+            "image_width": 5697,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/5000",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2026_05_19__20_13_36__28.jpg": {
+            "ISO": 400,
+            "added": 1781136000,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:19 20:13:36",
+            "file_size": "1935 kB",
+            "focal": "20.0 mm",
+            "image_height": 3145,
+            "image_width": 5032,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2026_05_19__20_18_30__90.jpg": {
+            "ISO": 800,
+            "added": 1781136000,
+            "aperture": 2.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:19 20:18:30",
+            "file_size": "2.1 MB",
+            "focal": "20.0 mm",
+            "image_height": 3601,
+            "image_width": 5394,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/1600",
+            "tags": [
+                "Lade Hundepark"
             ]
         }
     },
@@ -5136,7 +5312,16 @@ const DATAMODEL = {
             "2026_05_18__20_43_01__78.jpg",
             "2026_05_18__20_49_06__63.jpg",
             "2026_05_18__20_49_43__86.jpg",
-            "2026_05_18__20_51_55__76.jpg"
+            "2026_05_18__20_51_55__76.jpg",
+            "2026_05_19__19_00_35__28.jpg",
+            "2026_05_19__19_00_47__11.jpg",
+            "2026_05_19__19_02_23__19.jpg",
+            "2026_05_19__19_15_44__49.jpg",
+            "2026_05_19__19_26_55__79.jpg",
+            "2026_05_19__20_05_02__62.jpg",
+            "2026_05_19__20_11_09__17.jpg",
+            "2026_05_19__20_13_36__28.jpg",
+            "2026_05_19__20_18_30__90.jpg"
         ],
         "3": [
             "2025_10_28__13_57_15__56.jpg"
@@ -5350,7 +5535,16 @@ const DATAMODEL = {
             "2026_05_18__20_43_01__78.jpg",
             "2026_05_18__20_49_06__63.jpg",
             "2026_05_18__20_49_43__86.jpg",
-            "2026_05_18__20_51_55__76.jpg"
+            "2026_05_18__20_51_55__76.jpg",
+            "2026_05_19__19_00_35__28.jpg",
+            "2026_05_19__19_00_47__11.jpg",
+            "2026_05_19__19_02_23__19.jpg",
+            "2026_05_19__19_15_44__49.jpg",
+            "2026_05_19__19_26_55__79.jpg",
+            "2026_05_19__20_05_02__62.jpg",
+            "2026_05_19__20_11_09__17.jpg",
+            "2026_05_19__20_13_36__28.jpg",
+            "2026_05_19__20_18_30__90.jpg"
         ],
         "Natt": [
             "2026_01_02__22_24_03__74.jpg",
@@ -5439,7 +5633,7 @@ const DATAMODEL = {
         "Skumring": [
             "2023_02_02__15_42_51__74.jpg"
         ],
-        "Snækks": [
+        "Snacks": [
             "2026_04_13__18_27_17__45.jpg",
             "2026_04_15__19_28_48__08.jpg",
             "2026_04_15__19_31_15__82.jpg",
@@ -5468,7 +5662,10 @@ const DATAMODEL = {
             "2026_05_18__20_26_05__66.jpg",
             "2026_05_18__20_43_01__78.jpg",
             "2026_05_18__20_49_06__63.jpg",
-            "2026_05_18__20_51_55__76.jpg"
+            "2026_05_18__20_51_55__76.jpg",
+            "2026_05_19__19_00_35__28.jpg",
+            "2026_05_19__19_00_47__11.jpg",
+            "2026_05_19__19_02_23__19.jpg"
         ],
         "Sommer": [
             "2020_08_15__18_00_29__38.jpg"
@@ -5483,7 +5680,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-05-27T14:49:05+0000",
+    "generated": "2026-06-11T20:14:54+0000",
     "new_images_timeframe": 604800
 }
 Object.freeze(DATAMODEL);
