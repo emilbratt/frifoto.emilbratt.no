@@ -264,6 +264,9 @@ const DATAMODEL = {
         "2026_05_19__19_02_23__19.jpg",
         "2026_05_19__19_15_44__49.jpg",
         "2026_05_19__19_26_55__79.jpg",
+        "2026_05_19__19_27_57__20.jpg",
+        "2026_05_19__19_49_17__44.jpg",
+        "2026_05_19__19_49_18__11.jpg",
         "2026_05_19__20_05_02__62.jpg",
         "2026_05_19__20_11_09__17.jpg",
         "2026_05_19__20_13_36__28.jpg",
@@ -577,6 +580,11 @@ const DATAMODEL = {
             "2026_05_19__20_11_09__17.jpg",
             "2026_05_19__20_13_36__28.jpg",
             "2026_05_19__20_18_30__90.jpg"
+        ],
+        "1781222400": [
+            "2026_05_19__19_27_57__20.jpg",
+            "2026_05_19__19_49_17__44.jpg",
+            "2026_05_19__19_49_18__11.jpg"
         ]
     },
     "by_filename": {
@@ -4992,6 +5000,57 @@ const DATAMODEL = {
                 "Lade Hundepark"
             ]
         },
+        "2026_05_19__19_27_57__20.jpg": {
+            "ISO": 800,
+            "added": 1781222400,
+            "aperture": 2.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:19 19:27:57",
+            "file_size": "1113 kB",
+            "focal": "20.0 mm",
+            "image_height": 2385,
+            "image_width": 4240,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/1600",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2026_05_19__19_49_17__44.jpg": {
+            "ISO": 1600,
+            "added": 1781222400,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:19 19:49:17",
+            "file_size": "1279 kB",
+            "focal": "20.0 mm",
+            "image_height": 2830,
+            "image_width": 4240,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
+        "2026_05_19__19_49_18__11.jpg": {
+            "ISO": 1600,
+            "added": 1781222400,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:05:19 19:49:18",
+            "file_size": "1363 kB",
+            "focal": "20.0 mm",
+            "image_height": 2830,
+            "image_width": 4240,
+            "lens": "Sigma 20mm f/1.4 DG HSM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Lade Hundepark"
+            ]
+        },
         "2026_05_19__20_05_02__62.jpg": {
             "ISO": 400,
             "added": 1781136000,
@@ -5318,6 +5377,9 @@ const DATAMODEL = {
             "2026_05_19__19_02_23__19.jpg",
             "2026_05_19__19_15_44__49.jpg",
             "2026_05_19__19_26_55__79.jpg",
+            "2026_05_19__19_27_57__20.jpg",
+            "2026_05_19__19_49_17__44.jpg",
+            "2026_05_19__19_49_18__11.jpg",
             "2026_05_19__20_05_02__62.jpg",
             "2026_05_19__20_11_09__17.jpg",
             "2026_05_19__20_13_36__28.jpg",
@@ -5541,6 +5603,9 @@ const DATAMODEL = {
             "2026_05_19__19_02_23__19.jpg",
             "2026_05_19__19_15_44__49.jpg",
             "2026_05_19__19_26_55__79.jpg",
+            "2026_05_19__19_27_57__20.jpg",
+            "2026_05_19__19_49_17__44.jpg",
+            "2026_05_19__19_49_18__11.jpg",
             "2026_05_19__20_05_02__62.jpg",
             "2026_05_19__20_11_09__17.jpg",
             "2026_05_19__20_13_36__28.jpg",
@@ -5680,7 +5745,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-06-11T20:14:54+0000",
+    "generated": "2026-06-12T21:45:37+0000",
     "new_images_timeframe": 604800
 }
 Object.freeze(DATAMODEL);
