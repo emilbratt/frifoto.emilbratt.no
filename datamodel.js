@@ -1000,7 +1000,6 @@ const DATAMODEL = {
             "shutter_speed": "1/2500",
             "tags": [
                 "Fugler",
-                "Hunder",
                 "Lade Hundepark"
             ]
         },
@@ -6039,7 +6038,6 @@ const DATAMODEL = {
             "2025_10_23__15_26_43__11.jpg",
             "2025_10_28__13_57_15__56.jpg",
             "2025_10_28__14_07_09__1.jpg",
-            "2025_10_28__14_19_24__99.jpg",
             "2025_10_28__14_22_47__12.jpg",
             "2025_10_28__14_23_30__11.jpg",
             "2025_10_28__14_33_04__63.jpg",
@@ -6625,7 +6623,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-06-13T15:29:44+0000",
+    "generated": "2026-06-13T15:32:05+0000",
     "new_images_timeframe": 604800
 }
 Object.freeze(DATAMODEL);
