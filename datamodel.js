@@ -3,8 +3,8 @@
 
 const DATAMODEL = {
     "about": {
-        "name": "Emil Bratt",
-        "bio": "<p>Velkommen!</p><p>Jeg startet for fullt med foto i 2011 da, men kjøpte allerede mitt første speilrefleks i 2010.\nHar vært med på mange spennende oppdrag gjennom min karriere.</p><p>Jeg fotograferer alt mulig, sport, konsert, event, bryllup, gravid, nyfødt og sist men ikke minst, natur.</p><p>Bildene du finner her er tilgjengelige for nedlasting og helt gratis for deg som privatperson.\nDet vil komme flere bilder med tiden, så følg med. :):)</p><p>Tidligere delte jeg alt sammen på facebook og instagram, men jeg tenkte at det var på tide med en egen nettside.\nKanskje husker du meg fra instagram-kontoen '<a href=\"https://www.instagram.com/borstingphotography/\">Borsting Photography</a>'</p><p>Uansett, jeg tok hammern fatt og snekra sammen denne nettsida.\nEr du kanskje en utvikler selv og lurer på hva som holder denne nettsida sammen? Her ligger\n<button><a href=\"https://github.com/emilbratt/frifoto.emilbratt.no/\">kildekode!</a></button>\n</p>",
+        "name": "Emil Bratt Børsting",
+        "bio": "<p>Jeg fotograferer alt mulig. Foto er kjempegøy!</p><p>Bildene du finner her er tilgjengelige for nedlasting.\nØnsker du å ha bilder på veggen, som bakgrunnsbilde eller bare lagre det på din enhet,\nda trykker du på \"Last Ned\" knappen under bildet.\nDet er helt gratis for deg som privatperson.\nOm du fant bilder du likte og har likevel lyst til å støtte meg, så kan dette gjøres via vipps til 976 76 160.\nDet vil komme flere bilder med tiden, så følg med. :):)</p><p>Jeg brukte facebook og instagram mye før, men de har gjort det vanskelig for brukere som ikke har konto der.\nGammel instagram-konto finner du her: '<a href=\"https://www.instagram.com/borstingphotography/\">Borsting Photography</a>'</p><p>Tok til slutt hammern fatt og snekra sammen min egen nettside hvor jeg har full kontroll.\nAlle har tilgang til bildene (ingen registrering),\nbildene bevares i full kavalitet (ingen komprimering)\nog det er ingen pop-up banner (ingen personlig data lagres).</p><p>Er du kanskje en utvikler selv og vil se koden til nettsida? Her ligger\n<button><a href=\"https://github.com/emilbratt/frifoto.emilbratt.no/\">kildekode!</a></button>\n</p>",
         "image": "2026_02_02__22_18_47__78.jpg"
     },
     "all_images": [
@@ -6623,7 +6623,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-06-13T15:32:05+0000",
+    "generated": "2026-06-14T11:53:08+0000",
     "new_images_timeframe": 604800
 }
 Object.freeze(DATAMODEL);
