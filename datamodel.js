@@ -4571,8 +4571,7 @@ const DATAMODEL = {
             "shutter_speed": "1/5000",
             "tags": [
                 "Allvi",
-                "Hunder",
-                "Lade Hundepark"
+                "Hunder"
             ]
         },
         "2026_05_01__13_16_02__54.jpg": {
@@ -6420,7 +6419,6 @@ const DATAMODEL = {
             "2026_04_29__20_08_14__08.jpg",
             "2026_05_01__10_45_58__89.jpg",
             "2026_05_01__10_48_46__65.jpg",
-            "2026_05_01__12_10_33__47.jpg",
             "2026_05_01__13_16_02__54.jpg",
             "2026_05_01__13_19_50__74.jpg",
             "2026_05_01__13_21_57__12.jpg",
@@ -6623,7 +6621,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-06-14T11:53:08+0000",
+    "generated": "2026-06-15T14:19:24+0000",
     "new_images_timeframe": 604800
 }
 Object.freeze(DATAMODEL);
