@@ -321,7 +321,22 @@ const DATAMODEL = {
         "2026_06_04__13_11_59__45.jpg",
         "2026_06_04__13_25_44__08.jpg",
         "2026_06_04__13_25_45__12.jpg",
-        "2026_06_04__13_26_02__52.jpg"
+        "2026_06_04__13_26_02__52.jpg",
+        "2026_06_04__13_31_34__91.jpg",
+        "2026_06_04__13_33_06__27.jpg",
+        "2026_06_04__13_35_04__33.jpg",
+        "2026_06_04__13_35_17__81.jpg",
+        "2026_06_04__13_35_53__70.jpg",
+        "2026_06_04__13_36_04__91.jpg",
+        "2026_06_04__13_36_10__13.jpg",
+        "2026_06_04__13_37_01__34.jpg",
+        "2026_06_04__13_38_08__21.jpg",
+        "2026_06_04__13_38_33__61.jpg",
+        "2026_06_04__13_39_19__74.jpg",
+        "2026_06_04__13_40_39__98.jpg",
+        "2026_06_04__13_42_22__16.jpg",
+        "2026_06_04__13_42_44__86.jpg",
+        "2026_06_04__13_48_25__35.jpg"
     ],
     "by_added": {
         "1764374400": [
@@ -693,6 +708,23 @@ const DATAMODEL = {
             "2026_06_04__13_25_44__08.jpg",
             "2026_06_04__13_25_45__12.jpg",
             "2026_06_04__13_26_02__52.jpg"
+        ],
+        "1782086400": [
+            "2026_06_04__13_31_34__91.jpg",
+            "2026_06_04__13_33_06__27.jpg",
+            "2026_06_04__13_35_04__33.jpg",
+            "2026_06_04__13_35_17__81.jpg",
+            "2026_06_04__13_35_53__70.jpg",
+            "2026_06_04__13_36_04__91.jpg",
+            "2026_06_04__13_36_10__13.jpg",
+            "2026_06_04__13_37_01__34.jpg",
+            "2026_06_04__13_38_08__21.jpg",
+            "2026_06_04__13_38_33__61.jpg",
+            "2026_06_04__13_39_19__74.jpg",
+            "2026_06_04__13_40_39__98.jpg",
+            "2026_06_04__13_42_22__16.jpg",
+            "2026_06_04__13_42_44__86.jpg",
+            "2026_06_04__13_48_25__35.jpg"
         ]
     },
     "by_filename": {
@@ -6396,6 +6428,262 @@ const DATAMODEL = {
                 "Hunder",
                 "Lade Hundepark"
             ]
+        },
+        "2026_06_04__13_31_34__91.jpg": {
+            "ISO": 800,
+            "added": 1782086400,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:06:04 13:31:34",
+            "file_size": "1074 kB",
+            "focal": "135.0 mm",
+            "image_height": 2754,
+            "image_width": 4125,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Hunder"
+            ]
+        },
+        "2026_06_04__13_33_06__27.jpg": {
+            "ISO": 800,
+            "added": 1782086400,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:06:04 13:33:06",
+            "file_size": "1028 kB",
+            "focal": "135.0 mm",
+            "image_height": 2908,
+            "image_width": 4356,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/1600",
+            "tags": [
+                "Hunder"
+            ]
+        },
+        "2026_06_04__13_35_04__33.jpg": {
+            "ISO": 800,
+            "added": 1782086400,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:06:04 13:35:04",
+            "file_size": "1101 kB",
+            "focal": "135.0 mm",
+            "image_height": 2475,
+            "image_width": 4400,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Hunder"
+            ]
+        },
+        "2026_06_04__13_35_17__81.jpg": {
+            "ISO": 800,
+            "added": 1782086400,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:06:04 13:35:17",
+            "file_size": "1503 kB",
+            "focal": "135.0 mm",
+            "image_height": 3258,
+            "image_width": 5760,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/2000",
+            "tags": [
+                "Hunder"
+            ]
+        },
+        "2026_06_04__13_35_53__70.jpg": {
+            "ISO": 800,
+            "added": 1782086400,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:06:04 13:35:53",
+            "file_size": "805 kB",
+            "focal": "135.0 mm",
+            "image_height": 3553,
+            "image_width": 3552,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/1000",
+            "tags": [
+                "Hunder"
+            ]
+        },
+        "2026_06_04__13_36_04__91.jpg": {
+            "ISO": 800,
+            "added": 1782086400,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:06:04 13:36:04",
+            "file_size": "930 kB",
+            "focal": "135.0 mm",
+            "image_height": 3867,
+            "image_width": 5156,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/8000",
+            "tags": [
+                "Hunder"
+            ]
+        },
+        "2026_06_04__13_36_10__13.jpg": {
+            "ISO": 800,
+            "added": 1782086400,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:06:04 13:36:10",
+            "file_size": "1081 kB",
+            "focal": "135.0 mm",
+            "image_height": 3610,
+            "image_width": 3610,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/1250",
+            "tags": [
+                "Hunder"
+            ]
+        },
+        "2026_06_04__13_37_01__34.jpg": {
+            "ISO": 800,
+            "added": 1782086400,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:06:04 13:37:01",
+            "file_size": "1001 kB",
+            "focal": "135.0 mm",
+            "image_height": 3140,
+            "image_width": 5024,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/1250",
+            "tags": [
+                "Hunder"
+            ]
+        },
+        "2026_06_04__13_38_08__21.jpg": {
+            "ISO": 800,
+            "added": 1782086400,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:06:04 13:38:08",
+            "file_size": "1454 kB",
+            "focal": "135.0 mm",
+            "image_height": 3040,
+            "image_width": 4864,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/5000",
+            "tags": [
+                "Hunder"
+            ]
+        },
+        "2026_06_04__13_38_33__61.jpg": {
+            "ISO": 800,
+            "added": 1782086400,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:06:04 13:38:33",
+            "file_size": "1307 kB",
+            "focal": "135.0 mm",
+            "image_height": 2897,
+            "image_width": 5794,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Hunder"
+            ]
+        },
+        "2026_06_04__13_39_19__74.jpg": {
+            "ISO": 800,
+            "added": 1782086400,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:06:04 13:39:19",
+            "file_size": "872 kB",
+            "focal": "135.0 mm",
+            "image_height": 3707,
+            "image_width": 3707,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/1600",
+            "tags": [
+                "Hunder"
+            ]
+        },
+        "2026_06_04__13_40_39__98.jpg": {
+            "ISO": 800,
+            "added": 1782086400,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:06:04 13:40:39",
+            "file_size": "1461 kB",
+            "focal": "135.0 mm",
+            "image_height": 3765,
+            "image_width": 5725,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/2000",
+            "tags": [
+                "Hunder"
+            ]
+        },
+        "2026_06_04__13_42_22__16.jpg": {
+            "ISO": 800,
+            "added": 1782086400,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:06:04 13:42:22",
+            "file_size": "1702 kB",
+            "focal": "135.0 mm",
+            "image_height": 3867,
+            "image_width": 5793,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/8000",
+            "tags": [
+                "Hunder"
+            ]
+        },
+        "2026_06_04__13_42_44__86.jpg": {
+            "ISO": 800,
+            "added": 1782086400,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:06:04 13:42:44",
+            "file_size": "1894 kB",
+            "focal": "135.0 mm",
+            "image_height": 3123,
+            "image_width": 5552,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/8000",
+            "tags": [
+                "Hunder"
+            ]
+        },
+        "2026_06_04__13_48_25__35.jpg": {
+            "ISO": 800,
+            "added": 1782086400,
+            "aperture": 3.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:06:04 13:48:25",
+            "file_size": "1515 kB",
+            "focal": "135.0 mm",
+            "image_height": 3565,
+            "image_width": 5340,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Aperture-priority AE",
+            "shutter_speed": "1/5000",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
         }
     },
     "by_rating": {
@@ -6712,7 +7000,22 @@ const DATAMODEL = {
             "2026_06_04__13_11_59__45.jpg",
             "2026_06_04__13_25_44__08.jpg",
             "2026_06_04__13_25_45__12.jpg",
-            "2026_06_04__13_26_02__52.jpg"
+            "2026_06_04__13_26_02__52.jpg",
+            "2026_06_04__13_31_34__91.jpg",
+            "2026_06_04__13_33_06__27.jpg",
+            "2026_06_04__13_35_04__33.jpg",
+            "2026_06_04__13_35_17__81.jpg",
+            "2026_06_04__13_35_53__70.jpg",
+            "2026_06_04__13_36_04__91.jpg",
+            "2026_06_04__13_36_10__13.jpg",
+            "2026_06_04__13_37_01__34.jpg",
+            "2026_06_04__13_38_08__21.jpg",
+            "2026_06_04__13_38_33__61.jpg",
+            "2026_06_04__13_39_19__74.jpg",
+            "2026_06_04__13_40_39__98.jpg",
+            "2026_06_04__13_42_22__16.jpg",
+            "2026_06_04__13_42_44__86.jpg",
+            "2026_06_04__13_48_25__35.jpg"
         ],
         "3": [
             "2025_10_28__13_57_15__56.jpg"
@@ -7066,7 +7369,22 @@ const DATAMODEL = {
             "2026_06_04__13_11_59__45.jpg",
             "2026_06_04__13_25_44__08.jpg",
             "2026_06_04__13_25_45__12.jpg",
-            "2026_06_04__13_26_02__52.jpg"
+            "2026_06_04__13_26_02__52.jpg",
+            "2026_06_04__13_31_34__91.jpg",
+            "2026_06_04__13_33_06__27.jpg",
+            "2026_06_04__13_35_04__33.jpg",
+            "2026_06_04__13_35_17__81.jpg",
+            "2026_06_04__13_35_53__70.jpg",
+            "2026_06_04__13_36_04__91.jpg",
+            "2026_06_04__13_36_10__13.jpg",
+            "2026_06_04__13_37_01__34.jpg",
+            "2026_06_04__13_38_08__21.jpg",
+            "2026_06_04__13_38_33__61.jpg",
+            "2026_06_04__13_39_19__74.jpg",
+            "2026_06_04__13_40_39__98.jpg",
+            "2026_06_04__13_42_22__16.jpg",
+            "2026_06_04__13_42_44__86.jpg",
+            "2026_06_04__13_48_25__35.jpg"
         ],
         "Høst": [
             "2024_10_14__13_28_15__68.jpg",
@@ -7415,7 +7733,8 @@ const DATAMODEL = {
             "2026_06_03__18_16_14__83.jpg",
             "2026_06_03__18_25_17__60.jpg",
             "2026_06_04__12_58_31__78.jpg",
-            "2026_06_04__13_07_45__61.jpg"
+            "2026_06_04__13_07_45__61.jpg",
+            "2026_06_04__13_48_25__35.jpg"
         ],
         "Sommer": [
             "2020_08_15__18_00_29__38.jpg"
@@ -7430,7 +7749,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-06-21T21:39:59+0000",
+    "generated": "2026-06-22T21:00:48+0000",
     "new_images_timeframe": 604800
 }
 Object.freeze(DATAMODEL);
