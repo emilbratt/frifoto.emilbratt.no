@@ -11,6 +11,11 @@ import subprocess
 import sys
 import time
 
+# Normally, we run the script in CWD by issuing ./main.py, but if ran from anywhere else, set CWD to same path as main.py..
+os.chdir(
+    os.path.dirname(os.path.realpath(__file__))
+)
+
 SCRIPT_TIMESTAMP = int(time.time())
 METADATA_REQUIRES = [
     'capture_time', 'camera', 'lens', 'file_size', 'image_width', 'image_height',
