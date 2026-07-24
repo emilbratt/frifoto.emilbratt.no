@@ -361,7 +361,32 @@ const DATAMODEL = {
         "2026_07_10__14_12_10__60.jpg",
         "2026_07_10__14_12_23__09.jpg",
         "2026_07_10__14_17_32__60.jpg",
-        "2026_07_10__14_17_44__81.jpg"
+        "2026_07_10__14_17_44__81.jpg",
+        "2026_07_14__17_16_06__35.jpg",
+        "2026_07_14__17_20_27__35.jpg",
+        "2026_07_15__13_37_35__19.jpg",
+        "2026_07_15__13_38_49__83.jpg",
+        "2026_07_15__13_43_21__36.jpg",
+        "2026_07_16__11_46_58__98.jpg",
+        "2026_07_16__11_47_20__07.jpg",
+        "2026_07_16__11_47_59__14.jpg",
+        "2026_07_16__11_49_28__01.jpg",
+        "2026_07_16__11_49_59__63.jpg",
+        "2026_07_16__11_50_19__33.jpg",
+        "2026_07_16__11_50_46__11.jpg",
+        "2026_07_16__11_51_00__62.jpg",
+        "2026_07_16__11_51_22__11.jpg",
+        "2026_07_16__11_51_36__00.jpg",
+        "2026_07_16__11_54_33__63.jpg",
+        "2026_07_16__11_55_07__44.jpg",
+        "2026_07_16__11_55_11__00.jpg",
+        "2026_07_16__11_55_13__78.jpg",
+        "2026_07_16__11_55_47__49.jpg",
+        "2026_07_16__12_00_59__55.jpg",
+        "2026_07_16__12_00_59__69.jpg",
+        "2026_07_16__12_03_24__47.jpg",
+        "2026_07_16__12_03_31__14.jpg",
+        "2026_07_16__12_04_37__35.jpg"
     ],
     "by_added": {
         "1764374400": [
@@ -781,6 +806,33 @@ const DATAMODEL = {
             "2026_07_10__14_12_23__09.jpg",
             "2026_07_10__14_17_32__60.jpg",
             "2026_07_10__14_17_44__81.jpg"
+        ],
+        "1784851200": [
+            "2026_07_14__17_16_06__35.jpg",
+            "2026_07_14__17_20_27__35.jpg",
+            "2026_07_15__13_37_35__19.jpg",
+            "2026_07_15__13_38_49__83.jpg",
+            "2026_07_15__13_43_21__36.jpg",
+            "2026_07_16__11_46_58__98.jpg",
+            "2026_07_16__11_47_20__07.jpg",
+            "2026_07_16__11_47_59__14.jpg",
+            "2026_07_16__11_49_28__01.jpg",
+            "2026_07_16__11_49_59__63.jpg",
+            "2026_07_16__11_50_19__33.jpg",
+            "2026_07_16__11_50_46__11.jpg",
+            "2026_07_16__11_51_00__62.jpg",
+            "2026_07_16__11_51_22__11.jpg",
+            "2026_07_16__11_51_36__00.jpg",
+            "2026_07_16__11_54_33__63.jpg",
+            "2026_07_16__11_55_07__44.jpg",
+            "2026_07_16__11_55_11__00.jpg",
+            "2026_07_16__11_55_13__78.jpg",
+            "2026_07_16__11_55_47__49.jpg",
+            "2026_07_16__12_00_59__55.jpg",
+            "2026_07_16__12_00_59__69.jpg",
+            "2026_07_16__12_03_24__47.jpg",
+            "2026_07_16__12_03_31__14.jpg",
+            "2026_07_16__12_04_37__35.jpg"
         ]
     },
     "by_filename": {
@@ -7207,6 +7259,456 @@ const DATAMODEL = {
                 "Hunder",
                 "Lade Hundepark"
             ]
+        },
+        "2026_07_14__17_16_06__35.jpg": {
+            "ISO": 800,
+            "added": 1784851200,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:14 17:16:06",
+            "file_size": "855 kB",
+            "focal": "135.0 mm",
+            "image_height": 2907,
+            "image_width": 5379,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Allvi",
+                "Hunder"
+            ]
+        },
+        "2026_07_14__17_20_27__35.jpg": {
+            "ISO": 800,
+            "added": 1784851200,
+            "aperture": 3.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:14 17:20:27",
+            "file_size": "1374 kB",
+            "focal": "135.0 mm",
+            "image_height": 3047,
+            "image_width": 5638,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_15__13_37_35__19.jpg": {
+            "ISO": 400,
+            "added": 1784851200,
+            "aperture": 4.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:15 13:37:35",
+            "file_size": "793 kB",
+            "focal": "135.0 mm",
+            "image_height": 2910,
+            "image_width": 3880,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/5000",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_15__13_38_49__83.jpg": {
+            "ISO": 800,
+            "added": 1784851200,
+            "aperture": 5.6,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:15 13:38:49",
+            "file_size": "1326 kB",
+            "focal": "135.0 mm",
+            "image_height": 3324,
+            "image_width": 4980,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_15__13_43_21__36.jpg": {
+            "ISO": 800,
+            "added": 1784851200,
+            "aperture": 5.6,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:15 13:43:21",
+            "file_size": "2.4 MB",
+            "focal": "135.0 mm",
+            "image_height": 3603,
+            "image_width": 5398,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2500",
+            "tags": [
+                "Allvi",
+                "Hunder"
+            ]
+        },
+        "2026_07_16__11_46_58__98.jpg": {
+            "ISO": 200,
+            "added": 1784851200,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 11:46:58",
+            "file_size": "1067 kB",
+            "focal": "135.0 mm",
+            "image_height": 3440,
+            "image_width": 5153,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/5000",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_16__11_47_20__07.jpg": {
+            "ISO": 200,
+            "added": 1784851200,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 11:47:20",
+            "file_size": "1581 kB",
+            "focal": "135.0 mm",
+            "image_height": 3750,
+            "image_width": 5717,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/5000",
+            "tags": [
+                "Allvi",
+                "Hunder"
+            ]
+        },
+        "2026_07_16__11_47_59__14.jpg": {
+            "ISO": 800,
+            "added": 1784851200,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 11:47:59",
+            "file_size": "1332 kB",
+            "focal": "135.0 mm",
+            "image_height": 3204,
+            "image_width": 5696,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/5000",
+            "tags": [
+                "Allvi",
+                "Hunder"
+            ]
+        },
+        "2026_07_16__11_49_28__01.jpg": {
+            "ISO": 800,
+            "added": 1784851200,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 11:49:28",
+            "file_size": "1176 kB",
+            "focal": "135.0 mm",
+            "image_height": 2949,
+            "image_width": 5456,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_16__11_49_59__63.jpg": {
+            "ISO": 400,
+            "added": 1784851200,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 11:49:59",
+            "file_size": "1491 kB",
+            "focal": "135.0 mm",
+            "image_height": 3026,
+            "image_width": 5599,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_16__11_50_19__33.jpg": {
+            "ISO": 400,
+            "added": 1784851200,
+            "aperture": 2.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 11:50:19",
+            "file_size": "641 kB",
+            "focal": "135.0 mm",
+            "image_height": 2648,
+            "image_width": 5320,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_16__11_50_46__11.jpg": {
+            "ISO": 400,
+            "added": 1784851200,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 11:50:46",
+            "file_size": "902 kB",
+            "focal": "135.0 mm",
+            "image_height": 3510,
+            "image_width": 3510,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_16__11_51_00__62.jpg": {
+            "ISO": 400,
+            "added": 1784851200,
+            "aperture": 2.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 11:51:00",
+            "file_size": "1130 kB",
+            "focal": "135.0 mm",
+            "image_height": 3810,
+            "image_width": 5334,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_16__11_51_22__11.jpg": {
+            "ISO": 400,
+            "added": 1784851200,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 11:51:22",
+            "file_size": "698 kB",
+            "focal": "135.0 mm",
+            "image_height": 2667,
+            "image_width": 5334,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_16__11_51_36__00.jpg": {
+            "ISO": 400,
+            "added": 1784851200,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 11:51:36",
+            "file_size": "1047 kB",
+            "focal": "135.0 mm",
+            "image_height": 4628,
+            "image_width": 3441,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_16__11_54_33__63.jpg": {
+            "ISO": 400,
+            "added": 1784851200,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 11:54:33",
+            "file_size": "1024 kB",
+            "focal": "135.0 mm",
+            "image_height": 3395,
+            "image_width": 4753,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_16__11_55_07__44.jpg": {
+            "ISO": 400,
+            "added": 1784851200,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 11:55:07",
+            "file_size": "1095 kB",
+            "focal": "135.0 mm",
+            "image_height": 2529,
+            "image_width": 4496,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_16__11_55_11__00.jpg": {
+            "ISO": 400,
+            "added": 1784851200,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 11:55:11",
+            "file_size": "1333 kB",
+            "focal": "135.0 mm",
+            "image_height": 3024,
+            "image_width": 5536,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_16__11_55_13__78.jpg": {
+            "ISO": 400,
+            "added": 1784851200,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 11:55:13",
+            "file_size": "1067 kB",
+            "focal": "135.0 mm",
+            "image_height": 4652,
+            "image_width": 3489,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_16__11_55_47__49.jpg": {
+            "ISO": 400,
+            "added": 1784851200,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 11:55:47",
+            "file_size": "1419 kB",
+            "focal": "135.0 mm",
+            "image_height": 5450,
+            "image_width": 3258,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/3200",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_16__12_00_59__55.jpg": {
+            "ISO": 400,
+            "added": 1784851200,
+            "aperture": 2.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 12:00:59",
+            "file_size": "1472 kB",
+            "focal": "135.0 mm",
+            "image_height": 3360,
+            "image_width": 5091,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/3200",
+            "tags": [
+                "Allvi",
+                "Hunder"
+            ]
+        },
+        "2026_07_16__12_00_59__69.jpg": {
+            "ISO": 400,
+            "added": 1784851200,
+            "aperture": 2.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 12:00:59",
+            "file_size": "1558 kB",
+            "focal": "135.0 mm",
+            "image_height": 3398,
+            "image_width": 5091,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/3200",
+            "tags": [
+                "Allvi",
+                "Hunder"
+            ]
+        },
+        "2026_07_16__12_03_24__47.jpg": {
+            "ISO": 400,
+            "added": 1784851200,
+            "aperture": 4.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 12:03:24",
+            "file_size": "1882 kB",
+            "focal": "135.0 mm",
+            "image_height": 3745,
+            "image_width": 5609,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/3200",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_16__12_03_31__14.jpg": {
+            "ISO": 1600,
+            "added": 1784851200,
+            "aperture": 14.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 12:03:31",
+            "file_size": "2.1 MB",
+            "focal": "135.0 mm",
+            "image_height": 3234,
+            "image_width": 4844,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/800",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
+        },
+        "2026_07_16__12_04_37__35.jpg": {
+            "ISO": 1600,
+            "added": 1784851200,
+            "aperture": 6.3,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:07:16 12:04:37",
+            "file_size": "1213 kB",
+            "focal": "135.0 mm",
+            "image_height": 3351,
+            "image_width": 3417,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/3200",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
         }
     },
     "by_rating": {
@@ -7563,7 +8065,32 @@ const DATAMODEL = {
             "2026_07_10__14_12_10__60.jpg",
             "2026_07_10__14_12_23__09.jpg",
             "2026_07_10__14_17_32__60.jpg",
-            "2026_07_10__14_17_44__81.jpg"
+            "2026_07_10__14_17_44__81.jpg",
+            "2026_07_14__17_16_06__35.jpg",
+            "2026_07_14__17_20_27__35.jpg",
+            "2026_07_15__13_37_35__19.jpg",
+            "2026_07_15__13_38_49__83.jpg",
+            "2026_07_15__13_43_21__36.jpg",
+            "2026_07_16__11_46_58__98.jpg",
+            "2026_07_16__11_47_20__07.jpg",
+            "2026_07_16__11_47_59__14.jpg",
+            "2026_07_16__11_49_28__01.jpg",
+            "2026_07_16__11_49_59__63.jpg",
+            "2026_07_16__11_50_19__33.jpg",
+            "2026_07_16__11_50_46__11.jpg",
+            "2026_07_16__11_51_00__62.jpg",
+            "2026_07_16__11_51_22__11.jpg",
+            "2026_07_16__11_51_36__00.jpg",
+            "2026_07_16__11_54_33__63.jpg",
+            "2026_07_16__11_55_07__44.jpg",
+            "2026_07_16__11_55_11__00.jpg",
+            "2026_07_16__11_55_13__78.jpg",
+            "2026_07_16__11_55_47__49.jpg",
+            "2026_07_16__12_00_59__55.jpg",
+            "2026_07_16__12_00_59__69.jpg",
+            "2026_07_16__12_03_24__47.jpg",
+            "2026_07_16__12_03_31__14.jpg",
+            "2026_07_16__12_04_37__35.jpg"
         ],
         "3": [
             "2025_10_28__13_57_15__56.jpg"
@@ -7619,7 +8146,13 @@ const DATAMODEL = {
             "2026_06_06__14_37_09__92.jpg",
             "2026_06_06__14_38_51__57.jpg",
             "2026_07_10__14_17_32__60.jpg",
-            "2026_07_10__14_17_44__81.jpg"
+            "2026_07_10__14_17_44__81.jpg",
+            "2026_07_14__17_16_06__35.jpg",
+            "2026_07_15__13_43_21__36.jpg",
+            "2026_07_16__11_47_20__07.jpg",
+            "2026_07_16__11_47_59__14.jpg",
+            "2026_07_16__12_00_59__55.jpg",
+            "2026_07_16__12_00_59__69.jpg"
         ],
         "Arkitektur": [
             "2026_01_27__23_09_39__41.jpg"
@@ -7967,7 +8500,32 @@ const DATAMODEL = {
             "2026_07_10__14_12_10__60.jpg",
             "2026_07_10__14_12_23__09.jpg",
             "2026_07_10__14_17_32__60.jpg",
-            "2026_07_10__14_17_44__81.jpg"
+            "2026_07_10__14_17_44__81.jpg",
+            "2026_07_14__17_16_06__35.jpg",
+            "2026_07_14__17_20_27__35.jpg",
+            "2026_07_15__13_37_35__19.jpg",
+            "2026_07_15__13_38_49__83.jpg",
+            "2026_07_15__13_43_21__36.jpg",
+            "2026_07_16__11_46_58__98.jpg",
+            "2026_07_16__11_47_20__07.jpg",
+            "2026_07_16__11_47_59__14.jpg",
+            "2026_07_16__11_49_28__01.jpg",
+            "2026_07_16__11_49_59__63.jpg",
+            "2026_07_16__11_50_19__33.jpg",
+            "2026_07_16__11_50_46__11.jpg",
+            "2026_07_16__11_51_00__62.jpg",
+            "2026_07_16__11_51_22__11.jpg",
+            "2026_07_16__11_51_36__00.jpg",
+            "2026_07_16__11_54_33__63.jpg",
+            "2026_07_16__11_55_07__44.jpg",
+            "2026_07_16__11_55_11__00.jpg",
+            "2026_07_16__11_55_13__78.jpg",
+            "2026_07_16__11_55_47__49.jpg",
+            "2026_07_16__12_00_59__55.jpg",
+            "2026_07_16__12_00_59__69.jpg",
+            "2026_07_16__12_03_24__47.jpg",
+            "2026_07_16__12_03_31__14.jpg",
+            "2026_07_16__12_04_37__35.jpg"
         ],
         "Høst": [
             "2024_10_14__13_28_15__68.jpg",
@@ -8351,7 +8909,26 @@ const DATAMODEL = {
             "2026_06_04__13_07_45__61.jpg",
             "2026_06_04__13_48_25__35.jpg",
             "2026_06_06__14_28_27__82.jpg",
-            "2026_06_06__14_38_51__57.jpg"
+            "2026_06_06__14_38_51__57.jpg",
+            "2026_07_14__17_20_27__35.jpg",
+            "2026_07_15__13_37_35__19.jpg",
+            "2026_07_15__13_38_49__83.jpg",
+            "2026_07_16__11_46_58__98.jpg",
+            "2026_07_16__11_49_28__01.jpg",
+            "2026_07_16__11_49_59__63.jpg",
+            "2026_07_16__11_50_19__33.jpg",
+            "2026_07_16__11_50_46__11.jpg",
+            "2026_07_16__11_51_00__62.jpg",
+            "2026_07_16__11_51_22__11.jpg",
+            "2026_07_16__11_51_36__00.jpg",
+            "2026_07_16__11_54_33__63.jpg",
+            "2026_07_16__11_55_07__44.jpg",
+            "2026_07_16__11_55_11__00.jpg",
+            "2026_07_16__11_55_13__78.jpg",
+            "2026_07_16__11_55_47__49.jpg",
+            "2026_07_16__12_03_24__47.jpg",
+            "2026_07_16__12_03_31__14.jpg",
+            "2026_07_16__12_04_37__35.jpg"
         ],
         "Sommer": [
             "2020_08_15__18_00_29__38.jpg"
@@ -8366,7 +8943,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-07-17T22:03:40+0000",
+    "generated": "2026-07-24T21:51:30+0000",
     "new_images_timeframe": 604800
 }
 Object.freeze(DATAMODEL);
