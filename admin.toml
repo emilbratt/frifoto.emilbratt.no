@@ -11,22 +11,65 @@ bio = """
 Jeg fotograferer alt mulig. Foto er kjempegøy!
 
 Bildene du finner her er tilgjengelige for nedlasting.
-Ønsker du å ha bilder på veggen, som bakgrunnsbilde eller bare lagre det på din enhet,
+Ønsker du å ha bilder på veggen, som bakgrunnsbilde på pc'n eller bare lagre bildene,
 da trykker du på "Last Ned" knappen under bildet.
-Det er helt gratis for deg som privatperson.
-Om du fant bilder du likte og har likevel lyst til å støtte meg, så kan dette gjøres via vipps til 976 76 160.
-Det vil komme flere bilder med tiden, så følg med. :):)
+Det vil komme flere bilder med tiden, så det er bare å følg med.
+Bildene er helt gratis å laste ned og bruke for deg som privatperson.
+Om du fant bilder du likte og har lyst til å sende en liten støtte, så kan du gjøre det via vipps til 976 76 160.
 
-Jeg brukte facebook og instagram mye før, men de har gjort det vanskelig for brukere som ikke har konto der.
-Gammel instagram-konto finner du her: '<a href="https://www.instagram.com/borstingphotography/">Borsting Photography</a>'
+Jeg brukte facebook og instagram mye før, men meta har innført flere begrensninger og gjort detsærdeles vanskelig for alle de som ikke har konto der.
+Ja så da tok jeg til slutt hammern fatt og snekra sammen denne nettsida. Her sitter jeg i førersetet.
+Ingenting på denne siden er blokkert eller stengt bak en mur. Her er alt tilgjengelig.
+Alle har tilgang til bilder (ingen registrering),
+bilder bevares i full kavalitet (ingen komprimering)
+og det er ingen pop-up banner som spør etter personlig data (faktisk så lagres det absolutt ingenting).
+Du finner min gamle instagram-konto her: '<a href="https://www.instagram.com/borstingphotography/">Borsting Photography</a>'
 
-Tok til slutt hammern fatt og snekra sammen min egen nettside hvor jeg har full kontroll.
-Alle har tilgang til bildene (ingen registrering),
-bildene bevares i full kavalitet (ingen komprimering)
-og det er ingen pop-up banner (ingen personlig data lagres).
-
-Er du kanskje en utvikler selv og vil se koden til nettsida? Her ligger
+Denne nettsida og dens verktøy for publikasjon er "åpen kildkode". Er du kanskje en utvikler og vil se kildekoden? Her ligger
 <button><a href="https://github.com/emilbratt/frifoto.emilbratt.no/">kildekode!</a></button>
+"""
+
+[tag_text]
+'Lade Hundepark' = """
+Hundeparken på Ringve i Trondheim er veldig populær.
+Den byr på fantastiske fotomuligheter på grunn av dens helning mot fjord, fjell og by i bakgrunnen.
+Med sin store omkrets så gir denne parken fantastiske muligheter for hunder som vil springe mye når de leker.
+
+Parken har to inngjerdinger. En liten og en stor. Ingen regler på hvilke hunder som skal i den ene eller andre, men man ser ofte de med små hunder gå i den lille.
+Allvi og Snacks med sine små kropper liker begge og leker gjerne med store hunder også!
+
+Mine favorittbilder fra denne parken er stort sett tatt på høsten på ettermiddagen når solen står lavt over byen og skinner inn over parken.
+Da gløder pelsen til hundene. Det er fint det!
+"""
+
+'Allvi' = """
+Dette er vår første hund. Hun heter Allvi og er en glatthåret Jack Russell Terrier.
+
+Allvi er født 21. mars 2025 og er fra Sundsvall i Sverige.
+Hun er vakker, temperamentsfull og superglad i frisbee, baller og tau.
+Hun bjeffer veldig mye under lek, men det er alltid vennskapelig. Det kan bli litt mye for noen, men for oss er dette helt normalt.
+
+Vi er utrolig glad i henne.
+Hun er perfekt!
+"""
+
+'Snacks' = """
+Dette er vår andre hund. Hun heter Snacks og er en glatthåret Jack Russell Terrier, akkurat som Allvi.
+Forskjellen er at hun har brunt hår istedet for sort.
+
+Snacks er født 16. februar 2026 og (akkurat som Allvi) er fra Sundsvall i Sverige.
+Hun er utrolig leken og ser smilende på alt og alle. Hun er veldig glad i mennesker og ønsker å hilse på alle, selv om vi må begrense det i blant.
+Når hun leker med andre hunder så underkaster hun seg for å vise tillit. Hun bjeffer ikke like mye som Allvi, men har like mye energi; om ikke enda mer.
+
+Vi er utrolig glad i Snacks.
+Hun er (som Allvi) også helt perfekt!
+"""
+
+'Nordbyen Hundepark' = """
+Hundepark på nordøst siden av Molde, ikke så langt fra øverlandsvatnet.
+
+Da vi bodde i Molde, så var dette vår "go-to" for at Allvi skulle få sosialisere seg.
+Møtte mange hyggelige hyggelige hunder og hundeeiere der. Veldig fin hundepark som nå også har fått lyskaster.
 """
 
 [images]

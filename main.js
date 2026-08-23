@@ -1,7 +1,7 @@
 "use strict";
 
 // Globals
-let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES, ABOUT, CURRENT_VIEW, IMAGE_INDEX, TAG_INDEX, NEW_IMAGES, NEW_IMAGES_TAG,URL;
+let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES, ABOUT, CURRENT_VIEW, IMAGE_INDEX, TAG_INDEX, NEW_IMAGES, NEW_IMAGES_TAG,URL, TAG_TEXT;
 NEW_IMAGES_TAG = 'Nye Bilder';
 const VIEW_MODES = [ 'photo-about', 'photo-navigate', 'photo-lightbox', 'photo-stream', 'share-page' ];
 Object.freeze(VIEW_MODES);
@@ -41,6 +41,7 @@ function main() {
     BY_FILENAME = DATAMODEL['by_filename'];
     ALL_IMAGES = DATAMODEL['all_images'];
     ABOUT = DATAMODEL['about'];
+    TAG_TEXT = DATAMODEL['tag_text'];
     URL = 'https://frifoto.emilbratt.no';
     NEW_IMAGES = [];
     let timeframe = DATAMODEL['new_images_timeframe'];
@@ -166,15 +167,27 @@ function init_photo_stream(tag) {
     const header = qid('photo-stream-header');
     header.innerHTML = `
         <a class="photo-navigate-btn" href="${location.pathname}?view_mode=photo-navigate">Forside</a>
-        <h1>${tag}</h1>
     `;
+
+
+    if (TAG_TEXT[tag] !== undefined) {
+        header.innerHTML += `
+            <button class="photo-navigate-btn" popovertarget="tag-text">Info</button>
+            <dialog id="tag-text" popover>
+                ${TAG_TEXT[tag]}
+	            <!-- <button popovertarget="tag-text" popovertargetaction="hide">Close</button> -->
+            </dialog>
+        `;
+        console.log(TAG_TEXT);
+    }
+
+    header.innerHTML += `<h1>${tag}</h1>`;
 
     const container = qid('photo-stream-boxes');
     container.textContent = '';
 
     const frag = document.createDocumentFragment();
-    const images
-        = tag ===  '' ? ALL_IMAGES
+    const images = tag ===  '' ? ALL_IMAGES
         : tag === NEW_IMAGES_TAG ? NEW_IMAGES
         : BY_TAG[tag];
 

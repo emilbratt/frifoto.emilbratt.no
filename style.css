@@ -19,19 +19,21 @@ input {
     background-color: rgb(80, 81, 86);
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
 }
-a {
+a, button {
     text-decoration: none;
     font-weight: bold;
     border: none;
     border-radius: 1.5rem;
     color: inherit;
 }
-button {
+
+/* button {
     font-size: inherit;
     background-color: inherit;
     border: none;
     color: inherit;
-}
+} */
+
 a:hover, a:active, button:hover, button:active {
     opacity: 0.8;
     cursor: pointer;
@@ -163,7 +165,7 @@ a:hover, a:active, button:hover, button:active {
     justify-content: center;
     gap: 1rem;
 }
-#photo-stream-header > a {
+#photo-stream-header > a, button {
     padding: 0.9rem 0rem 0.9rem 0rem;
     height: 3rem;
     min-width: 6.5rem;
@@ -305,4 +307,13 @@ a:hover, a:active, button:hover, button:active {
     box-sizing: border-box;
     background-color: rgb(31, 31, 31);
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
+}
+
+#tag-text {
+    text-align: center;
+    color: inherit;
+    font-size: 1.3rem;
+    padding: 0.3rem 1.2rem 0.3rem 1.2rem;
+    background-color: black;
+    max-width: 50rem;
 }

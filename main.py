@@ -11,11 +11,12 @@ import subprocess
 import sys
 import time
 
-# Normally, we run the script in CWD by issuing ./main.py, but if ran from anywhere else, set CWD to same path as main.py..
-os.chdir(
-    os.path.dirname(os.path.realpath(__file__))
-)
+if which('exiftool') is None:
+    sys.exit('"exiftool" is not installed, install with "sudo dnf install exiftool" (fedora)')
+if which('magick') is None:
+    sys.exit('"magick" is not installed, install with "sudo dnf install magick" (fedora)')
 
+CONFIG_FILE = 'admin.toml'
 SCRIPT_TIMESTAMP = int(time.time())
 METADATA_REQUIRES = [
     'capture_time', 'camera', 'lens', 'file_size', 'image_width', 'image_height',
@@ -24,7 +25,7 @@ METADATA_REQUIRES = [
 SCRIPT = 'datamodel.js'
 
 # After processing, this will hold all the structured information we need. All fields are sorted before generating datamodel..
-DATAMODEL_LAYOUT = {
+NEW_DATAMODEL = {
     'all_images': [
         # [img0, img1,.. ]
     ],
@@ -48,11 +49,18 @@ DATAMODEL_LAYOUT = {
     'about': {
         # name: string, bio: string, image: string,
     },
-
+    'tag_text': {
+        # Tag1 = "text", Tag2 = "text"
+    },
     'directory': None, # path to images
     'new_images_timeframe': None,
     'generated': None,
 }
+
+# Normally, we run the script in CWD by issuing ./main.py, but if ran from anywhere else, set CWD to same path as main.py..
+os.chdir(
+    os.path.dirname(os.path.realpath(__file__))
+)
 
 def rounded_timestamp(ts) -> int:
     '''Round timestamp to a full day (neat for when adding photos in multiple batches in one day)'''
@@ -80,18 +88,15 @@ def get_current_datamodel(f) -> dict|None:
         data = json.loads(json_text)
 
         # JSON objects can only have strings as json keys, bring the rating keys back to integers
-        data['by_rating'] = {int(k): v for k, v in data['by_rating'].items()}
+        data['by_rating'] = { int(k): v for k, v in data['by_rating'].items() }
         return data
     except:
         return None
 
-# List all images found in the image directory.
-
 CURRENT_DATAMODEL = get_current_datamodel(SCRIPT)
 if CURRENT_DATAMODEL is None:
-    CURRENT_DATAMODEL = DATAMODEL_LAYOUT
+    CURRENT_DATAMODEL = NEW_DATAMODEL
 NOT_INCLUDED = []
-CONFIG_FILE = 'admin.toml'
 
 # Some exif metadata is incorrect, fix by having it map to the correct data..
 EXIF_FIX = {
@@ -105,21 +110,19 @@ f = open(CONFIG_FILE, "rb")
 DATA = tomllib.load(f)
 f.close()
 
-NEW_DATAMODEL = DATAMODEL_LAYOUT
+for k,v in DATA['tag_text'].items():
+    NEW_DATAMODEL['tag_text'][k] = ''.join([f'<p>{s}</p>' for s in v.split('\n\n')])
+
+
 NEW_DATAMODEL['directory'] = DATA['config']['image_directory']
-NEW_DATAMODEL['about']['name'] = f'{DATA['about']['name']}'
+NEW_DATAMODEL['about']['name'] = DATA['about']['name']
 NEW_DATAMODEL['about']['bio'] = ''.join([f'<p>{s}</p>' for s in DATA['about']['bio'].split('\n\n')])
-NEW_DATAMODEL['about']['image'] = f'{DATA['about']['image']}'
+NEW_DATAMODEL['about']['image'] = DATA['about']['image']
 NEW_DATAMODEL['new_images_timeframe'] = int(DATA['config']['new_images_timeframe'])
 
 print(f"Before starting, edit {CONFIG_FILE} and make sure the images exists inside {DATA['config']['image_directory']}")
 opt = input('Continue [y/N]: ');
 if opt.lower() != 'y': sys.exit()
-
-if which('exiftool') is None:
-    sys.exit('"exiftool" is not installed, install with "sudo dnf install exiftool" (fedora)')
-if which('magick') is None:
-    sys.exit('"magick" is not installed, install with "sudo dnf install magick" (fedora)')
 
 def validate_all_images_exists(images):
     for image in DATA['images']:
