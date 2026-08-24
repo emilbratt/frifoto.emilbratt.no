@@ -314,6 +314,10 @@ a:hover, a:active, button:hover, button:active {
     color: inherit;
     font-size: 1.3rem;
     padding: 0.3rem 1.2rem 0.3rem 1.2rem;
-    background-color: black;
+    background-color: rgb(5, 5, 5);
     max-width: 50rem;
+}::backdrop {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(0.5rem);
+    overscroll-behavior: contain;
 }
