@@ -47,7 +47,7 @@ Dette er vår første hund. Hun heter Allvi og er en glatthåret Jack Russell Te
 
 Allvi er født 21. mars 2025 og er fra Sundsvall i Sverige.
 Hun er vakker, temperamentsfull og superglad i frisbee, baller og tau.
-Hun bjeffer veldig mye under lek, men det er alltid vennskapelig. Det kan bli litt mye for noen, men for oss er dette helt normalt.
+Hun bjeffer veldig mye under lek, men det er alltid vennskapelig. Det kan bli litt mye for noen, men for oss (som ikke har hørsel lengre) så er dette nesten helt greit.
 
 Vi er utrolig glad i henne.
 Hun er perfekt!
@@ -57,7 +57,7 @@ Hun er perfekt!
 Dette er vår andre hund. Hun heter Snacks og er en glatthåret Jack Russell Terrier, akkurat som Allvi.
 Forskjellen er at hun har brunt hår istedet for sort.
 
-Snacks er født 16. februar 2026 og (akkurat som Allvi) er fra Sundsvall i Sverige.
+Snacks er født 16. februar 2026 og er (akkurat som Allvi) fra Sundsvall i Sverige.
 Hun er utrolig leken og ser smilende på alt og alle. Hun er veldig glad i mennesker og ønsker å hilse på alle, selv om vi må begrense det i blant.
 Når hun leker med andre hunder så underkaster hun seg for å vise tillit. Hun bjeffer ikke like mye som Allvi, men har like mye energi; om ikke enda mer.
 
@@ -68,8 +68,8 @@ Hun er (som Allvi) også helt perfekt!
 'Nordbyen Hundepark' = """
 Hundepark på nordøst siden av Molde, ikke så langt fra øverlandsvatnet.
 
-Da vi bodde i Molde, så var dette vår "go-to" for at Allvi skulle få sosialisere seg.
-Møtte mange hyggelige hyggelige hunder og hundeeiere der. Veldig fin hundepark som nå også har fått lyskaster.
+Da vi bodde i Molde, så var denne hundeparken kjempebra å bruke for at Allvi skulle få sosialisere seg.
+Møtte mange hyggelige hunder og hundeeiere der. Veldig fin hundepark som nå også har fått lyskaster for lys under mørketida.
 """
 
 [images]
@@ -469,13 +469,13 @@ Møtte mange hyggelige hyggelige hunder og hundeeiere der. Veldig fin hundepark 
 '2026_08_14__18_03_08__17.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', ] }
 '2026_08_14__18_04_39__89.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', ] }
 '2026_08_14__18_04_44__01.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', ] }
-'2026_08_14__18_10_00__90.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', 'Snacks',  ] }
-'2026_08_14__18_10_22__95.jpg' = { tags = [ 'Hunder', 'Lade Hundepark',  ] }
-'2026_08_14__18_10_44__38.jpg' = { tags = [ 'Hunder', 'Lade Hundepark',  ] }
-'2026_08_14__18_21_22__92.jpg' = { tags = [ 'Hunder', 'Lade Hundepark',  ] }
-'2026_08_14__18_22_08__80.jpg' = { tags = [ 'Hunder', 'Lade Hundepark',  ] }
+'2026_08_14__18_10_00__90.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', 'Snacks', ] }
+'2026_08_14__18_10_22__95.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', ] }
+'2026_08_14__18_10_44__38.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', ] }
+'2026_08_14__18_21_22__92.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', ] }
+'2026_08_14__18_22_08__80.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', ] }
 '2026_08_14__18_22_42__29.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', 'Snacks', ] }
-'2026_08_14__18_27_07__94.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', 'Allvi',  ] }
-'2026_08_14__18_34_18__66.jpg' = { tags = [ 'Hunder', 'Lade Hundepark',  ] }
-'2026_08_16__14_42_53__83.jpg' = { tags = [ 'Hunder', 'Lade Hundepark',  ] }
-'2026_08_16__14_43_13__71.jpg' = { tags = [ 'Hunder', 'Lade Hundepark',  ] }
+'2026_08_14__18_27_07__94.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', 'Allvi', ] }
+'2026_08_14__18_34_18__66.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', ] }
+'2026_08_16__14_42_53__83.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', ] }
+'2026_08_16__14_43_13__71.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', ] }
