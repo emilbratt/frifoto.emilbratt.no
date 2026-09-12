@@ -277,7 +277,7 @@ function init_photo_lightbox(tag, image) {
 
 function init_share_page() {
     view_mode('share-page');
-    qid('share-page-footer').innerHTML = `<a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Forside</a>`;
+    qid('share-page-header').innerHTML = `<a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Forside</a>`;
     qid('url-qr-code').onclick=() => { navigator.clipboard.writeText(URL) };
 }
 

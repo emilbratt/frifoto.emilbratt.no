@@ -294,7 +294,7 @@ a:hover, a:active, button:hover, button:active {
     margin: auto;
     width: 90%;
 }
-#share-page-footer > a {
+#share-page-header > a {
     display: block;
     margin: auto;
     padding: 0.9rem 0rem 0.9rem 0rem;
