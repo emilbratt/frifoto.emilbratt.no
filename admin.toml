@@ -26,8 +26,8 @@ bilder bevares i full kavalitet (ingen komprimering eller beskjæring)
 og det er ingen pop-up banner som spør etter personlig data og eller som ønsker å spore deg (faktisk så lagres det absolutt ingenting).
 Du finner min gamle instagram-konto her: '<a href="https://www.instagram.com/borstingphotography/">Borsting Photography</a>'
 
-Denne nettsida og dens verktøy for publikasjon er "åpen kildkode". Er du kanskje en utvikler og vil se kildekoden? Her ligger
-<button><a href="https://github.com/emilbratt/frifoto.emilbratt.no/">kildekode!</a></button>
+Denne nettsida og dens verktøy for publikasjon er "åpen kildkode". Er du kanskje en utvikler og vil sjekke ut koden? Her ligger
+<a href="https://github.com/emilbratt/frifoto.emilbratt.no/">kildekode!</a>
 """
 
 [tag_text]
