@@ -4,7 +4,7 @@
 const DATAMODEL = {
     "about": {
         "name": "Emil Bratt Børsting",
-        "bio": "<p>Jeg fotograferer alt mulig. Foto er kjempegøy!</p><p>Bildene du finner her er tilgjengelige for nedlasting.\nØnsker du å ha bilder på veggen, som bakgrunnsbilde på pc'n eller bare lagre bildene,\nda trykker du på \"Last Ned\" knappen under bildet.\nDet vil komme flere bilder med tiden, så det er bare å følg med.\nBildene er helt gratis å laste ned og bruke for deg som privatperson.\nOm du fant bilder du likte og har lyst til å sende en liten støtte, så kan du gjøre det via vipps til 976 76 160.</p><p>Jeg brukte facebook og instagram mye før, men meta har innført flere begrensninger og gjort detsærdeles vanskelig for alle de som ikke har konto der.\nJa så da tok jeg til slutt hammern fatt og snekra sammen denne nettsida. Her sitter jeg i førersetet.\nIngenting på denne siden er blokkert eller stengt bak en mur. Her er alt tilgjengelig.\nAlle har tilgang til bilder (ingen registrering),\nbilder bevares i full kavalitet (ingen komprimering)\nog det er ingen pop-up banner som spør etter personlig data (faktisk så lagres det absolutt ingenting).\nDu finner min gamle instagram-konto her: '<a href=\"https://www.instagram.com/borstingphotography/\">Borsting Photography</a>'</p><p>Denne nettsida og dens verktøy for publikasjon er \"åpen kildkode\". Er du kanskje en utvikler og vil se kildekoden? Her ligger\n<button><a href=\"https://github.com/emilbratt/frifoto.emilbratt.no/\">kildekode!</a></button>\n</p>",
+        "bio": "<p>Jeg fotograferer alt mulig. Foto er kjempegøy!</p><p>Bildene du finner her er tilgjengelige for nedlasting.\nØnsker du å ha bilder på veggen, som bakgrunnsbilde på pc'n eller bare lagre bildene,\nda trykker du på \"Last Ned\" knappen under bildet.\nDet vil komme flere bilder med tiden, så det er bare å følg med.\nBildene er helt gratis å laste ned og bruke for deg som privatperson.\nOm du fant bilder du likte og har lyst til å sende en liten støtte, så kan du gjøre det via vipps til 976 76 160.</p><p>Jeg brukte facebook og instagram mye før, men meta har innført flere begrensninger som gjør det vanskeligere for alle de som ikke har konto der.\nSå da tok jeg hammern fatt og snekra sammen denne nettsida. Her sitter tross alt jeg i førersetet.\nIngenting på denne siden er blokkert eller stengt bak en mur. Her er alt tilgjengelig.\nAlle har tilgang til bilder (ingen registrering),\nbilder bevares i full kavalitet (ingen komprimering eller beskjæring)\nog det er ingen pop-up banner som spør etter personlig data og eller som ønsker å spore deg (faktisk så lagres det absolutt ingenting).\nDu finner min gamle instagram-konto her: '<a href=\"https://www.instagram.com/borstingphotography/\">Borsting Photography</a>'</p><p>Denne nettsida og dens verktøy for publikasjon er \"åpen kildkode\". Er du kanskje en utvikler og vil se kildekoden? Her ligger\n<button><a href=\"https://github.com/emilbratt/frifoto.emilbratt.no/\">kildekode!</a></button>\n</p>",
         "image": "2026_02_02__22_18_47__78.jpg"
     },
     "all_images": [
@@ -9838,13 +9838,20 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-08-30T20:35:34+0000",
+    "generated": "2026-09-13T10:50:53+0000",
     "new_images_timeframe": 604800,
     "tag_text": {
         "Lade Hundepark": "<p>Hundeparken på Ringve i Trondheim er veldig populær.\nDen byr på fantastiske fotomuligheter på grunn av dens helning mot fjord, fjell og by i bakgrunnen.\nMed sin store omkrets så gir denne parken fantastiske muligheter for hunder som vil springe mye når de leker.</p><p>Parken har to inngjerdinger. En liten og en stor. Ingen regler på hvilke hunder som skal i den ene eller andre, men man ser ofte de med små hunder gå i den lille.\nAllvi og Snacks med sine små kropper liker begge og leker gjerne med store hunder også!</p><p>Mine favorittbilder fra denne parken er stort sett tatt på høsten på ettermiddagen når solen står lavt over byen og skinner inn over parken.\nDa gløder pelsen til hundene. Det er fint det!\n</p>",
         "Allvi": "<p>Dette er vår første hund. Hun heter Allvi og er en glatthåret Jack Russell Terrier.</p><p>Allvi er født 21. mars 2025 og er fra Sundsvall i Sverige.\nHun er vakker, temperamentsfull og superglad i frisbee, baller og tau.\nHun bjeffer veldig mye under lek, men det er alltid vennskapelig. Det kan bli litt mye for noen, men for oss (som ikke har hørsel lengre) så er dette nesten helt greit.</p><p>Vi er utrolig glad i henne.\nHun er perfekt!\n</p>",
         "Snacks": "<p>Dette er vår andre hund. Hun heter Snacks og er en glatthåret Jack Russell Terrier, akkurat som Allvi.\nForskjellen er at hun har brunt hår istedet for sort.</p><p>Snacks er født 16. februar 2026 og er (akkurat som Allvi) fra Sundsvall i Sverige.\nHun er utrolig leken og ser smilende på alt og alle. Hun er veldig glad i mennesker og ønsker å hilse på alle, selv om vi må begrense det i blant.\nNår hun leker med andre hunder så underkaster hun seg for å vise tillit. Hun bjeffer ikke like mye som Allvi, men har like mye energi; om ikke enda mer.</p><p>Vi er utrolig glad i Snacks.\nHun er (som Allvi) også helt perfekt!\n</p>",
         "Nordbyen Hundepark": "<p>Hundepark på nordøst siden av Molde, ikke så langt fra øverlandsvatnet.</p><p>Da vi bodde i Molde, så var denne hundeparken kjempebra å bruke for at Allvi skulle få sosialisere seg.\nMøtte mange hyggelige hunder og hundeeiere der. Veldig fin hundepark som nå også har fått lyskaster for lys under mørketida.\n</p>"
-    }
+    },
+    "youtube": {
+        "Temporary Sparks": {
+            "thumbnail": "Temporary_Sparks_a.webp",
+            "url": "https://youtu.be/_wsd1gv-7e0"
+        }
+    },
+    "youtube_thumbnails": "youtube/thumbnails"
 }
 Object.freeze(DATAMODEL);

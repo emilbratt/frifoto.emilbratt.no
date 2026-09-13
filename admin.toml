@@ -3,6 +3,7 @@ image_directory = 'img'
 thumbnail_size = 400 # longest side will never exceede 400 pixels..
 thumbnail_quality = 60 # jpg quality option
 new_images_timeframe = 604800 # = 60*60*24*7 = one week in seconds (unix epoch time)
+youtube_thumbnails = 'youtube/thumbnails'
 
 [about]
 name = 'Emil Bratt Børsting'
@@ -17,12 +18,12 @@ Det vil komme flere bilder med tiden, så det er bare å følg med.
 Bildene er helt gratis å laste ned og bruke for deg som privatperson.
 Om du fant bilder du likte og har lyst til å sende en liten støtte, så kan du gjøre det via vipps til 976 76 160.
 
-Jeg brukte facebook og instagram mye før, men meta har innført flere begrensninger og gjort detsærdeles vanskelig for alle de som ikke har konto der.
-Ja så da tok jeg til slutt hammern fatt og snekra sammen denne nettsida. Her sitter jeg i førersetet.
+Jeg brukte facebook og instagram mye før, men meta har innført flere begrensninger som gjør det vanskeligere for alle de som ikke har konto der.
+Så da tok jeg hammern fatt og snekra sammen denne nettsida. Her sitter tross alt jeg i førersetet.
 Ingenting på denne siden er blokkert eller stengt bak en mur. Her er alt tilgjengelig.
 Alle har tilgang til bilder (ingen registrering),
-bilder bevares i full kavalitet (ingen komprimering)
-og det er ingen pop-up banner som spør etter personlig data (faktisk så lagres det absolutt ingenting).
+bilder bevares i full kavalitet (ingen komprimering eller beskjæring)
+og det er ingen pop-up banner som spør etter personlig data og eller som ønsker å spore deg (faktisk så lagres det absolutt ingenting).
 Du finner min gamle instagram-konto her: '<a href="https://www.instagram.com/borstingphotography/">Borsting Photography</a>'
 
 Denne nettsida og dens verktøy for publikasjon er "åpen kildkode". Er du kanskje en utvikler og vil se kildekoden? Her ligger
@@ -491,3 +492,6 @@ Møtte mange hyggelige hunder og hundeeiere der. Veldig fin hundepark som nå og
 '2026_08_21__17_59_58__60.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', ] }
 '2026_08_21__18_09_00__25.jpg' = { tags = [ 'Hunder', 'Lade Hundepark', ] }
 '2026_08_21__18_20_22__82.jpg' = { tags = [ 'Allvi', 'Hunder', 'Lade Hundepark', ] }
+
+[youtube]
+'Temporary Sparks' = { url = 'https://youtu.be/_wsd1gv-7e0', thumbnail = 'Temporary_Sparks_a.webp' }

@@ -3,7 +3,7 @@
 // Globals
 let IMG_DIR, BY_TAG, BY_FILENAME, BY_RATING, ALL_IMAGES, ABOUT, CURRENT_VIEW, IMAGE_INDEX, TAG_INDEX, NEW_IMAGES, NEW_IMAGES_TAG,URL, TAG_TEXT;
 NEW_IMAGES_TAG = 'Nye Bilder';
-const VIEW_MODES = [ 'photo-about', 'photo-navigate', 'photo-lightbox', 'photo-stream', 'share-page' ];
+const VIEW_MODES = [ 'photo-about', 'photo-navigate', 'photo-lightbox', 'photo-stream', 'share-page', 'youtube-navigate', ];
 Object.freeze(VIEW_MODES);
 
 document.addEventListener("DOMContentLoaded", main);
@@ -65,16 +65,17 @@ function main() {
     //     );
     // }
 
-    const params = new URLSearchParams(document.location.search);
-    const view_mode = params.get('view_mode') || 'photo-navigate';
-    const tag = params.get('tag') || '';
-    const image = params.get('image') || '';
-    switch (view_mode) {
+    // Get id for main container and store it in "current_view_mode".
+    const query_strings = new URLSearchParams(document.location.search);
+    const current_view_mode = query_strings.get('view_mode') || 'photo-navigate';
+    const tag = query_strings.get('tag') || '';
+    const image = query_strings.get('image') || '';
+    switch (current_view_mode) {
         case 'photo-about':
             init_photo_about();
             break;
         case 'photo-navigate':
-            init_photo_directory_navigate();
+            init_photo_navigate();
             break;
         case 'photo-lightbox':
             init_photo_lightbox(tag, image);
@@ -85,15 +86,16 @@ function main() {
         case 'share-page':
             init_share_page();
             break;
+        case 'youtube-navigate':
+            init_youtube_navigate();
+            break;
         default:
-            init_photo_directory_navigate();
+            init_photo_navigate();
     }
-}
 
-function view_mode(id) {
-    CURRENT_VIEW = id;
-    for (const d of VIEW_MODES) {
-        qid(d).style.display = d === id ? 'block' : 'none';
+    // Disable (hide) all main containers except the "selected" one..
+    for (const view_mode of VIEW_MODES) {
+        qid(view_mode).style.display = view_mode === current_view_mode ? 'block' : 'none';
     }
 }
 
@@ -102,7 +104,6 @@ function init_photo_about() {
     qid('photo-about-footer').innerHTML = `<a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Forside</a>`;
     qid('photo-about-paragraph').innerHTML = ABOUT['bio'];
     qid('photo-about-image').src = `${IMG_DIR}/${ABOUT['image']}`;
-    view_mode('photo-about');
 
     document.addEventListener('keydown', function (event) {
         if (event.key === 'Escape') {
@@ -111,7 +112,18 @@ function init_photo_about() {
     });
 }
 
-function init_photo_directory_navigate() {
+function init_photo_navigate() {
+    // Disable autofocus on mobile (or at least devices with small screens)
+    // ..it is bad UX because the keyboard will pop up and consume half the screen :):).
+    let autofocus = has_small_screen() ? '' : 'autofocus';
+
+    qid('photo-navigate-header').innerHTML = `
+        <a href="${window.location.pathname}?view_mode=photo-about" method="get">Om Meg</a>
+        <a href="${window.location.pathname}?view_mode=share-page" method="get">Del nettside</a>
+        <a href="${window.location.pathname}?view_mode=youtube-navigate" method="get">Youtube</a>
+        <input type="text" id="input_nav_filter" onkeyup="nav_filter_boxes()" ${autofocus} placeholder="Filtrer" title="Søk på nøkkelord">
+    `;
+
     let html = '';
 
     const random = Math.floor(Math.random() * ALL_IMAGES.length);
@@ -150,17 +162,7 @@ function init_photo_directory_navigate() {
         `;
     }
 
-    // Disable autofocus on mobile (or at least devices with small screens)
-    // ..it is bad UX because the keyboard will pop up and consume half the screen :):).
-    let autofocus = has_small_screen() ? '' : 'autofocus';
-
-    qid('photo-navigate-header').innerHTML = `
-        <a href="${window.location.pathname}?view_mode=photo-about" method="get">Om Meg</a>
-        <a href="${window.location.pathname}?view_mode=share-page" method="get">Del nettside</a>
-        <input type="text" id="input_nav_filter" onkeyup="nav_filter_boxes()" ${autofocus} placeholder="Filtrer" title="Søk på nøkkelord">
-    `;
     qid('photo-navigate-boxes').innerHTML = html;
-    view_mode('photo-navigate');
 }
 
 function init_photo_stream(tag) {
@@ -207,7 +209,6 @@ function init_photo_stream(tag) {
     }
 
     container.appendChild(frag);
-    view_mode('photo-stream');
 
     document.addEventListener('keydown', function (event) {
         if (event.key === 'Escape') {
@@ -222,7 +223,7 @@ function init_photo_lightbox(tag, image) {
         : tag === '' ? ALL_IMAGES
         : BY_TAG[tag];
 
-    // TODO: PERFORMANCE 001n
+    // TODO: PERFORMANCE 001
     // If we decide to not reload page on every button click in lightbox view mode, this will increase performance.
     // index = IMAGE_INDEX[image];
     const index = images.indexOf(image);
@@ -262,7 +263,6 @@ function init_photo_lightbox(tag, image) {
         <a class="prev-btn" href="${window.location.pathname}?view_mode=photo-lightbox${tag_query}&image=${encodeURIComponent(previous_image)}" method="get">Forrige</a>
         <a class="next-btn" href="${window.location.pathname}?view_mode=photo-lightbox${tag_query}&image=${encodeURIComponent(next_image)}" method="get">Neste</a>
     `;
-    view_mode('photo-lightbox');
 
     document.addEventListener('keydown', function (event) {
         if (event.key === 'ArrowRight') {
@@ -276,9 +276,37 @@ function init_photo_lightbox(tag, image) {
 }
 
 function init_share_page() {
-    view_mode('share-page');
     qid('share-page-header').innerHTML = `<a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Forside</a>`;
     qid('url-qr-code').onclick=() => { navigator.clipboard.writeText(URL) };
+
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            document.querySelector('.photo-navigate-btn').click();
+        }
+    });
+}
+
+function init_youtube_navigate() {
+    qid('youtube-navigate-header').innerHTML = `<a class="photo-navigate-btn" href="${window.location.pathname}?view_mode=photo-navigate" method="get">Forside</a>`;
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            document.querySelector('.photo-navigate-btn').click();
+        }
+    });
+
+    let html = '';
+    for (const [title, data] of Object.entries(DATAMODEL['youtube'])) {
+        html += `
+        <div>
+            <a target="_blank" href="${data['url']}" method="get">
+                <img src="${DATAMODEL['youtube_thumbnails'] + '/' + data['thumbnail']}" loading="lazy" />
+            </a>
+            <h2>${title}</h2>
+        </div>
+        `;
+    }
+
+    qid('youtube-navigate-boxes').innerHTML = html;
 }
 
 function nav_filter_boxes() {

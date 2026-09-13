@@ -52,9 +52,13 @@ NEW_DATAMODEL = {
     'tag_text': {
         # Tag1 = "text", Tag2 = "text"
     },
+    'youtube': {
+        # 'title' = { "url": "string", "thumbnail": "string" }
+    },
     'directory': None, # path to images
     'new_images_timeframe': None,
     'generated': None,
+    'youtube_thumbnails': None,
 }
 
 # Normally, we run the script in CWD by issuing ./main.py, but if ran from anywhere else, set CWD to same path as main.py..
@@ -107,29 +111,29 @@ EXIF_FIX = {
 }
 
 f = open(CONFIG_FILE, "rb")
-DATA = tomllib.load(f)
+ADMIN = tomllib.load(f)
 f.close()
 
-for k,v in DATA['tag_text'].items():
+for k,v in ADMIN['tag_text'].items():
     NEW_DATAMODEL['tag_text'][k] = ''.join([f'<p>{s}</p>' for s in v.split('\n\n')])
 
+NEW_DATAMODEL['directory'] = ADMIN['config']['image_directory']
+NEW_DATAMODEL['about']['name'] = ADMIN['about']['name']
+NEW_DATAMODEL['about']['bio'] = ''.join([f'<p>{s}</p>' for s in ADMIN['about']['bio'].split('\n\n')])
+NEW_DATAMODEL['about']['image'] = ADMIN['about']['image']
+NEW_DATAMODEL['new_images_timeframe'] = int(ADMIN['config']['new_images_timeframe'])
+NEW_DATAMODEL['youtube_thumbnails'] = ADMIN['config']['youtube_thumbnails']
 
-NEW_DATAMODEL['directory'] = DATA['config']['image_directory']
-NEW_DATAMODEL['about']['name'] = DATA['about']['name']
-NEW_DATAMODEL['about']['bio'] = ''.join([f'<p>{s}</p>' for s in DATA['about']['bio'].split('\n\n')])
-NEW_DATAMODEL['about']['image'] = DATA['about']['image']
-NEW_DATAMODEL['new_images_timeframe'] = int(DATA['config']['new_images_timeframe'])
-
-print(f"Before starting, edit {CONFIG_FILE} and make sure the images exists inside {DATA['config']['image_directory']}")
+print(f"Before starting, edit {CONFIG_FILE} and make sure the images exists inside {ADMIN['config']['image_directory']}")
 opt = input('Continue [y/N]: ');
 if opt.lower() != 'y': sys.exit()
 
 def validate_all_images_exists(images):
-    for image in DATA['images']:
+    for image in ADMIN['images']:
         found = False
         for f in images:
             if image == f.name: found = True
-        if not found: sys.exit(f"{image} not found in {DATA['config']['image_directory']}")
+        if not found: sys.exit(f"{image} not found in {ADMIN['config']['image_directory']}")
 
 def get_exif(rawe, key_list) -> str|int|None :
     for key in key_list:
@@ -137,13 +141,13 @@ def get_exif(rawe, key_list) -> str|int|None :
             return EXIF_FIX.get(rawe[key], rawe[key])
     return None
 
-images = [f for f in Path(DATA['config']['image_directory']).iterdir() if f.is_file()]
+images = [f for f in Path(ADMIN['config']['image_directory']).iterdir() if f.is_file()]
 validate_all_images_exists(images)
 
 # CREATE IMAGE DATA FOR JAVASCRIPT
-total,step = len(DATA['images'].keys()),0
+total,step = len(ADMIN['images'].keys()),0
 for f in images:
-    if f.name not in DATA['images']:
+    if f.name not in ADMIN['images']:
         NOT_INCLUDED.append(f.name)
         continue
 
@@ -185,8 +189,8 @@ for f in images:
         }
 
     # might have added new tags, lets do this wether meta already existed or not..
-    DATA['images'][f.name]['tags'].sort()
-    meta['tags'] = DATA['images'][f.name]['tags']
+    ADMIN['images'][f.name]['tags'].sort()
+    meta['tags'] = ADMIN['images'][f.name]['tags']
 
     for key in METADATA_REQUIRES:
         if key not in meta.keys():
@@ -198,12 +202,12 @@ for f in images:
     NEW_DATAMODEL['all_images'].append(f.name)
     NEW_DATAMODEL['by_filename'][f.name] = meta
 
-    rating = DATA['images'][f.name].get('rating', -1) # '-1' just means that rating is not specified..
+    rating = ADMIN['images'][f.name].get('rating', -1) # '-1' just means that rating is not specified..
     if rating not in NEW_DATAMODEL['by_rating']:
         NEW_DATAMODEL['by_rating'][rating] = []
     NEW_DATAMODEL['by_rating'][rating].append(f.name)
 
-    for tag in DATA['images'][f.name]['tags']:
+    for tag in ADMIN['images'][f.name]['tags']:
         if tag not in NEW_DATAMODEL['by_tag']:
             NEW_DATAMODEL['by_tag'][tag] = []
         NEW_DATAMODEL['by_tag'][tag].append(f.name)
@@ -212,10 +216,13 @@ for f in images:
         NEW_DATAMODEL['by_added'][meta['added']] = []
     NEW_DATAMODEL['by_added'][meta['added']].append(f.name)
 
+for k,v in ADMIN['youtube'].items():
+    NEW_DATAMODEL['youtube'][k] = v
+
 NEW_DATAMODEL['generated'] = fmt_timestamp(int(time.time()))
 
 # CREATE THUMBNAILS
-quality = str(DATA['config']['thumbnail_quality'])
+quality = str(ADMIN['config']['thumbnail_quality'])
 thumbnails = Path(NEW_DATAMODEL['directory']) / 'thumbnails'
 thumbnails.mkdir(parents=True, exist_ok=True)
 total,step = len(NEW_DATAMODEL['by_filename'].keys()),0
@@ -234,7 +241,7 @@ for image, metadata in NEW_DATAMODEL['by_filename'].items():
     h = metadata['image_height']
     w = metadata['image_width']
     i = 1
-    while ((h >= w) * h + (w > h) * w) > DATA['config']['thumbnail_size']: # while the longest side is greater than thumbnail_size in admin.toml
+    while ((h >= w) * h + (w > h) * w) > ADMIN['config']['thumbnail_size']: # while the longest side is greater than thumbnail_size in admin.toml
         h = metadata['image_height'] / i
         w = metadata['image_width'] / i
         i += 1
@@ -264,7 +271,7 @@ for image, metadata in NEW_DATAMODEL['by_filename'].items():
 
 print(f"Thumbnails created in {NEW_DATAMODEL['directory']}/{thumbnails.name}\n")
 
-# Sort all image data before JSON-ifying it, to keep data consistant. (very usefull when doing diffs between commits)
+# Sort all image data before JSON-ifying it (very usefull when doing diffs between commits).
 NEW_DATAMODEL = dict(sorted(NEW_DATAMODEL.items()))
 NEW_DATAMODEL['all_images'].sort()
 
@@ -284,6 +291,10 @@ NEW_DATAMODEL['by_tag'] = dict(sorted(NEW_DATAMODEL['by_tag'].items()))
 for k,v in NEW_DATAMODEL['by_tag'].items():
     NEW_DATAMODEL['by_tag'][k].sort()
 
+NEW_DATAMODEL['youtube'] = dict(sorted(NEW_DATAMODEL['youtube'].items()))
+for k,v in NEW_DATAMODEL['youtube'].items():
+    NEW_DATAMODEL['youtube'][k] = dict(sorted(v.items()))
+
 # Write final javascript JSON object file..
 json_data = json.dumps(NEW_DATAMODEL, indent=4, ensure_ascii=False)
 with open(SCRIPT, 'w', encoding='utf-8') as js:
@@ -295,10 +306,10 @@ print(f"Data written to {SCRIPT}\n")
 
 # Show images not included.
 if NOT_INCLUDED:
-    print(f"Some images in directory '{DATA['config']['image_directory']}' was not included!")
+    print(f"Some images in directory '{ADMIN['config']['image_directory']}' was not included!")
     for image in NOT_INCLUDED:
         print(f'Not included: {image}')
 else:
-    print(f"All images in directory '{DATA['config']['image_directory']}' included!")
+    print(f"All images in directory '{ADMIN['config']['image_directory']}' included!")
 
 print('Complete!')

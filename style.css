@@ -309,6 +309,61 @@ a:hover, a:active, button:hover, button:active {
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
 }
 
+#youtube-navigate-container {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(5, 5, 5);
+}
+#youtube-navigate-boxes {
+    padding: 0.9rem 0rem 0.9rem 0rem;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+#youtube-navigate-boxes > div > a > img {
+    border-radius: 5rem;
+    object-fit: contain;
+    width: 15rem;
+    background-color: rgb(46, 46, 46);
+    /* padding: 0.3rem; */
+    margin: 0.3rem;
+    box-shadow: 0 0.4rem 0.8rem 0.8rem rgba(58, 58, 58, 0.261), 0 0.6rem 2rem 0 rgba(255, 255, 255, 0.19);
+
+}
+#youtube-navigate-boxes > div > h2 {
+    font-size: inherit;
+    text-align: center;
+    margin: 0rem;
+}
+@media only screen and (max-width: 45rem) {
+    #youtube-navigate-boxes > div > a > img { width: 10rem; }
+    #youtube-navigate-boxes > div > h2 { font-size: 0.9rem; }
+}
+@media only screen and (max-width: 35rem) {
+    #youtube-navigate-boxes > div > a > img { width: 7rem; }
+    #youtube-navigate-boxes > div > h2 { font-size: 0.7rem; }
+}
+#youtube-navigate-header {
+    display: flex;
+    justify-content:center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0.9rem 0rem 0.9rem 0rem;
+}
+#youtube-navigate-header > a {
+    padding: 0.9rem 0rem 0.9rem 0rem;
+    height: 3rem;
+    min-width: 6.5rem;
+    color: inherit;
+    font-size: inherit;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(31, 31, 31);
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
+}
+
 #tag-text {
     text-align: center;
     color: inherit;
