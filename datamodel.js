@@ -425,7 +425,12 @@ const DATAMODEL = {
         "2026_08_21__17_59_23__03.jpg",
         "2026_08_21__17_59_58__60.jpg",
         "2026_08_21__18_09_00__25.jpg",
-        "2026_08_21__18_20_22__82.jpg"
+        "2026_08_21__18_20_22__82.jpg",
+        "2026_09_10__17_53_06__83.jpg",
+        "2026_09_10__17_54_23__99.jpg",
+        "2026_09_10__17_58_48__10.jpg",
+        "2026_09_10__18_02_28__76.jpg",
+        "2026_09_10__18_02_41__90.jpg"
     ],
     "by_added": {
         "1764374400": [
@@ -919,6 +924,13 @@ const DATAMODEL = {
             "2026_08_21__17_59_58__60.jpg",
             "2026_08_21__18_09_00__25.jpg",
             "2026_08_21__18_20_22__82.jpg"
+        ],
+        "1789257600": [
+            "2026_09_10__17_53_06__83.jpg",
+            "2026_09_10__17_54_23__99.jpg",
+            "2026_09_10__17_58_48__10.jpg",
+            "2026_09_10__18_02_28__76.jpg",
+            "2026_09_10__18_02_41__90.jpg"
         ]
     },
     "by_filename": {
@@ -8492,6 +8504,96 @@ const DATAMODEL = {
                 "Hunder",
                 "Lade Hundepark"
             ]
+        },
+        "2026_09_10__17_53_06__83.jpg": {
+            "ISO": 400,
+            "added": 1789257600,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:09:10 17:53:06",
+            "file_size": "1729 kB",
+            "focal": "135.0 mm",
+            "image_height": 3868,
+            "image_width": 5794,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/640",
+            "tags": [
+                "Høst",
+                "Natur"
+            ]
+        },
+        "2026_09_10__17_54_23__99.jpg": {
+            "ISO": 100,
+            "added": 1789257600,
+            "aperture": 2.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:09:10 17:54:23",
+            "file_size": "1164 kB",
+            "focal": "135.0 mm",
+            "image_height": 3656,
+            "image_width": 3656,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/1000",
+            "tags": [
+                "Høst",
+                "Natur"
+            ]
+        },
+        "2026_09_10__17_58_48__10.jpg": {
+            "ISO": 800,
+            "added": 1789257600,
+            "aperture": 2.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:09:10 17:58:48",
+            "file_size": "1137 kB",
+            "focal": "135.0 mm",
+            "image_height": 3151,
+            "image_width": 4721,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/1600",
+            "tags": [
+                "Høst",
+                "Natur"
+            ]
+        },
+        "2026_09_10__18_02_28__76.jpg": {
+            "ISO": 400,
+            "added": 1789257600,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:09:10 18:02:28",
+            "file_size": "1228 kB",
+            "focal": "135.0 mm",
+            "image_height": 3867,
+            "image_width": 5156,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2000",
+            "tags": [
+                "Høst",
+                "Natur"
+            ]
+        },
+        "2026_09_10__18_02_41__90.jpg": {
+            "ISO": 400,
+            "added": 1789257600,
+            "aperture": 3.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:09:10 18:02:41",
+            "file_size": "956 kB",
+            "focal": "135.0 mm",
+            "image_height": 3614,
+            "image_width": 3614,
+            "lens": "Canon EF 135mm f/2L USM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/2000",
+            "tags": [
+                "Hunder",
+                "Snacks"
+            ]
         }
     },
     "by_rating": {
@@ -8912,7 +9014,12 @@ const DATAMODEL = {
             "2026_08_21__17_59_23__03.jpg",
             "2026_08_21__17_59_58__60.jpg",
             "2026_08_21__18_09_00__25.jpg",
-            "2026_08_21__18_20_22__82.jpg"
+            "2026_08_21__18_20_22__82.jpg",
+            "2026_09_10__17_53_06__83.jpg",
+            "2026_09_10__17_54_23__99.jpg",
+            "2026_09_10__17_58_48__10.jpg",
+            "2026_09_10__18_02_28__76.jpg",
+            "2026_09_10__18_02_41__90.jpg"
         ],
         "3": [
             "2025_10_28__13_57_15__56.jpg"
@@ -9388,14 +9495,19 @@ const DATAMODEL = {
             "2026_08_21__17_59_23__03.jpg",
             "2026_08_21__17_59_58__60.jpg",
             "2026_08_21__18_09_00__25.jpg",
-            "2026_08_21__18_20_22__82.jpg"
+            "2026_08_21__18_20_22__82.jpg",
+            "2026_09_10__18_02_41__90.jpg"
         ],
         "Høst": [
             "2024_10_14__13_28_15__68.jpg",
             "2025_10_29__14_34_56__33.jpg",
             "2025_10_31__12_13_20__11.jpg",
             "2025_10_31__12_14_12__27.jpg",
-            "2025_11_01__13_09_36__52.jpg"
+            "2025_11_01__13_09_36__52.jpg",
+            "2026_09_10__17_53_06__83.jpg",
+            "2026_09_10__17_54_23__99.jpg",
+            "2026_09_10__17_58_48__10.jpg",
+            "2026_09_10__18_02_28__76.jpg"
         ],
         "Lade Hundepark": [
             "2025_10_23__14_31_27__44.jpg",
@@ -9684,7 +9796,11 @@ const DATAMODEL = {
             "2025_11_01__13_09_36__52.jpg",
             "2026_01_02__22_24_03__74.jpg",
             "2026_01_04__22_01_05__66.jpg",
-            "2026_06_06__14_29_36__01.jpg"
+            "2026_06_06__14_29_36__01.jpg",
+            "2026_09_10__17_53_06__83.jpg",
+            "2026_09_10__17_54_23__99.jpg",
+            "2026_09_10__17_58_48__10.jpg",
+            "2026_09_10__18_02_28__76.jpg"
         ],
         "Nordbyen Hundepark": [
             "2025_11_03__12_55_47__32.jpg",
@@ -9823,7 +9939,8 @@ const DATAMODEL = {
             "2026_07_16__18_45_28__43.jpg",
             "2026_07_16__18_45_48__05.jpg",
             "2026_08_14__18_10_00__90.jpg",
-            "2026_08_14__18_22_42__29.jpg"
+            "2026_08_14__18_22_42__29.jpg",
+            "2026_09_10__18_02_41__90.jpg"
         ],
         "Sommer": [
             "2020_08_15__18_00_29__38.jpg"
@@ -9838,7 +9955,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-09-13T10:50:53+0000",
+    "generated": "2026-09-13T22:25:44+0000",
     "new_images_timeframe": 604800,
     "tag_text": {
         "Lade Hundepark": "<p>Hundeparken på Ringve i Trondheim er veldig populær.\nDen byr på fantastiske fotomuligheter på grunn av dens helning mot fjord, fjell og by i bakgrunnen.\nMed sin store omkrets så gir denne parken fantastiske muligheter for hunder som vil springe mye når de leker.</p><p>Parken har to inngjerdinger. En liten og en stor. Ingen regler på hvilke hunder som skal i den ene eller andre, men man ser ofte de med små hunder gå i den lille.\nAllvi og Snacks med sine små kropper liker begge og leker gjerne med store hunder også!</p><p>Mine favorittbilder fra denne parken er stort sett tatt på høsten på ettermiddagen når solen står lavt over byen og skinner inn over parken.\nDa gløder pelsen til hundene. Det er fint det!\n</p>",
