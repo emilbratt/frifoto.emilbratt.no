@@ -9955,7 +9955,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-09-13T23:47:41+0000",
+    "generated": "2026-09-14T14:23:25+0000",
     "new_images_timeframe": 604800,
     "tag_text": {
         "Lade Hundepark": "<p>Hundeparken på Ringve i Trondheim er veldig populær.\nDen byr på fantastiske fotomuligheter på grunn av dens helning mot fjord, fjell og by i bakgrunnen.\nMed sin store omkrets så gir denne parken fantastiske muligheter for hunder som vil springe mye når de leker.</p><p>Parken har to inngjerdinger. En liten og en stor. Ingen regler på hvilke hunder som skal i den ene eller andre, men man ser ofte de med små hunder gå i den lille.\nAllvi og Snacks med sine små kropper liker begge og leker gjerne med store hunder også!</p><p>Mine favorittbilder fra denne parken er stort sett tatt på høsten på ettermiddagen når solen står lavt over byen og skinner inn over parken.\nDa gløder pelsen til hundene. Det er fint det!\n</p>",
@@ -9964,9 +9964,25 @@ const DATAMODEL = {
         "Nordbyen Hundepark": "<p>Hundepark på nordøst siden av Molde, ikke så langt fra øverlandsvatnet.</p><p>Da vi bodde i Molde, så var denne hundeparken kjempebra å bruke for at Allvi skulle få sosialisere seg.\nMøtte mange hyggelige hunder og hundeeiere der. Veldig fin hundepark som nå også har fått lyskaster for lys under mørketida.\n</p>"
     },
     "youtube": {
+        "Claire De Lune - Debussy": {
+            "thumbnail": "Claire_De_Lune_Debussy.webp",
+            "url": "https://youtu.be/wTGPf1jyWUA"
+        },
+        "Silence": {
+            "thumbnail": "Silence.webp",
+            "url": "https://youtu.be/2O5T5xn2f28"
+        },
+        "Temporary Light": {
+            "thumbnail": "Temporary_Light.jpg",
+            "url": "https://youtu.be/JCq11-atLZ4"
+        },
         "Temporary Sparks": {
             "thumbnail": "Temporary_Sparks_a.webp",
             "url": "https://youtu.be/_wsd1gv-7e0"
+        },
+        "Total Lunar Eclipse - Trondheim 2019": {
+            "thumbnail": "Total_Lunar_Eclipse_Trondheim.webp",
+            "url": "https://youtu.be/5g5nyIeiI-o"
         }
     },
     "youtube_thumbnails": "youtube/thumbnails"
