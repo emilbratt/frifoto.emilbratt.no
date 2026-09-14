@@ -292,7 +292,7 @@ a:hover, a:active, button:hover, button:active {
 #url-qr-code {
     display: block;
     margin: auto;
-    width: 90%;
+    max-width: 90%;
 }
 #share-page-header > a {
     display: block;
