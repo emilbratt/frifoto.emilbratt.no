@@ -9252,7 +9252,7 @@ const DATAMODEL = {
             "shutter_speed": "1/5000",
             "tags": [
                 "Hunder",
-                "Lade Hundepark,"
+                "Lade Hundepark"
             ]
         },
         "2026_09_30__14_20_35__17.jpg": {
@@ -9270,7 +9270,7 @@ const DATAMODEL = {
             "shutter_speed": "1/5000",
             "tags": [
                 "Hunder",
-                "Lade Hundepark,"
+                "Lade Hundepark"
             ]
         },
         "2026_09_30__14_45_00__22.jpg": {
@@ -9288,7 +9288,7 @@ const DATAMODEL = {
             "shutter_speed": "1/6400",
             "tags": [
                 "Hunder",
-                "Lade Hundepark,"
+                "Lade Hundepark"
             ]
         },
         "2026_09_30__14_47_16__67.jpg": {
@@ -9306,7 +9306,7 @@ const DATAMODEL = {
             "shutter_speed": "1/6400",
             "tags": [
                 "Hunder",
-                "Lade Hundepark,"
+                "Lade Hundepark"
             ]
         },
         "2026_09_30__14_49_22__71.jpg": {
@@ -9324,7 +9324,7 @@ const DATAMODEL = {
             "shutter_speed": "1/6400",
             "tags": [
                 "Hunder",
-                "Lade Hundepark,"
+                "Lade Hundepark"
             ]
         },
         "2026_09_30__16_24_50__56.jpg": {
@@ -10693,9 +10693,7 @@ const DATAMODEL = {
             "2026_09_26__16_45_40__03.jpg",
             "2026_09_26__16_45_45__72.jpg",
             "2026_09_26__16_48_37__78.jpg",
-            "2026_09_26__16_49_10__53.jpg"
-        ],
-        "Lade Hundepark,": [
+            "2026_09_26__16_49_10__53.jpg",
             "2026_09_30__14_18_05__38.jpg",
             "2026_09_30__14_20_35__17.jpg",
             "2026_09_30__14_45_00__22.jpg",
@@ -10894,7 +10892,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-10-07T20:04:41+0000",
+    "generated": "2026-10-09T21:27:53+0000",
     "new_images_timeframe": 604800,
     "tag_text": {
         "Lade Hundepark": "<p>Hundeparken på Ringve i Trondheim er veldig populær.\nDen byr på fantastiske fotomuligheter på grunn av dens helning mot fjord, fjell og by i bakgrunnen.\nMed sin store omkrets så gir denne parken fantastiske muligheter for hunder som vil springe mye når de leker.</p><p>Parken har to inngjerdinger. En liten og en stor. Ingen regler på hvilke hunder som skal i den ene eller andre, men man ser ofte de med små hunder gå i den lille.\nAllvi og Snacks med sine små kropper liker begge og leker gjerne med store hunder også!</p><p>Mine favorittbilder fra denne parken er stort sett tatt på høsten på ettermiddagen når solen står lavt over byen og skinner inn over parken.\nDa gløder pelsen til hundene. Det er fint det!\n</p>",
