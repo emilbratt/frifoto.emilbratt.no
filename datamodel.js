@@ -471,7 +471,21 @@ const DATAMODEL = {
         "2026_09_30__16_26_26__98.jpg",
         "2026_09_30__16_27_35__53.jpg",
         "2026_09_30__16_36_15__02.jpg",
-        "2026_09_30__16_37_13__86.jpg"
+        "2026_09_30__16_37_13__86.jpg",
+        "2026_10_01__15_10_45__35.jpg",
+        "2026_10_01__15_11_46__34.jpg",
+        "2026_10_01__15_14_41__20.jpg",
+        "2026_10_01__15_17_17__05.jpg",
+        "2026_10_01__15_18_24__23.jpg",
+        "2026_10_01__15_26_45__63.jpg",
+        "2026_10_01__15_28_07__43.jpg",
+        "2026_10_01__15_30_42__81.jpg",
+        "2026_10_01__15_45_19__58.jpg",
+        "2026_10_01__15_45_21__12.jpg",
+        "2026_10_01__15_51_55__25.jpg",
+        "2026_10_01__15_52_49__52.jpg",
+        "2026_10_01__15_53_04__90.jpg",
+        "2026_10_01__15_53_34__17.jpg"
     ],
     "by_added": {
         "1764374400": [
@@ -1021,6 +1035,22 @@ const DATAMODEL = {
         ],
         "1791331200": [
             "2026_09_30__16_36_15__02.jpg"
+        ],
+        "1791590400": [
+            "2026_10_01__15_10_45__35.jpg",
+            "2026_10_01__15_11_46__34.jpg",
+            "2026_10_01__15_14_41__20.jpg",
+            "2026_10_01__15_17_17__05.jpg",
+            "2026_10_01__15_18_24__23.jpg",
+            "2026_10_01__15_26_45__63.jpg",
+            "2026_10_01__15_28_07__43.jpg",
+            "2026_10_01__15_30_42__81.jpg",
+            "2026_10_01__15_45_19__58.jpg",
+            "2026_10_01__15_45_21__12.jpg",
+            "2026_10_01__15_51_55__25.jpg",
+            "2026_10_01__15_52_49__52.jpg",
+            "2026_10_01__15_53_04__90.jpg",
+            "2026_10_01__15_53_34__17.jpg"
         ]
     },
     "by_filename": {
@@ -9415,6 +9445,258 @@ const DATAMODEL = {
                 "Hunder",
                 "Høst"
             ]
+        },
+        "2026_10_01__15_10_45__35.jpg": {
+            "ISO": 400,
+            "added": 1791590400,
+            "aperture": 2.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:10:01 15:10:45",
+            "file_size": "928 kB",
+            "focal": "50.0 mm",
+            "image_height": 3345,
+            "image_width": 2676,
+            "lens": "Sigma 50mm f/1.4 DG HSM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/4000",
+            "tags": [
+                "Hunder",
+                "Lade Hundepark"
+            ]
+        },
+        "2026_10_01__15_11_46__34.jpg": {
+            "ISO": 400,
+            "added": 1791590400,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:10:01 15:11:46",
+            "file_size": "990 kB",
+            "focal": "50.0 mm",
+            "image_height": 2982,
+            "image_width": 3976,
+            "lens": "Sigma 50mm f/1.4 DG HSM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/5000",
+            "tags": [
+                "Hunder",
+                "Lade Hundepark"
+            ]
+        },
+        "2026_10_01__15_14_41__20.jpg": {
+            "ISO": 400,
+            "added": 1791590400,
+            "aperture": 1.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:10:01 15:14:41",
+            "file_size": "1040 kB",
+            "focal": "50.0 mm",
+            "image_height": 2940,
+            "image_width": 4704,
+            "lens": "Sigma 50mm f/1.4 DG HSM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/5000",
+            "tags": [
+                "Hunder",
+                "Lade Hundepark"
+            ]
+        },
+        "2026_10_01__15_17_17__05.jpg": {
+            "ISO": 800,
+            "added": 1791590400,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:10:01 15:17:17",
+            "file_size": "1465 kB",
+            "focal": "50.0 mm",
+            "image_height": 3290,
+            "image_width": 4929,
+            "lens": "Sigma 50mm f/1.4 DG HSM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Lade Hundepark"
+            ]
+        },
+        "2026_10_01__15_18_24__23.jpg": {
+            "ISO": 800,
+            "added": 1791590400,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:10:01 15:18:24",
+            "file_size": "1579 kB",
+            "focal": "50.0 mm",
+            "image_height": 3150,
+            "image_width": 5712,
+            "lens": "Sigma 50mm f/1.4 DG HSM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Lade Hundepark"
+            ]
+        },
+        "2026_10_01__15_26_45__63.jpg": {
+            "ISO": 800,
+            "added": 1791590400,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:10:01 15:26:45",
+            "file_size": "1646 kB",
+            "focal": "50.0 mm",
+            "image_height": 2459,
+            "image_width": 4918,
+            "lens": "Sigma 50mm f/1.4 DG HSM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Lade Hundepark"
+            ]
+        },
+        "2026_10_01__15_28_07__43.jpg": {
+            "ISO": 800,
+            "added": 1791590400,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:10:01 15:28:07",
+            "file_size": "1382 kB",
+            "focal": "50.0 mm",
+            "image_height": 2538,
+            "image_width": 4512,
+            "lens": "Sigma 50mm f/1.4 DG HSM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Lade Hundepark"
+            ]
+        },
+        "2026_10_01__15_30_42__81.jpg": {
+            "ISO": 800,
+            "added": 1791590400,
+            "aperture": 2.2,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:10:01 15:30:42",
+            "file_size": "2.0 MB",
+            "focal": "50.0 mm",
+            "image_height": 2853,
+            "image_width": 5072,
+            "lens": "Sigma 50mm f/1.4 DG HSM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Lade Hundepark"
+            ]
+        },
+        "2026_10_01__15_45_19__58.jpg": {
+            "ISO": 800,
+            "added": 1791590400,
+            "aperture": 2.5,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:10:01 15:45:19",
+            "file_size": "1819 kB",
+            "focal": "50.0 mm",
+            "image_height": 3131,
+            "image_width": 5794,
+            "lens": "Sigma 50mm f/1.4 DG HSM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Lade Hundepark"
+            ]
+        },
+        "2026_10_01__15_45_21__12.jpg": {
+            "ISO": 800,
+            "added": 1791590400,
+            "aperture": 1.8,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:10:01 15:45:21",
+            "file_size": "1344 kB",
+            "focal": "50.0 mm",
+            "image_height": 2997,
+            "image_width": 5544,
+            "lens": "Sigma 50mm f/1.4 DG HSM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Lade Hundepark"
+            ]
+        },
+        "2026_10_01__15_51_55__25.jpg": {
+            "ISO": 800,
+            "added": 1791590400,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:10:01 15:51:55",
+            "file_size": "1145 kB",
+            "focal": "50.0 mm",
+            "image_height": 2478,
+            "image_width": 2981,
+            "lens": "Sigma 50mm f/1.4 DG HSM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Lade Hundepark"
+            ]
+        },
+        "2026_10_01__15_52_49__52.jpg": {
+            "ISO": 800,
+            "added": 1791590400,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:10:01 15:52:49",
+            "file_size": "2.4 MB",
+            "focal": "50.0 mm",
+            "image_height": 3515,
+            "image_width": 5624,
+            "lens": "Sigma 50mm f/1.4 DG HSM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Lade Hundepark"
+            ]
+        },
+        "2026_10_01__15_53_04__90.jpg": {
+            "ISO": 800,
+            "added": 1791590400,
+            "aperture": 2.0,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:10:01 15:53:04",
+            "file_size": "1870 kB",
+            "focal": "50.0 mm",
+            "image_height": 2465,
+            "image_width": 5794,
+            "lens": "Sigma 50mm f/1.4 DG HSM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/6400",
+            "tags": [
+                "Hunder",
+                "Lade Hundepark"
+            ]
+        },
+        "2026_10_01__15_53_34__17.jpg": {
+            "ISO": 800,
+            "added": 1791590400,
+            "aperture": 1.6,
+            "camera": "Canon EOS 5D Mark III",
+            "capture_time": "2026:10:01 15:53:34",
+            "file_size": "2.0 MB",
+            "focal": "50.0 mm",
+            "image_height": 3235,
+            "image_width": 5264,
+            "lens": "Sigma 50mm f/1.4 DG HSM",
+            "shooting_mode": "Shutter speed priority AE",
+            "shutter_speed": "1/8000",
+            "tags": [
+                "Hunder",
+                "Lade Hundepark"
+            ]
         }
     },
     "by_rating": {
@@ -9881,7 +10163,21 @@ const DATAMODEL = {
             "2026_09_30__16_26_26__98.jpg",
             "2026_09_30__16_27_35__53.jpg",
             "2026_09_30__16_36_15__02.jpg",
-            "2026_09_30__16_37_13__86.jpg"
+            "2026_09_30__16_37_13__86.jpg",
+            "2026_10_01__15_10_45__35.jpg",
+            "2026_10_01__15_11_46__34.jpg",
+            "2026_10_01__15_14_41__20.jpg",
+            "2026_10_01__15_17_17__05.jpg",
+            "2026_10_01__15_18_24__23.jpg",
+            "2026_10_01__15_26_45__63.jpg",
+            "2026_10_01__15_28_07__43.jpg",
+            "2026_10_01__15_30_42__81.jpg",
+            "2026_10_01__15_45_19__58.jpg",
+            "2026_10_01__15_45_21__12.jpg",
+            "2026_10_01__15_51_55__25.jpg",
+            "2026_10_01__15_52_49__52.jpg",
+            "2026_10_01__15_53_04__90.jpg",
+            "2026_10_01__15_53_34__17.jpg"
         ],
         "3": [
             "2025_10_28__13_57_15__56.jpg"
@@ -10402,7 +10698,21 @@ const DATAMODEL = {
             "2026_09_30__16_26_26__98.jpg",
             "2026_09_30__16_27_35__53.jpg",
             "2026_09_30__16_36_15__02.jpg",
-            "2026_09_30__16_37_13__86.jpg"
+            "2026_09_30__16_37_13__86.jpg",
+            "2026_10_01__15_10_45__35.jpg",
+            "2026_10_01__15_11_46__34.jpg",
+            "2026_10_01__15_14_41__20.jpg",
+            "2026_10_01__15_17_17__05.jpg",
+            "2026_10_01__15_18_24__23.jpg",
+            "2026_10_01__15_26_45__63.jpg",
+            "2026_10_01__15_28_07__43.jpg",
+            "2026_10_01__15_30_42__81.jpg",
+            "2026_10_01__15_45_19__58.jpg",
+            "2026_10_01__15_45_21__12.jpg",
+            "2026_10_01__15_51_55__25.jpg",
+            "2026_10_01__15_52_49__52.jpg",
+            "2026_10_01__15_53_04__90.jpg",
+            "2026_10_01__15_53_34__17.jpg"
         ],
         "Høst": [
             "2024_10_14__13_28_15__68.jpg",
@@ -10698,7 +11008,21 @@ const DATAMODEL = {
             "2026_09_30__14_20_35__17.jpg",
             "2026_09_30__14_45_00__22.jpg",
             "2026_09_30__14_47_16__67.jpg",
-            "2026_09_30__14_49_22__71.jpg"
+            "2026_09_30__14_49_22__71.jpg",
+            "2026_10_01__15_10_45__35.jpg",
+            "2026_10_01__15_11_46__34.jpg",
+            "2026_10_01__15_14_41__20.jpg",
+            "2026_10_01__15_17_17__05.jpg",
+            "2026_10_01__15_18_24__23.jpg",
+            "2026_10_01__15_26_45__63.jpg",
+            "2026_10_01__15_28_07__43.jpg",
+            "2026_10_01__15_30_42__81.jpg",
+            "2026_10_01__15_45_19__58.jpg",
+            "2026_10_01__15_45_21__12.jpg",
+            "2026_10_01__15_51_55__25.jpg",
+            "2026_10_01__15_52_49__52.jpg",
+            "2026_10_01__15_53_04__90.jpg",
+            "2026_10_01__15_53_34__17.jpg"
         ],
         "Natt": [
             "2026_01_02__22_24_03__74.jpg",
@@ -10892,7 +11216,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-10-09T21:27:53+0000",
+    "generated": "2026-10-10T21:22:42+0000",
     "new_images_timeframe": 604800,
     "tag_text": {
         "Lade Hundepark": "<p>Hundeparken på Ringve i Trondheim er veldig populær.\nDen byr på fantastiske fotomuligheter på grunn av dens helning mot fjord, fjell og by i bakgrunnen.\nMed sin store omkrets så gir denne parken fantastiske muligheter for hunder som vil springe mye når de leker.</p><p>Parken har to inngjerdinger. En liten og en stor. Ingen regler på hvilke hunder som skal i den ene eller andre, men man ser ofte de med små hunder gå i den lille.\nAllvi og Snacks med sine små kropper liker begge og leker gjerne med store hunder også!</p><p>Mine favorittbilder fra denne parken er stort sett tatt på høsten på ettermiddagen når solen står lavt over byen og skinner inn over parken.\nDa gløder pelsen til hundene. Det er fint det!\n</p>",
