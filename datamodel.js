@@ -9425,7 +9425,8 @@ const DATAMODEL = {
             "shutter_speed": "1/1250",
             "tags": [
                 "Hunder",
-                "Høst"
+                "Høst",
+                "Natur"
             ]
         },
         "2026_09_30__16_37_13__86.jpg": {
@@ -9443,7 +9444,8 @@ const DATAMODEL = {
             "shutter_speed": "1/1250",
             "tags": [
                 "Hunder",
-                "Høst"
+                "Høst",
+                "Natur"
             ]
         },
         "2026_10_01__15_10_45__35.jpg": {
@@ -11052,7 +11054,9 @@ const DATAMODEL = {
             "2026_09_10__17_53_06__83.jpg",
             "2026_09_10__17_54_23__99.jpg",
             "2026_09_10__17_58_48__10.jpg",
-            "2026_09_10__18_02_28__76.jpg"
+            "2026_09_10__18_02_28__76.jpg",
+            "2026_09_30__16_36_15__02.jpg",
+            "2026_09_30__16_37_13__86.jpg"
         ],
         "Nordbyen Hundepark": [
             "2025_11_03__12_55_47__32.jpg",
@@ -11216,7 +11220,7 @@ const DATAMODEL = {
         ]
     },
     "directory": "img",
-    "generated": "2026-10-10T21:22:42+0000",
+    "generated": "2026-10-10T21:24:46+0000",
     "new_images_timeframe": 604800,
     "tag_text": {
         "Lade Hundepark": "<p>Hundeparken på Ringve i Trondheim er veldig populær.\nDen byr på fantastiske fotomuligheter på grunn av dens helning mot fjord, fjell og by i bakgrunnen.\nMed sin store omkrets så gir denne parken fantastiske muligheter for hunder som vil springe mye når de leker.</p><p>Parken har to inngjerdinger. En liten og en stor. Ingen regler på hvilke hunder som skal i den ene eller andre, men man ser ofte de med små hunder gå i den lille.\nAllvi og Snacks med sine små kropper liker begge og leker gjerne med store hunder også!</p><p>Mine favorittbilder fra denne parken er stort sett tatt på høsten på ettermiddagen når solen står lavt over byen og skinner inn over parken.\nDa gløder pelsen til hundene. Det er fint det!\n</p>",
