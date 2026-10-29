@@ -259,9 +259,9 @@ function init_photo_lightbox(tag, image) {
     const tag_query = tag === '' ? '' : `&tag=${encodeURIComponent(tag)}`;
     qid('photo-lightbox-container-nav-box-buttons').innerHTML = `
         <a class="back-btn" href="${window.location.pathname}?view_mode=photo-stream${tag_query}" method="get">Tilbake</a>
-        <a href="${img.src}" download="${image}" type="image/jpg" method="get">Last Ned</a>
         <a class="prev-btn" href="${window.location.pathname}?view_mode=photo-lightbox${tag_query}&image=${encodeURIComponent(previous_image)}" method="get">Forrige</a>
         <a class="next-btn" href="${window.location.pathname}?view_mode=photo-lightbox${tag_query}&image=${encodeURIComponent(next_image)}" method="get">Neste</a>
+        <a href="${img.src}" download="${image}" type="image/jpg" method="get">Last Ned</a>
     `;
 
     document.addEventListener('keydown', function (event) {
